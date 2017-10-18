@@ -8,7 +8,7 @@ body {
   color: #333;
   background: #020309;
   padding: 0;
-  margin: 2em;
+  margin: 0;
 }
 
 h1 {
@@ -126,4 +126,18 @@ header a, footer a{
 }
 /*
   Footer styling end here ////////////////
+*/
+
+
+
+/*
+  Content styling ////////////////////////
+*/
+.contentContainer {
+  background: linear-gradient(to top left, rgba(67, 83, 255, 0) 55%, rgba(67, 83, 255, 0.25));
+  height: 1000px;
+}
+
+/*
+  Content styling end here ////////////////
 */
