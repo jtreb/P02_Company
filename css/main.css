@@ -151,10 +151,10 @@ footer {
 
 /*theme styling*/
 
-.lightTheme {
+.lightHeaderTheme {
   background: rgba(255, 255, 255, 0);
 }
 
-.darkTheme {
+.darkHeaderTheme {
   background: rgba(0, 0, 0, 0);
 }
