@@ -1,4 +1,37 @@
+/*
+  Header grid
+*/
 .headerContainer {
   display: inline-block;
   flex: 1;
+}
+
+
+/*
+  Footer grid: 5
+*/
+.containerWrapper {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.containerColumn {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.footerItem {
+  display: block;
+  align-self: flex-start;
+  flex: 0 0 auto;
+}
+
+.footerItem:hover, .footerItem:focus{
+  opacity: 1;
+}
+
+.footerContainer .brandLogo {
+  flex: 0 auto;
 }

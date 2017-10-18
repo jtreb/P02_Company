@@ -27,10 +27,10 @@ header {
   left: 0px;
   height: 70px;
   z-index: 1000;
-  padding: 0 25px;
+  padding: 0 2em;
 }
 
-header a {
+header a, footer a{
   text-decoration: none;
   font-weight: 500;
   color: #FFF;
@@ -84,4 +84,41 @@ header a {
 }
 /*
   Header styling end here ////////////////
+*/
+
+
+/*
+  Footer styling ////////////////////////
+*/
+.footerContainer{
+  padding: 3em 0 1em;
+}
+
+.containerWrapper {
+  margin: 0;
+}
+
+.containerColumn {
+  margin-bottom: 20px;
+}
+
+.footerItem {
+  padding: 10px 0;
+}
+
+.footerItem:hover, .footerItem:focus{
+  opacity: 1;
+}
+
+.footerContainer .brandLogo {
+  margin-right: 60px;
+}
+
+.copyRightText {
+  text-align: center;
+  max-width: 100%;
+  margin-top: 30px;
+}
+/*
+  Footer styling end here ////////////////
 */
