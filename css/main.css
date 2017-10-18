@@ -17,6 +17,9 @@ h1 {
   margin-bottom: 0.5em;
 }
 
+/*
+  Header styling ////////////////////////
+*/
 header {
   position: fixed;
   top: 0px;
@@ -27,22 +30,6 @@ header {
   padding: 0 25px;
 }
 
-.headerContainer {
-  background: rgba(0, 0, 0, 0.1);
-  width: 100%;
-  height: 100%;
-}
-
-.headerItem{
-  float: left;
-  margin-top: 25px;
-  padding: 0 20px;
-}
-
-.rightMenu {
-  float: right;
-}
-
 header a {
   text-decoration: none;
   font-weight: 500;
@@ -50,10 +37,38 @@ header a {
   opacity: 0.6;
 }
 
+.headerContainer {
+  background: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%;
+}
+
+.headerItem {
+  float: left;
+  margin: 18px 18px 0 18px;
+  padding: 10px 3px;
+}
+
+.headerItem:active, .headerItem:hover, .headerItem:focus {
+  opacity: 1;
+}
+
 .brandLogo {
   align-items: center;
   background: #999;
   padding: 20px;
   height: 55px;
-  margin-top: 7px;
+  margin: 7px 10px 0 0;
 }
+
+.rightMenu {
+  float: right;
+}
+
+.currentPage {
+  opacity: 1;
+  box-shadow: inset 0 -1px 0 0 #FFF;
+}
+/*
+  Header styling end here ////////////////
+*/
