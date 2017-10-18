@@ -150,11 +150,37 @@ footer {
 
 
 /*theme styling*/
-
 .lightHeaderTheme {
   background: rgba(255, 255, 255, 0);
 }
 
 .darkHeaderTheme {
   background: rgba(0, 0, 0, 0);
+}
+
+.fullImageContainer {
+	display: block;
+	max-width: 100vw;
+	height: 90vh;
+	position: relative;
+}
+
+.fullLengthImage {
+	width: 100%;
+	height: 100%;
+	object-fit:cover;
+}
+
+.filterOverlay {
+	opacity: 0.5;
+}
+
+.centerTextOnImg {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #FFF;
+	font-size: 3rem;
+	margin: 0;
 }
