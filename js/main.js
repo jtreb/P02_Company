@@ -13,7 +13,7 @@ $(document).ready(function() {
       $('.lightTheme').css('background-color','rgba(255,255,255,0.9)');
     } else {
       $('.darkTheme').css('background-color','rgba(0,0,0,0)');
-      $('.lightTheme').css('background-color','rgba(255,255,255,0.9)');
+      $('.lightTheme').css('background-color','rgba(255,255,255,0)');
     }
   })
 })
