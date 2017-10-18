@@ -7,32 +7,102 @@
 
     <link href="../css/main.css" rel="stylesheet">
     <link href="../css/flexbox.css" rel="stylesheet">
+
+    <!-- linking to jQuery library from Google-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
 
   <body>
-
-    <h1>Forums</h1>
-
     <!-- Header -->
-    <section>
-      <nav>
-        <a href="home.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="shop.html">Shop</a>
-        <a href="account.html">Cart</a>
-        <a href="news.html">News</a>
-        <a href="about.html">About</a>
-        <a href="account.html">Account</a>
-      </nav>
-    </section>
+    <header>
+      <nav class="headerContainer darkTheme">
+        <!-- Brand logo image -->
+        <div class="brandLogo headerItem floatLeft">
+          <a href="">brand logo</a>
+          <!-- ^^ replace above with img -->
+          <!-- <img src="img/" alt="a light version of brand logo"> -->
+        </div>
 
-    <!-- Content -->
-    <section>
+        <!-- Site navigation tabs -->
+        <div class="navBar floatLeft">
+          <a href="home.html" class="headerItem currentPage">Home</a>
+          <a href="shop.html" class="headerItem">Shop</a>
+          <a href="news.html" class="headerItem">News</a>
+          <a href="about.html" class="headerItem">About</a>
+        </div>
+        <!-- Site navigation tabs end here -->
+
+        <!-- Account menus -->
+        <div class="navBar floatRight">
+          <a href="account.html" class="headerItem">Cart</a>
+          <span class="lineDivid headerItem"></span>
+          <a href="account.html" class="headerItem">Account</a>
+        </div>
+        <!-- Account menus end here -->
+      </nav>
+    </header>
+    <!-- Header end here -->
+
+    <!-- Body content -->
+    <section class="contentContainer">
       <!-- List of posts, Add new post, Read existing post and reply to them -->
     </section>
+    <!-- Body content -->
 
     <!-- Footer -->
-    <section></section>
+    <footer>
+      <div class="footerContainer">
+        <div class="containerWrapper">
+          <!-- brand logo in footer -->
+          <div class="brandLogo footerColumn">
+            <a href="homeWithAccount.html">brand logo</a>
+          </div>
+          <!-- logo display end here -->
+
+          <!-- product list -->
+          <div class="containerColumn">
+            <h3>Product</h3>
+            <a href="shop.html" class="footerItem">Shop</a>
+            <a href="#" class="footerItem">Gift</a>
+            <a href="#" class="footerItem">Deals</a>
+          </div>
+          <!-- product list end here-->
+
+          <!-- company info -->
+          <div class="containerColumn">
+            <h3>Company</h3>
+            <a href="about.html" class="footerItem">About</a>
+            <a href="../newStyleGuide.html" class="footerItem">Style Guide</a>
+            <a href="../sitemap.html" class="footerItem">Sitemap</a>
+          </div>
+          <!-- company info end here-->
+
+          <!-- Support list -->
+          <div class="containerColumn">
+            <h3>Support</h3>
+            <a href="about.html#contact" class="footerItem">Contact</a>
+            <a href="news.html" class="footerItem">News</a>
+            <a href="forums.html" class="footerItem">Forums</a>
+          </div>
+          <!-- support list end here-->
+
+          <!-- Social media list -->
+          <div class="containerColumn">
+            <h3>Connect</h3>
+            <a href="#" class="footerItem">Facebook</a>
+            <a href="#" class="footerItem">Snapchat</a>
+            <a href="#" class="footerItem">Instagram</a>
+          </div>
+          <!-- Social media list end here-->
+        </div>
+
+        <p class="copyRightText footerColumn">© 2017, Eva &amp; Jameson | All Rights Reserved.</p>
+      </div>
+    </footer>
+    <!-- Footer end here -->
+
+    <!-- linking scrollColor jQuery to file -->
+    <script type="text/javascript" src="../js/main.js"></script>
 
   </body>
 
