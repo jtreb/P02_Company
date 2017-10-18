@@ -145,3 +145,14 @@ footer {
 /*
   Content styling end here ////////////////
 */
+
+
+/*theme styling*/
+
+.lightTheme {
+  background: rgba(255, 255, 255, 0);
+}
+
+.darkTheme {
+  background: rgba(0, 0, 0, 0);
+}
