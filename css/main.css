@@ -95,6 +95,10 @@ header a, footer a{
 /*
   Footer styling ////////////////////////
 */
+footer {
+  padding: 0 2em;
+}
+
 .footerContainer{
   padding: 3em 0 1em;
 }
