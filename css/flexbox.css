@@ -1,37 +1,58 @@
-/*
-  Header grid
-*/
-.headerContainer {
-  display: inline-block;
+/*1 flex*/
+.headerContainer, .containerWrapper {
   flex: 1;
+  -ms-flex: 1;
+  -moz-flex: 1;
+  -webkit-flex: 1;
 }
 
-
 /*
-  Footer grid: 5
+  Display flex cross-platform
 */
-.containerWrapper {
+.containerWrapper, .containerColumn  {
   display: flex;
+  display: -ms-flex;
+  display: -moz-flex;
+  display: -webkit-flex;
+}
+
+/*justify-content at flex-start*/
+.containerWrapper {
   justify-content: flex-start;
-  flex: 1;
+  justify-content: -ms-flex-start;
+  justify-content: -moz-flex-start;
+  justify-content: -webkit-flex-start;
 }
 
 .containerColumn {
-  display: flex;
   flex-direction: column;
+  -ms-flex-direction: column;
+  -moz-flex-direction: column;
+  -webkit-flex-direction: column;
+
   flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  -moz-flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+}
+
+/*0 flex auto*/
+.footerItem, .footerContainer .brandLogo {
+  flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  -moz-flex: 0 0 auto;
+  -webkit-flex: 0 0 auto;
 }
 
 .footerItem {
   display: block;
+
   align-self: flex-start;
-  flex: 0 0 auto;
+  align-self: -ms-flex-start;
+  align-self: -moz-flex-start;
+  align-self: -webkit-flex-start;
 }
 
 .footerItem:hover, .footerItem:focus{
   opacity: 1;
-}
-
-.footerContainer .brandLogo {
-  flex: 0 auto;
 }
