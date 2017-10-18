@@ -52,7 +52,3 @@
   align-self: -moz-flex-start;
   align-self: -webkit-flex-start;
 }
-
-.footerItem:hover, .footerItem:focus{
-  opacity: 1;
-}
