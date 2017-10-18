@@ -44,7 +44,6 @@ header a {
 }
 
 .headerItem {
-  float: left;
   margin: 18px 18px 0 18px;
   padding: 10px 3px;
 }
@@ -61,13 +60,27 @@ header a {
   margin: 7px 10px 0 0;
 }
 
-.rightMenu {
+.navBar {
+  margin-top: 25px;
+}
+
+.floatRight {
   float: right;
+}
+
+.floatLeft {
+  float: left;
 }
 
 .currentPage {
   opacity: 1;
   box-shadow: inset 0 -1px 0 0 #FFF;
+}
+
+.lineDivid {
+  margin: 20px 10px;
+  border-left: 1px solid #FFF;
+  padding: 0;
 }
 /*
   Header styling end here ////////////////
