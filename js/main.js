@@ -23,13 +23,17 @@ $(document).ready(function() {
 var slideIndex = 1;
 showImage(slideIndex);
 
-document.getElementById("carouselPrev").addEventListener("click", function() {
-  plusIndex(-1);
-});
+if (document.getElementById("carouselPrev")) {
+  document.getElementById("carouselPrev").addEventListener("click", function() {
+    plusIndex(-1);
+  });
+}
 
-document.getElementById("carouselNext").addEventListener("click", function() {
-  plusIndex(+1);
-});
+if (document.getElementById("carouselNext")) {
+  document.getElementById("carouselNext").addEventListener("click", function() {
+    plusIndex(+1);
+  });
+}
 
 function plusIndex(n) {
   showImage(slideIndex += n);
@@ -38,10 +42,12 @@ function plusIndex(n) {
 function showImage(n) {
     var i;
     var x = document.getElementsByClassName("slideImage");
-    if (n > x.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = x.length} ;
-    for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
+    if (x.length > 0) {
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length} ;
+      for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+      }
+      x[slideIndex-1].style.display = "block";
     }
-    x[slideIndex-1].style.display = "block";
 }
