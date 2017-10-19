@@ -22,6 +22,7 @@ $(document).ready(function() {
 //carousel image slideshow
 var slideIndex = 1;
 showImage(slideIndex);
+autoShowImage();
 
 if (document.getElementById("carouselPrev")) {
   document.getElementById("carouselPrev").addEventListener("click", function() {
@@ -50,4 +51,16 @@ function showImage(n) {
       }
       x[slideIndex-1].style.display = "block";
     }
+}
+
+function autoShowImage() {
+    var i;
+    var x = document.getElementsByClassName("slideImage");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style.display = "block";
+    setTimeout(autoShowImage, 8000); // Change image every 8 seconds
 }
