@@ -199,8 +199,16 @@ footer {
 
 .lineDivid {
   margin: 20px 10px;
-  border-left: 1px solid #FFF;
+  border-left: 1px solid #666;
   padding: 0;
+}
+
+.lightLine {
+  border-left: 1px solid #CCC;
+}
+
+.darkLine {
+  border-left: 1px solid #999;
 }
 
 /*
