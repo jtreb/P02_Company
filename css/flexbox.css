@@ -2,7 +2,7 @@
 /*
   Display flex cross-platform
 */
-.containerWrapper, .containerColumn, .formContainer, .threeColumnGridContainer {
+.containerWrapper, .containerColumn, .formContainer, .threeColumnGridContainer, .twoColumnGridContainer {
   display: flex;
   display: -ms-flex;
   display: -moz-flex;
@@ -41,7 +41,7 @@
 }
 
 /*1 flex*/
-.headerContainer, .containerWrapper {
+.headerContainer, .containerWrapper, .twoGridColumnItem  {
   flex: 1;
   -ms-flex: 1;
   -moz-flex: 1;

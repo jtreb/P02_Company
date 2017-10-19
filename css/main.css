@@ -122,12 +122,6 @@ header a, footer a{
   opacity: 1;
   box-shadow: inset 0 -1px 0 0 #FFF;
 }
-
-.lineDivid {
-  margin: 20px 10px;
-  border-left: 1px solid #FFF;
-  padding: 0;
-}
 /*
   Header styling end here ////////////////
 */
@@ -203,6 +197,12 @@ footer {
 	color: #ADC3CF;
 }
 
+.lineDivid {
+  margin: 20px 10px;
+  border-left: 1px solid #FFF;
+  padding: 0;
+}
+
 /*
   Content styling ////////////////////////
 */
@@ -268,7 +268,7 @@ footer {
 .formContainer {
 	box-shadow: inset 0 2px 0 0 #99CCCC;
 	padding-top: 2em;
-	margin: 0 25%;
+	margin: 0 35%;
 }
 
 .formItem {
@@ -350,9 +350,16 @@ h3.subjectTitle {
 	font-weight: 400;
 }
 
+h4.subjectTitle {
+	font-size: 1.2em;
+	margin: 0.75em 0;
+}
+
 p.subjectInfo {
 	margin: 0;
 	color: #AAA;
+	line-height: 1.5em;
+	font-size: 0.95em;
 }
 
 .solidLineDivid {
@@ -369,8 +376,6 @@ p.subjectInfo {
 
  /*2 column grid styling*/
 .twoColumnGridContainer {
-	display: flex;
-	flex: 1;
 	margin-top: 2em;
 }
 
