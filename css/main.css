@@ -12,9 +12,8 @@ body {
 }
 
 h1 {
-  display: block;
-  margin-left: 0.5em;
-  margin-bottom: 0.5em;
+	font-size: 2.5em;
+	margin: 0.5em 0;
 }
 
 h2 {
@@ -377,16 +376,21 @@ p.subSubjectInfo {
 }
 
 .solidLineDivid {
-	margin: 4.5em 0;
+	margin: 5em 0;
 	border-top: 1px solid #333;
 }
 
 .dotLineDivid {
-	margin: 2em 0;
+	margin: 3em 0;
 	border-top: 1px dotted #DDD;
 	letter-spacing: 5px;
 }
 
+.shortLineTwentyPercent {
+	margin-top: 0;
+	margin-left: 40%;
+	margin-right: 40%;
+}
 
  /*2 column grid styling*/
 .twoColumnGridContainer {
