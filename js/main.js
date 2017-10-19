@@ -56,11 +56,13 @@ function showImage(n) {
 function autoShowImage() {
     var i;
     var x = document.getElementsByClassName("slideImage");
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";
+    if (x.length > 0) {
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > x.length) {slideIndex = 1}
+      x[slideIndex-1].style.display = "block";
+      setTimeout(autoShowImage, 8000); // Change image every 8 seconds
     }
-    slideIndex++;
-    if (slideIndex > x.length) {slideIndex = 1}
-    x[slideIndex-1].style.display = "block";
-    setTimeout(autoShowImage, 8000); // Change image every 8 seconds
 }
