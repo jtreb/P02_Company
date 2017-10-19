@@ -1,15 +1,8 @@
-/*1 flex*/
-.headerContainer, .containerWrapper {
-  flex: 1;
-  -ms-flex: 1;
-  -moz-flex: 1;
-  -webkit-flex: 1;
-}
 
 /*
   Display flex cross-platform
 */
-.containerWrapper, .containerColumn, .formContainer {
+.containerWrapper, .containerColumn, .formContainer, .threeColumnGridContainer {
   display: flex;
   display: -ms-flex;
   display: -moz-flex;
@@ -24,16 +17,19 @@
   justify-content: -webkit-flex-start;
 }
 
+/*justify-content at space-around content*/
+.threeColumnGridContainer {
+  justify-content: space-around;
+  justify-content: -ms-space-around;
+  justify-content: -moz-space-around;
+}
+
+/*flex direction flow column*/
 .containerColumn {
   flex-direction: column;
   -ms-flex-direction: column;
   -moz-flex-direction: column;
   -webkit-flex-direction: column;
-
-  flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  -moz-flex: 1 1 auto;
-  -webkit-flex: 1 1 auto;
 }
 
 /*0 flex auto*/
@@ -44,9 +40,24 @@
   -webkit-flex: 0 0 auto;
 }
 
-.footerItem {
-  display: block;
+/*1 flex*/
+.headerContainer, .containerWrapper {
+  flex: 1;
+  -ms-flex: 1;
+  -moz-flex: 1;
+  -webkit-flex: 1;
+}
 
+/* 1 1 flex auto*/
+.containerColumn, .threeColumnGridContainer {
+  flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  -moz-flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+}
+
+/*align-self at flex-start*/
+.footerItem {
   align-self: flex-start;
   align-self: -ms-flex-start;
   align-self: -moz-flex-start;
@@ -56,4 +67,12 @@
 .formContainer {
   align-items: flex-end;
   flex-direction: column;
+}
+
+/*flex-wrap with wrap*/
+.threeColumnGridContainer {
+  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
 }
