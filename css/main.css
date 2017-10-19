@@ -28,7 +28,8 @@ h3 {
 
 p {
 	line-height: 2em;
-	font-weight: 600;
+	font-size: 1.25em;
+	font-weight: lighter;
 }
 
 button {
@@ -179,7 +180,8 @@ footer {
 }
 
 .darkThemeContent {
-	background: #020309;
+	background: #323B40;
+	color: #ADC3CF;
 }
 
 /*
