@@ -56,7 +56,7 @@ figure {
 	margin: 0;
 }
 
-.leftAlignText, .formItem, .threeGridColumnItem {
+.leftAlignText, .formItem {
 	text-align: left;
 	color: #333;
 }
@@ -366,8 +366,14 @@ h4.subjectTitle {
 p.subjectInfo {
 	margin: 0;
 	color: #AAA;
-	line-height: 1.5em;
+	line-height: 1.7em;
 	font-size: 0.95em;
+}
+
+p.subSubjectInfo {
+	text-align: center;
+	font-size: 0.8em;
+	color: #BBB;
 }
 
 .solidLineDivid {
