@@ -346,7 +346,7 @@ h3.leftAlignText {
 	max-width: 30%;
   margin: 1.5em 0.1em;
 	padding-bottom: 1em;
-	box-shadow: inset 0 -1px 0 0 #DDD;
+	box-shadow: inset 0 1px 0 0 #DDD;
  }
 
  img.columnGridImg {
