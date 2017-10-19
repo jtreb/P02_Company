@@ -9,7 +9,7 @@
 /*
   Display flex cross-platform
 */
-.containerWrapper, .containerColumn  {
+.containerWrapper, .containerColumn, .formContainer {
   display: flex;
   display: -ms-flex;
   display: -moz-flex;
@@ -51,4 +51,9 @@
   align-self: -ms-flex-start;
   align-self: -moz-flex-start;
   align-self: -webkit-flex-start;
+}
+
+.formContainer {
+  align-items: flex-end;
+  flex-direction: column;
 }

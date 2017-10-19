@@ -5,7 +5,7 @@
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
+  color: #666;
   background: #020309;
   padding: 0;
   margin: 0;
@@ -17,9 +17,37 @@ h1 {
   margin-bottom: 0.5em;
 }
 
+h2 {
+	color: #99CCCC;
+}
+
 h3 {
   color: #FFF;
   font-weight: 400;
+}
+
+p {
+	line-height: 2em;
+	font-weight: 600;
+}
+
+button {
+	border: 1px solid #99CCCC;
+  padding: 0.75em 3em;
+  border-radius: 0.5em;
+	text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.buttonFill {
+	background-color: #99CCCC;
+	color: #FFF;
+}
+
+.buttonUnfill {
+	background-color: #FFF;
+	color: #99CCCC;
 }
 
 /*
@@ -136,18 +164,6 @@ footer {
 
 
 
-/*
-  Content styling ////////////////////////
-*/
-.contentContainer {
-  background: linear-gradient(to top left, rgba(67, 83, 255, 0) 55%, rgba(67, 83, 255, 0.25));
-  height: 1000px;
-}
-
-/*
-  Content styling end here ////////////////
-*/
-
 
 /*theme styling*/
 .lightHeaderTheme {
@@ -158,10 +174,25 @@ footer {
   background: rgba(0, 0, 0, 0);
 }
 
+.lightThemeContent {
+	background: #FFF;
+}
+
+.darkThemeContent {
+	background: #020309;
+}
+
+/*
+  Content styling ////////////////////////
+*/
+.contentContainer {
+  background: linear-gradient(to top left, rgba(67, 83, 255, 0) 55%, rgba(67, 83, 255, 0.25));
+}
+
 .fullImageContainer {
 	display: block;
 	max-width: 100vw;
-	height: 90vh;
+	height: 100vh;
 	position: relative;
 }
 
@@ -184,3 +215,44 @@ footer {
 	font-size: 3rem;
 	margin: 0;
 }
+
+/*center contents styling*/
+.centerContent {
+	margin: 0 20em;
+	padding: 7em 0;
+	text-align: center;
+}
+
+.fullLengthText {
+	max-width: 100%;
+	padding: 0 0 1em;
+	margin: 0 20%;
+}
+
+
+/*form styling*/
+.formContainer {
+	box-shadow: inset 0 2px 0 0 #99CCCC;
+	padding-top: 2em;
+	margin: 0 25%;
+}
+
+.formItem {
+	text-align: left;
+	display: inline-block;
+  margin: 1em 0;
+	width: 100%;
+}
+
+input[id], textarea {
+  display: block;
+	width: 100%;
+	padding: 12px 20px;
+	margin: 0.5em 0em;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+/*
+  Content styling end here ////////////////
+*/
