@@ -223,8 +223,18 @@ footer {
 	object-fit:cover;
 }
 
-.filterOverlay {
+.oneColumnImage {
+	width: 70%;
+	height: auto;
+	margin: 1.5em 15% 2em;
+}
+
+.filterOverlayHalf {
 	opacity: 0.5;
+}
+
+.filterOverlayEight {
+	opacity: 0.8;
 }
 
 .centerTextOnImg {
