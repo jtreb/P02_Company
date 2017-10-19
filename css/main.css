@@ -255,6 +255,41 @@ input[id], textarea {
 	border-radius: 4px;
 }
 
+
+
+/*carousel styling*/
+.carouselButton {
+	position: absolute;
+	top: 50%;
+	color: #FFF;
+	background: transparent;
+	font-size: 3em;
+	margin: 0;
+	padding: 0;
+	border: none;
+	opacity: 0.7;
+}
+
+.carouselButton:hover, .carouselButton:focus {
+	opacity: 1;
+	outline: none;
+}
+
+.buttonLeft {
+	left: 1em;
+}
+.buttonRight {
+	right: 1em;
+}
+
+.displayShow {
+	display: block;
+}
+
+.displayHide {
+	display: none;
+}
+
 /*
   Content styling end here ////////////////
 */
