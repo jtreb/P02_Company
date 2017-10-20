@@ -1,29 +1,3 @@
-.forumFormContainer {
-  display: flex;
-}
-
-.forumFormItem {
-  flex: 1;
-}
-
-.forumFormButton {
-  border: 1px solid #99CCCC;
-  padding: 0.75em 3em;
-  border-radius: 0.5em;
-  text-decoration: none;
-  display: inline;
-}
-
-a.newPostButton {
-  display: inline-block;
-  padding: 0.75em 3em;
-  border-radius: 0.5em;
-  text-decoration: none;
-}
-
-
-/*Forum Posts Section*/
-
 .leftAlignTextOnly {
   text-align: left;
 }
