@@ -9,6 +9,14 @@
   display: -webkit-flex;
 }
 
+/*flex-wrap with wrap*/
+.formContainer, .threeColumnGridContainer {
+  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+}
+
 /*justify-content at flex-start*/
 .containerWrapper {
   justify-content: flex-start;
@@ -67,12 +75,4 @@
 .formContainer {
   align-items: flex-end;
   flex-direction: column;
-}
-
-/*flex-wrap with wrap*/
-.threeColumnGridContainer {
-  flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
 }
