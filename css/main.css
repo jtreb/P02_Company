@@ -195,6 +195,11 @@ footer {
 	color: #ADC3CF;
 }
 
+.transparentContent {
+	background: transparent;
+	color: #ADC3CF;
+}
+
 .lineDivid {
   margin: 20px 10px;
   border-left: 1px solid #666;
@@ -214,6 +219,10 @@ footer {
 */
 .centerAlign {
 	text-align: center;
+}
+
+.leftAlign {
+	text-align: left;
 }
 
 .contentContainer {
