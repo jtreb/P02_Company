@@ -32,7 +32,7 @@ p {
 	font-weight: lighter;
 }
 
-button {
+.button {
 	border: 1px solid #99CCCC;
   padding: 0.75em 3em;
   border-radius: 0.5em;
@@ -55,7 +55,7 @@ figure {
 	margin: 0;
 }
 
-.leftAlignText, .formItem {
+.leftAlignText, .formItem, .productList {
 	text-align: left;
 	color: #333;
 }
@@ -119,7 +119,7 @@ header a, footer a{
 
 .currentPage {
   opacity: 1;
-  box-shadow: inset 0 -1px 0 0 #FFF;
+  box-shadow: inset 0 -1px 0 0 #DDD;
 }
 /*
   Header styling end here ////////////////
@@ -333,25 +333,36 @@ h3.leftAlignText {
 	margin-bottom: 2em;
 }
 
+.lightButtonOnImg {
+	background: #FFF;
+	color: #333;
+	border: none;
+	border-radius: 0;
+	position: absolute;
+	top: 99%;
+	left: 50%;
+	transform: translate(-50%, -99%);
+	padding: 1.25em 4em;
+}
+
  /*
  	3 column grid styling //////////////////////////////////
  */
  .threeColumnGridContainer {
 	 margin-top: 2em;
-	 padding-bottom: 2em;
  }
 
  .threeGridColumnItem {
 	display: inline-block;
 	max-width: 30%;
-  margin: 1.5em 0.1em;
-	padding-bottom: 1em;
+  margin: 2em 0.1em;
 	box-shadow: inset 0 1px 0 0 #DDD;
  }
 
  img.columnGridImg {
 	max-width: 100%;
 	height: auto;
+	border: 1px solid #DDD;
  }
 
 h3.subjectTitle {
