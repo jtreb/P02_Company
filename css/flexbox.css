@@ -87,11 +87,12 @@
 @media (max-width: 53.5em) {
   .headerContainer {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     flex-direction: column;
   }
 
   .headerItem {
     flex: 1;
+    margin: 2em;
   }
 }
