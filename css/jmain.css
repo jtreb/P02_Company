@@ -113,6 +113,7 @@ a.accountSideMenuLinks {
 }
 
 div.scrollCart {
+  margin: 0em 4.2em;
   max-width: 100%;
   max-height: 40vh;
   background: #99CCCC;
@@ -121,5 +122,5 @@ div.scrollCart {
 }
 
 .threeColumnGridForAccount {
-  margin-top: 0em;
+  margin-top: 1.3em;
 }
