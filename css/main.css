@@ -388,6 +388,16 @@ p.subSubjectInfo {
 	color: #BBB;
 }
 
+p.productList {
+	color: #222;
+}
+
+p.productList strong {
+	font-weight: lighter;
+	color: #999;
+	text-decoration: line-through;
+}
+
 .solidLineDivid {
 	margin: 5em 0;
 	border-top: 1px solid #333;
@@ -419,6 +429,25 @@ div.twoGridColumnItem.subjectSide {
 	margin: 0 2em;
 	align-self: center;
 }
+
+
+/*product list styling*/
+.captionInsideTop {
+	position: relative;
+}
+
+.captionInsideTop figcaption {
+	position: absolute;
+	padding: 0.5em 1em;
+	font-size: 0.75em;
+	color: white;
+	background-color: rgba(67, 133, 183, 0.5);
+}
+
+.captionPositionRight figcaption {
+	right: 0;
+}
+
 /*
   Content styling end here ////////////////
 */
