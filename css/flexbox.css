@@ -76,3 +76,17 @@
   align-items: flex-end;
   flex-direction: column;
 }
+
+
+
+
+/*
+	media queries /////////////////////////////////
+*/
+/*856 pixel*/
+@media (max-width: 53.5em) {
+  .headerItem {
+    display: none;
+  }
+
+}
