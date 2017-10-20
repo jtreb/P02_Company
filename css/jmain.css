@@ -111,10 +111,10 @@ a.linkHighlight {
   flex: 5;
 }
 
-.accountRightSideItemTopContainerPurchaseMethod {
+.accountRightSideItemTopContainerPurchase3 {
   display: flex;
   flex-direction: column;
-  flex: 5;
+  flex: 3;
 }
 
 .centerColumnFormForAccount {
@@ -198,4 +198,8 @@ div.scrollCart {
 .formItemsItems {
   margin: 0em 2em;
   flex: 1 1 auto;
+}
+
+.purchaseMessage {
+  font-size: 1.4em;
 }
