@@ -103,6 +103,7 @@ header a, footer a{
 
 .brandLogo {
   align-items: center;
+	text-align: center;
   background: #999;
   padding: 20px;
   height: 55px;
@@ -479,6 +480,7 @@ div.twoGridColumnItem.subjectSide {
 	right: 0;
 }
 
+/*default link style*/
 .generalLink {
   color: #84D8FF;
 }

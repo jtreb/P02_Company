@@ -85,8 +85,13 @@
 */
 /*856 pixel*/
 @media (max-width: 53.5em) {
-  .headerItem {
-    display: none;
+  .headerContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
   }
 
+  .headerItem {
+    flex: 1;
+  }
 }
