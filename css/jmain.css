@@ -30,7 +30,7 @@ a.newPostButton {
 .forumPostBoxes {
   padding: 1.5em;
   background-color: white;
-  margin-bottom: 0.2em;
+  margin: 1em 0;
   transition: background-color  0.5s ease;
 }
 
