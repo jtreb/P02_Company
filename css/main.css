@@ -259,12 +259,12 @@ footer {
 	opacity: 0.8;
 }
 
-.centerTextOnImg {
+.centerImgOnImg {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	max-width: 25%;
+	max-width: 20%;
 	color: #FFF;
 	font-size: 3rem;
 	margin: 0;
