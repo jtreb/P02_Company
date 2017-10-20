@@ -369,22 +369,26 @@ h3.leftAlignText {
  /*
  	3 column grid styling //////////////////////////////////
  */
- .threeColumnGridContainer {
-	 margin-top: 2em;
- }
+.threeColumnGridContainer {
+	margin-top: 2em;
+}
 
- .threeGridColumnItem {
+.threeGridColumnItem {
 	display: inline-block;
 	max-width: 30%;
-  margin: 2em 0.1em;
+	margin: 2em 0.1em;
 	box-shadow: inset 0 1px 0 0 #DDD;
- }
+}
 
- img.columnGridImg {
+img.columnGridImg {
 	max-width: 100%;
 	height: auto;
 	border: 1px solid #DDD;
- }
+}
+
+img.columnGridImg:hover, img.columnGridImg:focus {
+	opacity: 0.5;
+}
 
 h3.subjectTitle {
 	color: #666;
