@@ -108,7 +108,7 @@ a.accountSideMenuLinks {
 
 div.scrollCart {
   max-width: 100%;
-  max-height: 50vh;
+  max-height: 30vh;
   background: #99CCCC;
   overflow: scroll;
   overflow-x: hidden;
