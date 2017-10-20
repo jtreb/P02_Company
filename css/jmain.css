@@ -95,25 +95,31 @@ a.accountSideMenuLinks {
   flex-direction: column;
 }
 
-.accountRightSideItem {
+.accountRightSideItemTop {
   display: flex;
   flex-direction: column;
-  flex: 1
+  flex: 2;
+}
+.accountRightSideItemBottom {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .accountMenuTitles {
   margin: 2em;
   margin-top: 1.4em;
+  margin-bottom: 1.2em;
 }
 
 div.scrollCart {
   max-width: 100%;
-  max-height: 30vh;
+  max-height: 40vh;
   background: #99CCCC;
   overflow: scroll;
   overflow-x: hidden;
 }
 
-.scrollBGColour {
-  background: #99CCCC;
+.threeColumnGridForAccount {
+  margin-top: 0em;
 }
