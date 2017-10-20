@@ -421,7 +421,8 @@ p.productList strong {
 }
 
 .twoGridColumnItem {
-	max-width: 50%;
+	/*This used to be 50%*/
+	max-width: 100%;
 }
 
 div.twoGridColumnItem.subjectSide {

@@ -44,6 +44,7 @@ a.forumPostTitle {
   text-decoration: none;
   font-size: 1.3em;
 }
+
 p.forumPostDate {
   color: red;
   margin: 0;
@@ -57,4 +58,34 @@ p.forumPostDetail {
   color: black;
   line-height: 1.7em;
   font-size: 0.95em;
+}
+
+/*Forum Posts Section End*/
+
+.accountLeftSide {
+  flex: 1;
+  background-color: #1a8489;
+}
+
+.accountRightSide {
+  flex: 3;
+  background-color: #ffffff;
+}
+
+.accountSideMenu {
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+a.accountSideMenuLinks {
+  color: white;
+  text-decoration: none;
+}
+
+.solidLineDivideAccount {
+  margin: 1em 2em;
+	border-top: 1px solid #333;
 }
