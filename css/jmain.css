@@ -1,3 +1,28 @@
+.forumFormContainer {
+  display: flex;
+}
+
+.forumFormItem {
+  flex: 1;
+}
+
+.forumFormButton {
+  border: 1px solid #99CCCC;
+  padding: 0.75em 3em;
+  border-radius: 0.5em;
+  text-decoration: none;
+  display: inline;
+}
+
+a.newPostButton {
+  display: inline-block;
+  padding: 0.75em 3em;
+  border-radius: 0.5em;
+  text-decoration: none;
+}
+
+
+/*---------------------------------------------Forum Posts Section*/
 .leftAlignTextOnly {
   text-align: left;
 }
@@ -33,17 +58,11 @@ p.forumPostDetail {
   line-height: 1.7em;
   font-size: 0.95em;
 }
+/*---------------------------------------------Forum Posts Section End*/
 
-/*Forum Posts Section End*/
-
+/*---------------------------------------------Account Left Side Design*/
 .accountLeftSide {
   flex: 1;
-  background-color: #1a8489;
-}
-
-.accountRightSide {
-  flex: 3;
-  background-color: #ffffff;
 }
 
 .accountSideMenu {
@@ -62,4 +81,40 @@ a.accountSideMenuLinks {
 .solidLineDivideAccount {
   margin: 1em 2em;
 	border-top: 1px solid #333;
+}
+/*---------------------------------------------Account Left Side Design End*/
+
+/*---------------------------------------------Account Right Side Design*/
+.accountRightSide {
+  flex: 3;
+  background-color: #ffffff;
+}
+
+.accountRightSideContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.accountRightSideItem {
+  display: flex;
+  flex-direction: column;
+  flex: 1
+}
+
+.accountMenuTitles {
+  margin: 2em;
+  margin-top: 1.4em;
+}
+
+.scrollCart {
+  max-width: 100%;
+  max-height: 100%;
+  background: #99CCCC;
+  max-height: 100%;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.scrollBGColour {
+  background: #99CCCC;
 }
