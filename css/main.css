@@ -225,6 +225,10 @@ footer {
 	text-align: left;
 }
 
+.rightAlign {
+	text-align: right;
+}
+
 .contentContainer {
   background: linear-gradient(to top left, rgba(67, 83, 255, 0) 55%, rgba(67, 83, 255, 0.25));
 }
@@ -277,7 +281,7 @@ footer {
 	margin: 0 20%;
 }
 
-.centerContent p {
+.oneColumnContent {
 	margin: 1em 15%;
 }
 
