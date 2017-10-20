@@ -34,17 +34,11 @@ p {
 
 .button {
 	border: 1px solid #A1C2DB;
-  padding: 0.75em 3em;
+  padding: 1em 3em;
   border-radius: 0.5em;
 	text-align: center;
   text-decoration: none;
   display: inline-block;
-}
-
-input[type=search] {
-	border-radius: 0.5em;
-	padding: 0.73em 3em 0.75em 1em;
-	border: 1px solid #DDD;
 }
 
 .buttonFill {
@@ -305,11 +299,12 @@ input[id], textarea {
 }
 
 input[type=search] {
-	border-radius: 0.5em 0 0 0.5em;
-	margin-left: 1.5em;
+	border-radius: 0.5em;
+	/*margin-right: 1.5em;*/
+	padding: 1em 3em 1em 1.5em;
+	border: 1px solid #DDD;
 	width: 50%;
 }
-
 
 
 /*carousel styling*/
