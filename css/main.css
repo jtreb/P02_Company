@@ -479,6 +479,14 @@ div.twoGridColumnItem.subjectSide {
 	right: 0;
 }
 
+.generalLink {
+  color: #84D8FF;
+}
+
+.generalLink:active, .generalLink:hover {
+  color: #EA9B2C;
+}
+
 /*
   Content styling end here ////////////////
 */
