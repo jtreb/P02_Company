@@ -156,7 +156,7 @@ footer {
 }
 
 .footerItem:hover, .footerItem:focus{
-  opacity: 1;
+  color: #84D8FF;
 }
 
 .footerContainer .brandLogo {
