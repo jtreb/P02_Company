@@ -108,7 +108,7 @@ a.linkHighlight {
 
 .accountRightSideItemTopContainer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex: 1;
 }
 
@@ -146,13 +146,16 @@ a.linkHighlight {
 }
 
 .accountMenuTitles {
-  margin: 2em;
+  flex: 3;
+  justify-content: flex-start;
+  padding: 0.7em 0.5em;
+  /*margin: 2em;
   margin-top: 1.4em;
-  margin-bottom: 1.2em;
+  margin-bottom: 1.2em;*/
 }
 
 div.scrollCart {
-  margin: 0em 4.2em;
+  margin: auto;
   max-width: 100%;
   max-height: 40vh;
   background: #99CCCC;
@@ -164,18 +167,23 @@ div.scrollCart {
   margin-top: 1.3em;
 }
 
-.accountPosButton {
+.accountPosButtonItem {
+  margin: auto;
+  flex: 1;
+  justify-content: flex-end;
   border: 1px solid #A1C2DB;
   padding: 1em 3em;
   border-radius: 0.5em;
 	text-align: center;
   text-decoration: none;
-  display: block;
   background-color: #A1C2DB;
 	color: #FFF;
 }
 
-.accountNegButton {
+.accountNegButtonItem {
+  margin: 2.5em 1em;
+  flex: 1;
+  justify-content: flex-end;
   border: 1px solid #E0BA64;
   padding: 1em 3em;
   border-radius: 0.5em;
