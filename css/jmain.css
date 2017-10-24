@@ -63,6 +63,7 @@ p.forumPostDetail {
 /*---------------------------------------------Account Left Side Design*/
 .accountLeftSide {
   flex: 1;
+  background-color: #ffffff;
 }
 
 .accountSideMenu {
@@ -74,7 +75,7 @@ p.forumPostDetail {
 }
 
 a.accountSideMenuLinks {
-  color: #ffffff;
+  color: #363738;
   text-decoration: none;
   transition: color  0.2s ease;
 }
@@ -96,7 +97,7 @@ a.linkHighlight {
 
 /*---------------------------------------------Account Right Side Design*/
 .accountRightSide {
-  flex: 3;
+  flex: 5;
   background-color: #ffffff;
 }
 
@@ -108,7 +109,7 @@ a.linkHighlight {
 .accountRightSideItemTopContainer {
   display: flex;
   flex-direction: column;
-  flex: 5;
+  flex: 1;
 }
 
 .accountRightSideItemTopContainerPurchase3 {
@@ -134,9 +135,8 @@ a.linkHighlight {
 
 .accountRightSideItemBottomContainer {
   display: flex;
-  flex: 1;
+  flex: 5;
   justify-content: flex-end;
-  margin-right: 4.1em;
 }
 
 .accountRightBottomItemPositive {
