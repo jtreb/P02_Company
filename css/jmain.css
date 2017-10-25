@@ -117,6 +117,7 @@ a.linkHighlight {
   display: flex;
   flex-direction: column;
   flex: 4;
+  margin: 0em 2em;
 }
 
 .centerColumnFormForAccount {
@@ -209,5 +210,6 @@ div.scrollCart {
 
 .purchaseMessage {
   font-size: 1.4em;
+  text-align: left;
 }
 /*---------------------------------------------Account Right Side Design END*/
