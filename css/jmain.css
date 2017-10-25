@@ -1,3 +1,4 @@
+/*---------------------------------------------Forum Posts Section*/
 .forumFormContainer {
   display: flex;
 }
@@ -21,8 +22,6 @@ a.newPostButton {
   text-decoration: none;
 }
 
-
-/*---------------------------------------------Forum Posts Section*/
 .leftAlignTextOnly {
   text-align: left;
 }
@@ -44,7 +43,7 @@ a.forumPostTitle {
   font-size: 1.3em;
 }
 
-p.forumPostDate {
+p.forumPostAuthorAndDate {
   color: red;
   margin: 0;
   font-size: 0.8em;
@@ -266,3 +265,14 @@ div.scrollCart {
   font-size: 1;
 }
 /*---------------------------------------------Account Profile Design END*/
+
+/*---------------------------------------------Account Forum Posts Design*/
+.accForumPostsCentered {
+  margin: 0 10%;
+}
+
+.accForumPostsOutlined {
+  border-style: solid;
+}
+
+/*---------------------------------------------Account Forum Posts Design END*/
