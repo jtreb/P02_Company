@@ -103,4 +103,10 @@
     max-width: 100%;
     margin-left: 0;
   }
+
+  .sideMenu {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+  }
 }
