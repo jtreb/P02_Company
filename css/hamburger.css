@@ -1,0 +1,41 @@
+#sideNavItems a, #sideNavItems a:visited, #sideNavToggle {
+	display: inline-block;
+  text-decoration: none;
+  width: 100%;
+	padding: 1.5em 1em;
+  background: #E3E5E7;
+  color: #666;
+  padding: 1.5em 1em;
+  border-style: solid;
+  border-width: thin 0;
+  border-color: #DDD;
+  transition: background-color 0.5s;
+	visibility: visible;
+}
+
+#sideNavItems img {
+	width: 100%;
+	height: auto;
+	padding: 1em;
+}
+
+#sideNavItems a:hover, #sideNavItems a:focus {
+  color: #99CCCC;
+  transition: color 0.5s ease;
+}
+
+#sideNavToggle {
+	background-color: #DDD;
+	display: block;
+	border: 0;
+}
+
+#sideNavToggle:hover, #sideNavToggle:focus {
+  color: #99CCCC;
+	transition: color 0.5s ease;
+}
+
+#sideNavToggle.hidden, #sideNavItems.hidden {
+	visibility: hidden;
+	display: none;
+}

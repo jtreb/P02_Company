@@ -129,28 +129,6 @@ header a, footer a{
 	border-right: 1px solid #DDD;
 }
 
-.sideMenu img {
-	width: 100%;
-	height: auto;
-	padding: 1em;
-}
-
-.sideMenu a {
-	display: block;
-	text-decoration: none;
-	background: #E3E5E7;
-	color: #666;
-	padding: 1.5em 1em;
-	border-style: solid;
-	border-width: thin 0;
-	border-color: #DDD;
-}
-
-.sideMenu a:hover, .sideMenu a:focus {
-	color: #99CCCC;
-	transition: color 0.5s ease;
-}
-
 .floatRight {
   float: right;
 }
