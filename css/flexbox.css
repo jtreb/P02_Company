@@ -96,3 +96,11 @@
     margin: 2em;
   }
 }
+
+/*768 pixel*/
+@media (max-width: 48em) {
+  .sideBody {
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
