@@ -178,6 +178,21 @@ div.scrollCart {
 	color: #FFF;
 }
 
+.accountSecondPosButtonItem {
+  margin: 2.5em 2em;
+  margin-left: 0em;
+  flex: 1;
+  justify-content: flex-end;
+  border: 1px solid #A1C2DB;
+  padding: 1em 0.5em;
+  border-radius: 0.5em;
+	text-align: center;
+  text-decoration: none;
+  display: block;
+  background-color: #A1C2DB;
+	color: #FFF;
+}
+
 .accountNegButtonItem {
   margin: 2.5em 2em;
   margin-left: 0em;
