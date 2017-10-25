@@ -113,8 +113,7 @@ a.linkHighlight {
   align-items: flex-start;
 }
 
-.accountRightSideItemTopContainerPurchase3 {
-  display: flex;
+.accountRightSideItemBottomContainerPurchase3 {
   flex-direction: column;
   flex: 4;
   margin: 0em 2em;
