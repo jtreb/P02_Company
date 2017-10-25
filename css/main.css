@@ -121,6 +121,7 @@ header a, footer a{
 }
 
 .sideMenu {
+	background: white;
 	max-width: 15%;
 	height: 100vh;
 	position: fixed;
