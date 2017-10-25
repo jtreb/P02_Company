@@ -235,6 +235,7 @@ div.scrollCart {
 }
 
 .accProfileBottomRightItemLeft {
+  margin-top: 1.3em;
   flex: 1;
 }
 
@@ -249,7 +250,7 @@ div.scrollCart {
 }
 
 .profileTitles {
-  color: #666;
+  color: #99CCCC;
   margin-bottom: 0em;
 }
 
