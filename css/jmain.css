@@ -60,7 +60,7 @@ p.forumPostDetail {
 }
 /*---------------------------------------------Forum Posts Section End*/
 
-/*---------------------------------------------Account Left Side Design*/
+/*---------------------------------------------Account Left Side cart and all Account Design*/
 .accountLeftSide {
   flex: 1;
   background-color: #ffffff;
@@ -137,7 +137,6 @@ a.linkHighlight {
 .accountRightSideItemBottomContainer {
   display: flex;
   flex: 5;
-  justify-content: flex-end;
 }
 
 .accountRightBottomItemPositive {
@@ -226,4 +225,43 @@ div.scrollCart {
   font-size: 1.4em;
   text-align: left;
 }
-/*---------------------------------------------Account Right Side Design END*/
+/*---------------------------------------------Account Right Side Cart cart and all Account Design END*/
+
+/*---------------------------------------------Account Profile Design*/
+.accProfileBottomRightContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.accProfileBottomRightItemLeft {
+  flex: 1;
+}
+
+.accProfileBottomRightItemRight {
+  flex: 2;
+  margin-right: 3em;
+}
+
+.profileImg {
+  width: 60%;
+  border-radius: 3em;
+}
+
+.profileTitles {
+  color: #666;
+  margin-bottom: 0em;
+}
+
+.profileContent {
+  color: black;
+  margin-top: 0em;
+  font-size: 1.5em;
+}
+
+.profileBioContent {
+  color: black;
+  margin-top: 0.5em;
+  font-size: 1;
+}
+/*---------------------------------------------Account Profile Design END*/
