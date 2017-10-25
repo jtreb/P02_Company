@@ -110,6 +110,7 @@ a.linkHighlight {
   display: flex;
   flex-direction: row;
   flex: 1;
+  align-items: flex-start;
 }
 
 .accountRightSideItemTopContainerPurchase3 {
@@ -149,9 +150,6 @@ a.linkHighlight {
   flex: 3;
   justify-content: flex-start;
   padding: 0.7em 1em;
-  /*margin: 2em;
-  margin-top: 1.4em;
-  margin-bottom: 1.2em;*/
 }
 
 div.scrollCart {
