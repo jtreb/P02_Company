@@ -6,12 +6,15 @@
     <title>P02: Style Guide</title>
 
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/hamburger.css" rel="stylesheet" >
     <link href="css/flexbox.css" rel="stylesheet">
   </head>
 
   <body class="sideBody floatRight">
     <!-- Navigation Bar for the entire P02 -->
-    <nav class="sideMenu floatLeft">
+    <button id="sideNavToggle" class="hidden" aria-hidden="true" aria-controls="sideNavItems">MENU</button>
+
+    <nav id="sideNavItems" class="sideMenu floatLeft">
       <img src="./img/CompanyLogo.png" alt="">
 
       <a href="styleGuide.html">Style Guide</a>
