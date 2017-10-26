@@ -30,11 +30,6 @@ a.newPostButton {
   padding: 1.5em;
   background-color: white;
   margin: 1em 0;
-  transition: background-color  0.5s ease;
-}
-
-.forumPostBoxes:hover {
-  background-color: #ffd9bf;
 }
 
 a.forumPostTitle {
@@ -270,13 +265,13 @@ div.scrollDiv {
 /*---------------------------------------------Account Forum Posts Design*/
 .accForumPostsCentered {
   margin: 0 10%;
+  width: 100%;
 }
 
 .accForumPostsOutlined {
   border-style: solid;
   border-width: thin;
 }
-
 /*---------------------------------------------Account Forum Posts Design END*/
 
 /*---------------------------------------------Account Notification Design*/
@@ -297,6 +292,45 @@ div.scrollDiv {
 a.badNotify {
   color: #fc6a20;
 }
-
-
 /*---------------------------------------------Account Notification Design END*/
+
+/*---------------------------------------------Account Purchase History Design*/
+.purchaseHistoryContainer {
+  display: flex;
+  width: 100%;
+}
+
+.purchaseHistoryDateItem {
+  flex: 1;
+  border-right-style: solid;
+  border-width: thin;
+}
+
+.purchaseHistoryProductsItem {
+  flex: 4;
+}
+
+.purchaseHistoryStatusItem {
+  flex: 1;
+  border-left-style: solid;
+  border-width: thin;
+}
+
+.purchaseHistoryDate {
+  margin: 0em 1.5em;
+  margin-left: 0em;
+}
+
+.purchaseHistoryProducts {
+  margin: 0em 1.5em;
+}
+
+.purchaseHistoryStatus {
+  text-align: center;
+  margin-top: 0em;
+  margin-left: 1.5em;
+  color: #486da8;
+}
+
+
+/*---------------------------------------------Account Purchase History Design END*/
