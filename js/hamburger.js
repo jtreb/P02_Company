@@ -9,7 +9,7 @@ var sideNavToggle = document.querySelector("#sideNavToggle");
 var sideNavItems = document.querySelector("#sideNavItems");
 var sideNavFirstItem = document.querySelector("#sideNavItems a");
 
-if (windowWidth < 768) {
+if (windowWidth < 769) {
   console.log("Window width is less than 768px, collapsing side navigation menu");
 
   sideNavToggle.classList.remove("hidden");
