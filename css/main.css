@@ -211,6 +211,24 @@ code {
 	color: #FFF;
 }
 
+/*style guide: grid structure styling*/
+.colGrid {
+  margin: 0;
+}
+
+.colItem {
+  background-color: #C0DFD9;
+  padding: 1em;
+}
+
+p.colItemName {
+  margin: 0;
+  padding: 2em;
+  background-color: #99CCCC;
+  text-align: center;
+}
+/*end of style guide: grid structure styling*/
+
 /*
 	style guide styling end here /////////////////////////////
 */
