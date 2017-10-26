@@ -121,7 +121,7 @@
           </code>
 
           <h4>Rendered Element:</h4>
-          <a href="#" class="headerItem">Navigation Button</a>
+          <a href="#" class="headerItemSingle">Navigation Button</a>
 
         </div>
         <!-- Navigation Button end here -->
@@ -207,12 +207,21 @@
           <h3>Headings</h3>
 
           <h4>CSS Selector:</h4>
-          <p></p>
+          <p>h1
+            <span class="lineDivid"></span>
+            h2
+            <span class="lineDivid"></span>
+            h3</p>
 
           <h4>Sample Code:</h4>
-          <code></code>
+          <code>
+            &lt;h1&gt;Heading level 1&lt;/h1&gt;
+          </code>
 
           <h4>Rendered Element:</h4>
+          <h1>Heading level 1</h1>
+          <h2>Heading level 2</h2>
+          <h3>Heading level 3</h3>
         </div>
         <!-- Headings end here -->
 
@@ -223,12 +232,15 @@
           <h3>Paragraph</h3>
 
           <h4>CSS Selector:</h4>
-          <p></p>
+          <p>p</p>
 
           <h4>Sample Code:</h4>
-          <code></code>
+          <code>
+            &lt;p&gt;This is an example of a paragraph.&lt;/p&gt;
+          </code>
 
           <h4>Rendered Element:</h4>
+          <p>This is an example of a paragraph. This is an example of a paragraph. This is an example of a paragraph. This is an example of a paragraph. This is an example of a paragraph. This is an example of a paragraph. This is an example of a paragraph. This is an example of a paragraph.</p>
         </div>
         <!-- Paragraph end here -->
 
@@ -239,12 +251,23 @@
           <h3>Bulleted List</h3>
 
           <h4>CSS Selector:</h4>
-          <p></p>
+          <p>.bullettedList li</p>
 
           <h4>Sample Code:</h4>
-          <code></code>
+          <code>
+            &lt;ul class="bullettedList"&gt; <br>
+            &nbsp; &nbsp; &lt;li&gt;bulletted list&lt;/li&gt; <br>
+            &nbsp; &nbsp; &lt;li&gt;bulletted list&lt;/li&gt; <br>
+            &nbsp; &nbsp; &lt;li&gt;bulletted list&lt;/li&gt; <br>
+            &lt;/ul&gt;
+          </code>
 
           <h4>Rendered Element:</h4>
+          <ul class="bullettedList">
+            <li>bulletted list</li>
+            <li>bulletted list</li>
+            <li>bulletted list</li>
+          </ul>
         </div>
         <!-- Bulleted List end here -->
 
@@ -255,12 +278,23 @@
           <h3>Numbered List</h3>
 
           <h4>CSS Selector:</h4>
-          <p></p>
+          <p>ol.numberedList</p>
 
           <h4>Sample Code:</h4>
-          <code></code>
+          <code>
+            &lt;ol class="numberedList"&gt; <br>
+            &nbsp; &nbsp; &lt;li&gt;numbered list&lt;/li&gt; <br>
+            &nbsp; &nbsp; &lt;li&gt;numbered list&lt;/li&gt; <br>
+            &nbsp; &nbsp; &lt;li&gt;numbered list&lt;/li&gt; <br>
+            &lt;/ol&gt;
+          </code>
 
           <h4>Rendered Element:</h4>
+          <ol class="numberedList">
+            <li>numbered list</li>
+            <li>numbered list</li>
+            <li>numbered list</li>
+          </ol>
         </div>
         <!-- Numbered end here -->
       </section>
@@ -277,12 +311,71 @@
           <h3>Main Navigation Header</h3>
 
           <h4>CSS Selector:</h4>
-          <p></p>
+          <p>.headerContainer
+            <span class="lineDivid"></span>
+            .headerItem
+            <span class="lineDivid"></span>
+            .currentPage
+            <span class="lineDivid"></span>
+            .brandLogo
+            <span class="lineDivid"></span>
+            .navBar
+            <span class="lineDivid"></span>
+            .floatLeft
+            <span class="lineDivid"></span>
+            .floatRight</p>
 
           <h4>Sample Code:</h4>
-          <code></code>
+          <code>
+            &lt;nav class="headerContainer"&gt; <br>
+              &nbsp; &nbsp; &lt;div class="brandLogo headerItem floatLeft"&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;img src="img/file location" alt="image description"&gt; <br>
+              &nbsp; &nbsp; &lt;/div&gt; <br>
+              <br>
+              &nbsp; &nbsp; &lt;div class="navBar floatLeft"&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="#link" class="headerItem currentPage"&gt;Home&lt;/a&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="#link" class="headerItem currentPage"&gt;Shop&lt;/a&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="#link" class="headerItem currentPage"&gt;News&lt;/a&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="#link" class="headerItem currentPage"&gt;Forums&lt;/a&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="#link" class="headerItem currentPage"&gt;About&lt;/a&gt; <br>
+              &nbsp; &nbsp; &lt;/div&gt; <br>
+              <br>
+              &nbsp; &nbsp; &lt;div class="navBar floatRight"&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="#link" class="headerItem currentPage"&gt;Cart&lt;/a&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="#link" class="headerItem currentPage"&gt;Account&lt;/a&gt; <br>
+              &nbsp; &nbsp; &lt;/div&gt; <br>
+            &lt;/nav&gt; <br>
+          </code>
 
           <h4>Rendered Element:</h4>
+          <header class="darkHeaderTheme">
+            <nav class="headerContainer">
+              <!-- Brand logo image -->
+              <div class="brandLogo headerItem floatLeft">
+                <a href="">R T C</a>
+                <!-- ^^ replace above with img -->
+                <!-- <img src="img/" alt="a light version of brand logo"> -->
+              </div>
+
+              <!-- Site navigation tabs -->
+              <div class="navBar floatLeft">
+                <a href="./websitePages/home.html" class="headerItem currentPage">Home</a>
+                <a href="./websitePages/shop.html" class="headerItem">Shop</a>
+                <a href="./websitePages/news.html" class="headerItem">News</a>
+                <a href="./websitePages/forums.html" class="headerItem">Forums</a>
+                <a href="./websitePages/about.html" class="headerItem">About</a>
+              </div>
+              <!-- Site navigation tabs end here -->
+
+              <!-- Account menus -->
+              <div class="navBar floatRight">
+                <a href="accountCart.html" class="headerItem">Cart</a>
+                <span class="headerItem lineDivid lightLine"></span>
+                <a href="accountProfile.html" class="headerItem">Account</a>
+              </div>
+              <!-- Account menus end here -->
+            </nav>
+          </header>
         </div>
         <!-- Main Navigation Header end here -->
 
@@ -293,12 +386,99 @@
           <h3>Main Navigation Footer</h3>
 
           <h4>CSS Selector:</h4>
-          <p></p>
+          <p>footer
+            <span class="lineDivid"></span>
+            .footerContainer
+            <span class="lineDivid"></span>
+            .containerWrapper
+            <span class="lineDivid"></span>
+            .footerColumn
+            <span class="lineDivid"></span>
+            .footerItem
+            <span class="lineDivid"></span>
+            .brandLogo
+            <span class="lineDivid"></span>
+            .copyRightText</p>
 
           <h4>Sample Code:</h4>
-          <code></code>
+          <code>
+            &lt;footer&gt; <br>
+              &nbsp; &nbsp; &lt;div class="footerContainer"&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="containerWrapper"&gt; <br>
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="brandLogo footerColumn"&gt; <br>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="homeWithAccount.html"&gt;Rescue The Cephalopod&lt;/a&gt; <br>
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt; <br>
+                  <br>
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="containerColumn"&gt; <br>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h3>Product&lt;/h3&gt; <br>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="shop.html" class="footerItem"&gt;Shop&lt;/a&gt; <br>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="shop.html" class="footerItem"&gt;Gift&lt;/a&gt; <br>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="shop.html" class="footerItem"&gt;Deals&lt;/a&gt; <br>
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt; <br>
+
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="copyRightText centerAlign footerColumn"&gt;© 2017, Eva &amp; Jameson | All Rights Reserved.&lt;/p&gt; <br>
+              &nbsp; &nbsp; &lt;/div&gt; <br>
+            &lt;/footer&gt;
+          </code>
 
           <h4>Rendered Element:</h4>
+          <footer>
+            <div class="footerContainer">
+              <div class="containerWrapper">
+                <!-- brand logo in footer -->
+                <div class="brandLogo footerColumn">
+                  <a href="homeWithAccount.html">Rescue The Cephalopod</a>
+                </div>
+                <!-- logo display end here -->
+
+                <!-- product list -->
+                <div class="containerColumn">
+                  <h3>Product</h3>
+                  <a href="shop.html" class="footerItem">Shop</a>
+                  <a href="shop.html" class="footerItem">Gift</a>
+                  <a href="shop.html" class="footerItem">Deals</a>
+                </div>
+                <!-- product list end here-->
+
+                <!-- company info -->
+                <div class="containerColumn">
+                  <h3>Company</h3>
+                  <a href="home.html" class="footerItem">Home</a>
+                  <a href="news.html" class="footerItem">News</a>
+                  <a href="about.html" class="footerItem">About</a>
+                </div>
+                <!-- company info end here-->
+
+                <!-- Support list -->
+                <div class="containerColumn">
+                  <h3>Support</h3>
+                  <a href="about.html#contact" class="footerItem">Contact Us</a>
+                  <a href="forums.html" class="footerItem">Forums</a>
+                </div>
+                <!-- support list end here-->
+
+                <!-- Social media list -->
+                <div class="containerColumn">
+                  <h3>Connect</h3>
+                  <a href="#" class="footerItem">Facebook</a>
+                  <a href="#" class="footerItem">Twitter</a>
+                  <a href="#" class="footerItem">Instagram</a>
+                </div>
+                <!-- Social media list end here-->
+
+                <!-- Other list -->
+                <div class="containerColumn">
+                  <h3>Other</h3>
+                  <a href="../styleGuide.html" class="footerItem">Style Guide</a>
+                  <a href="../sitemap.html" class="footerItem">Sitemap</a>
+                  <a href="../citations.html" class="footerItem">Citation</a>
+                </div>
+                <!-- Other list end here -->
+              </div>
+
+              <p class="copyRightText centerAlign footerColumn">© 2017, Eva &amp; Jameson | All Rights Reserved.</p>
+            </div>
+          </footer>
         </div>
         <!-- Main Navigation end here -->
 
@@ -309,12 +489,61 @@
           <h3>Product Listing</h3>
 
           <h4>CSS Selector:</h4>
-          <p></p>
+          <p>.threeColumnGridContainer
+            <span class="lineDivid"></span>
+            .threeGridColumnItem
+            <span class="lineDivid"></span>
+            .columnGridImg
+            <span class="lineDivid"></span>
+            .productList
+            <span class="lineDivid"></span>
+            .captionInsideTop
+            <span class="lineDivid"></span>
+            .captionPositionRight</p>
 
           <h4>Sample Code:</h4>
-          <code></code>
+          <code>
+            &lt;div class="threeColumnGridContainer"&gt; <br>
+              &nbsp; &nbsp; &lt;div class="threeGridColumnItem"&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;figure class="captionInsideTop captionPositionRight"&gt; <br>
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;figcaption>product offers and deals&lt;/figcaption&gt; <br>
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;img class="columnGridImg" src="img/image location" alt="image description"&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;/figure&gt; <br>
+                <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;h4 class="subjectTitle productList"&gt;Product Name&lt;/h4&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="subjectInfo productList"&gt; &lt;strong&gt; &#36;old product price&lt;/strong&gt; &amp;nbsp; &#36;new product price&lt;/p&gt; <br>
+            &lt;/div>
+          </code>
 
           <h4>Rendered Element:</h4>
+          <div class="threeColumnGridContainer">
+            <!-- 1 -->
+            <div class="threeGridColumnItem">
+              <figure>
+                <img class="columnGridImg" src="./img/iceCreamOctopusPlush.jpg" alt="">
+              </figure>
+              <h4 class="subjectTitle productList">Ice cream Octopus</h4>
+              <p class="subjectInfo productList">&#36;25.00</p>
+            </div>
+            <!-- 2 -->
+            <div class="threeGridColumnItem">
+              <figure class="captionInsideTop">
+                <figcaption>LIMITED</figcaption>
+                <img class="columnGridImg" src="./img/redRealisticSquidPlush.jpg" alt="">
+              </figure>
+              <h4 class="subjectTitle productList">Giant Squid</h4>
+              <p class="subjectInfo productList">&#36;35.00</p>
+            </div>
+            <!-- 3 -->
+            <div class="threeGridColumnItem">
+              <figure class="captionInsideTop captionPositionRight">
+                <figcaption>40% OFF</figcaption>
+                <img class="columnGridImg" src="./img/threeTopHatOctopusPlush.jpg" alt="">
+              </figure>
+              <h4 class="subjectTitle productList">Top Hat Mustache Octopus Bundle</h4>
+              <p class="subjectInfo productList"><strong>&#36;50.00</strong> &nbsp; &#36;30.00</p>
+            </div>
+          </div>
         </div>
         <!-- Product Listing end here -->
 
@@ -325,12 +554,75 @@
           <h3>Grid Structure</h3>
 
           <h4>CSS Selector:</h4>
-          <p></p>
+          <p>.colGrid
+            <span class="lineDivid"></span>
+            .colItem
+            <span class="lineDivid"></span>
+            p.colItemName</p>
 
           <h4>Sample Code:</h4>
-          <code></code>
+          <code>
+            &lt;div class="colGrid"&gt; <br>
+              &nbsp; &nbsp; &lt;div class="colItem"&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="colItemName"&gt; 1/3 column &lt;/p&gt;<br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="colItemName"&gt; 1/3 column &lt;/p&gt;<br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="colItemName"&gt; 1/3 column &lt;/p&gt;<br>
+              &nbsp; &nbsp; &lt;/div&gt; <br>
+            &lt;/div&gt;
+          </code>
 
           <h4>Rendered Element:</h4>
+          <!-- grid size 1 of 1 -->
+          <div class="colGrid">
+            <div class="colItem">
+              <p class="colItemName">1/1 column</p>
+            </div>
+          </div>
+
+          <!-- grid size 1 of 2 -->
+          <div class="colGrid">
+            <div class="colItem">
+              <p class="colItemName">1/2 column</p>
+            </div>
+            <div class="colItem">
+              <p class="colItemName">1/2 column</p>
+            </div>
+          </div>
+
+          <!-- grid size 1 of 3 -->
+          <div class="colGrid">
+            <div class="colItem">
+              <p class="colItemName">1/3 column</p>
+            </div>
+            <div class="colItem">
+              <p class="colItemName">1/3 column</p>
+            </div>
+            <div class="colItem">
+              <p class="colItemName">1/3 column</p>
+            </div>
+          </div>
+
+          <!-- grid size 1 of 6 -->
+          <div class="colGrid">
+            <div class="colItem">
+              <p class="colItemName">1/6</p>
+            </div>
+            <div class="colItem">
+              <p class="colItemName">1/6</p>
+            </div>
+            <div class="colItem">
+              <p class="colItemName">1/6</p>
+            </div>
+            <div class="colItem">
+              <p class="colItemName">1/6</p>
+            </div>
+            <div class="colItem">
+              <p class="colItemName">1/6</p>
+            </div>
+            <div class="colItem">
+              <p class="colItemName">1/6</p>
+            </div>
+          </div>
         </div>
         <!-- Grid Structure end here -->
 
@@ -341,12 +633,107 @@
           <h3>Colour Scheme</h3>
 
           <h4>CSS Selector:</h4>
-          <p></p>
+          <p>
+            .colGrid
+            <span class="lineDivid"></span>
+            .colorSwatchBox
+            <span class="lineDivid"></span>
+            .colItem
+            <span class="lineDivid"></span>
+            .colorSwatchItem
+            <span class="lineDivid"></span>
+            .colItemName
+            <span class="lineDivid"></span>
+            .cw1</p>
 
           <h4>Sample Code:</h4>
-          <code></code>
+          <code>
+            &lt;div class="colGrid colorSwatchBox"&gt; <br>
+              &nbsp; &nbsp; &lt;div class="colItem colorSwatchItem"&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="colItemName cw1">color swatch 1&lt;/p&gt; <br>
+              &nbsp; &nbsp; &lt;/div&gt; <br>
+              <br>
+              &nbsp; &nbsp; &lt;div class="colItem colorSwatchItem"&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="colItemName cw2">color swatch 2&lt;/p&gt; <br>
+              &nbsp; &nbsp; &lt;/div&gt; <br>
+              <br>
+              &nbsp; &nbsp; &lt;div class="colItem colorSwatchItem"&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="colItemName cw3">color swatch 3&lt;/p&gt; <br>
+              &nbsp; &nbsp; &lt;/div&gt; <br>
+            &lt;/div&gt;
+          </code>
 
           <h4>Rendered Element:</h4>
+          <!-- collection of primary colors -->
+          <div>
+            <p>Primary Colors</p>
+            <div class="colGrid colorSwatchBox">
+              <!-- 1 -->
+              <div class="colItem colorSwatchItem">
+                <p class="colItemName cw1">#F7941D</p>
+              </div>
+              <!-- 2 -->
+              <div class="colItem colorSwatchItem">
+                <p class="colItemName cw2">#0A4378</p>
+              </div>
+              <!-- 3 -->
+              <div class="colItem colorSwatchItem">
+                <p class="colItemName cw3">#A1C2DB</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- collection of secondary colors -->
+          <div>
+            <p>Secondary Colors</p>
+            <div class="colGrid colorSwatchBox">
+              <!-- 4 -->
+              <div class="colItem colorSwatchItem">
+                <p class="colItemName cw4">#333333</p>
+              </div>
+              <!-- 5 -->
+              <div class="colItem colorSwatchItem">
+                <p class="colItemName cw5">#666666</p>
+              </div>
+              <!-- 6 -->
+              <div class="colItem colorSwatchItem">
+                <p class="colItemName cw6">#999999</p>
+              </div>
+              <!-- 7 -->
+              <div class="colItem colorSwatchItem">
+                <p class="colItemName cw7">#DDDDDD</p>
+              </div>
+              <!-- 8 -->
+              <div class="colItem colorSwatchItem">
+                <p class="colItemName cw9">#84D8FF</p>
+              </div>
+              <!-- 9 -->
+              <div class="colItem colorSwatchItem">
+                <p class="colItemName cw10">#C1DAE5</p>
+              </div>
+              <!-- 10 -->
+              <div class="colItem colorSwatchItem">
+                <p class="colItemName cw8">#FFFFFF</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- collection of background colors -->
+          <div>
+            <p>background Colors</p>
+            <div class="colGrid colorSwatchBox">
+              <!-- 11 -->
+              <div class="colItem colorSwatchItem">
+                <p class="colItemName cw11">#020309</p>
+              </div>
+              <!-- 12 -->
+              <div class="colItem colorSwatchItem">
+                <div class="cw12BG">
+                  <p class="colItemName cw12">#gradient</p>
+                </div>
+              </div>
+          </div>
+
         </div>
         <!-- Colour Scheme end here -->
 

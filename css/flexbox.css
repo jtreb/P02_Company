@@ -2,7 +2,7 @@
 /*
   Display flex cross-platform
 */
-.containerWrapper, .containerColumn, .formContainer, .threeColumnGridContainer, .twoColumnGridContainer {
+.containerWrapper, .containerColumn, .formContainer, .threeColumnGridContainer, .twoColumnGridContainer, .colGrid {
   display: flex;
   display: -ms-flex;
   display: -moz-flex;
@@ -10,7 +10,7 @@
 }
 
 /*flex-wrap with wrap*/
-.formContainer, .threeColumnGridContainer {
+.formContainer, .threeColumnGridContainer, .colGrid {
   flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
@@ -49,7 +49,7 @@
 }
 
 /*1 flex*/
-.headerContainer, .containerWrapper, .twoGridColumnItem  {
+.headerContainer, .containerWrapper, .twoGridColumnItem, .colItem  {
   flex: 1;
   -ms-flex: 1;
   -moz-flex: 1;
