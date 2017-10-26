@@ -181,6 +181,10 @@ code {
 .sideBody section input {
 	width: auto;
 }
+
+.bullettedList li{
+	list-style: disc;
+}
 /*style guide styling end here */
 
 
