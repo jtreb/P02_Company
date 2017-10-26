@@ -13,6 +13,10 @@
 	visibility: visible;
 }
 
+#sideNavToggle img {
+	width: 50%;
+}
+
 #sideNavItems img {
 	width: 100%;
 	height: auto;
