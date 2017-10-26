@@ -13,7 +13,8 @@
 }
 
 #sideNavToggle img {
-	width: 50%;
+	height: 100%;
+	width: auto;
 }
 
 #sideNavItems img {
@@ -31,7 +32,8 @@
 	background-color: #DDD;
 	display: block;
 	border: 0;
-	height: 10%;
+	height: 70px;
+	padding: 1em;
 }
 
 #sideNavToggle:hover, #sideNavToggle:focus {
@@ -42,4 +44,10 @@
 #sideNavToggle.hidden, #sideNavItems.hidden {
 	visibility: hidden;
 	display: none;
+}
+
+#sideNavToggle button {
+	border: none;
+	color: #666;
+  height: 100%;
 }
