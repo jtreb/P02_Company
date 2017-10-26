@@ -29,11 +29,16 @@
 }
 
 
-/*768 pixel*/
+/*768 pixel - ipad size*/
 @media (max-width: 48em) {
+  /*style guide side navigation men & content*/
   .sideBody {
     max-width: 100%;
     margin-left: 0;
+  }
+
+  .sideBody section {
+    padding: 0 2em;
   }
 
   .sideMenu {
@@ -47,4 +52,6 @@
   #sideNavItems img {
     display: none;
   }
+
+  /*ipad size style guide media query end here*/
 }
