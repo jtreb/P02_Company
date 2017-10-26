@@ -107,7 +107,9 @@
   .sideMenu {
     position: relative;
     max-width: 100%;
-    height: auto;
+    height: 0;
+    background: transparent;
+    float: none;
   }
 
   #sideNavItems img {

@@ -5,7 +5,6 @@
 	padding: 1.5em 1em;
   background: #E3E5E7;
   color: #666;
-  padding: 1.5em 1em;
   border-style: solid;
   border-width: thin 0;
   border-color: #DDD;
@@ -32,6 +31,7 @@
 	background-color: #DDD;
 	display: block;
 	border: 0;
+	height: 10%;
 }
 
 #sideNavToggle:hover, #sideNavToggle:focus {
