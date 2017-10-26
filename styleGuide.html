@@ -554,12 +554,75 @@
           <h3>Grid Structure</h3>
 
           <h4>CSS Selector:</h4>
-          <p></p>
+          <p>.colGrid
+            <span class="lineDivid"></span>
+            .colItem
+            <span class="lineDivid"></span>
+            p.colItemName</p>
 
           <h4>Sample Code:</h4>
-          <code></code>
+          <code>
+            &lt;div class="colGrid"&gt; <br>
+              &nbsp; &nbsp; &lt;div class="colItem"&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="colItemName"&gt; 1/3 column &lt;/p&gt;<br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="colItemName"&gt; 1/3 column &lt;/p&gt;<br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="colItemName"&gt; 1/3 column &lt;/p&gt;<br>
+              &nbsp; &nbsp; &lt;/div&gt; <br>
+            &lt;/div&gt;
+          </code>
 
           <h4>Rendered Element:</h4>
+          <!-- grid size 1 of 1 -->
+          <div class="colGrid">
+            <div class="colItem">
+              <p class="colItemName">1/1 column</p>
+            </div>
+          </div>
+
+          <!-- grid size 1 of 2 -->
+          <div class="colGrid">
+            <div class="colItem">
+              <p class="colItemName">1/2 column</p>
+            </div>
+            <div class="colItem">
+              <p class="colItemName">1/2 column</p>
+            </div>
+          </div>
+
+          <!-- grid size 1 of 3 -->
+          <div class="colGrid">
+            <div class="colItem">
+              <p class="colItemName">1/3 column</p>
+            </div>
+            <div class="colItem">
+              <p class="colItemName">1/3 column</p>
+            </div>
+            <div class="colItem">
+              <p class="colItemName">1/3 column</p>
+            </div>
+          </div>
+
+          <!-- grid size 1 of 6 -->
+          <div class="colGrid">
+            <div class="colItem">
+              <p class="colItemName">1/6</p>
+            </div>
+            <div class="colItem">
+              <p class="colItemName">1/6</p>
+            </div>
+            <div class="colItem">
+              <p class="colItemName">1/6</p>
+            </div>
+            <div class="colItem">
+              <p class="colItemName">1/6</p>
+            </div>
+            <div class="colItem">
+              <p class="colItemName">1/6</p>
+            </div>
+            <div class="colItem">
+              <p class="colItemName">1/6</p>
+            </div>
+          </div>
         </div>
         <!-- Grid Structure end here -->
 
