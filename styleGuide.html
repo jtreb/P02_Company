@@ -121,7 +121,7 @@
           </code>
 
           <h4>Rendered Element:</h4>
-          <a href="#" class="headerItem">Navigation Button</a>
+          <a href="#" class="headerItemSingle">Navigation Button</a>
 
         </div>
         <!-- Navigation Button end here -->
@@ -311,12 +311,71 @@
           <h3>Main Navigation Header</h3>
 
           <h4>CSS Selector:</h4>
-          <p></p>
+          <p>.headerContainer
+            <span class="lineDivid"></span>
+            .headerItem
+            <span class="lineDivid"></span>
+            .currentPage
+            <span class="lineDivid"></span>
+            .brandLogo
+            <span class="lineDivid"></span>
+            .navBar
+            <span class="lineDivid"></span>
+            .floatLeft
+            <span class="lineDivid"></span>
+            .floatRight</p>
 
           <h4>Sample Code:</h4>
-          <code></code>
+          <code>
+            &lt;nav class="headerContainer"&gt; <br>
+              &nbsp; &nbsp; &lt;div class="brandLogo headerItem floatLeft"&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;img src="img/file location" alt="image description"&gt; <br>
+              &nbsp; &nbsp; &lt;/div&gt; <br>
+              <br>
+              &nbsp; &nbsp; &lt;div class="navBar floatLeft"&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="#link" class="headerItem currentPage"&gt;Home&lt;/a&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="#link" class="headerItem currentPage"&gt;Shop&lt;/a&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="#link" class="headerItem currentPage"&gt;News&lt;/a&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="#link" class="headerItem currentPage"&gt;Forums&lt;/a&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="#link" class="headerItem currentPage"&gt;About&lt;/a&gt; <br>
+              &nbsp; &nbsp; &lt;/div&gt; <br>
+              <br>
+              &nbsp; &nbsp; &lt;div class="navBar floatRight"&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="#link" class="headerItem currentPage"&gt;Cart&lt;/a&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="#link" class="headerItem currentPage"&gt;Account&lt;/a&gt; <br>
+              &nbsp; &nbsp; &lt;/div&gt; <br>
+            &lt;/nav&gt; <br>
+          </code>
 
           <h4>Rendered Element:</h4>
+          <header class="darkHeaderTheme">
+            <nav class="headerContainer">
+              <!-- Brand logo image -->
+              <div class="brandLogo headerItem floatLeft">
+                <a href="">R T C</a>
+                <!-- ^^ replace above with img -->
+                <!-- <img src="img/" alt="a light version of brand logo"> -->
+              </div>
+
+              <!-- Site navigation tabs -->
+              <div class="navBar floatLeft">
+                <a href="./websitePages/home.html" class="headerItem currentPage">Home</a>
+                <a href="./websitePages/shop.html" class="headerItem">Shop</a>
+                <a href="./websitePages/news.html" class="headerItem">News</a>
+                <a href="./websitePages/forums.html" class="headerItem">Forums</a>
+                <a href="./websitePages/about.html" class="headerItem">About</a>
+              </div>
+              <!-- Site navigation tabs end here -->
+
+              <!-- Account menus -->
+              <div class="navBar floatRight">
+                <a href="accountCart.html" class="headerItem">Cart</a>
+                <span class="headerItem lineDivid lightLine"></span>
+                <a href="accountProfile.html" class="headerItem">Account</a>
+              </div>
+              <!-- Account menus end here -->
+            </nav>
+          </header>
         </div>
         <!-- Main Navigation Header end here -->
 

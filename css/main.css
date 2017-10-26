@@ -165,7 +165,16 @@ code {
   border-left-width: thick;
 }
 
-.sideBody section .headerItem {
+.sideBody section header {
+	position: inherit;
+	padding: 0;
+}
+
+.sideBody section .headerContainer {
+	background: rgba(0, 0, 0, 0.9);
+}
+
+.sideBody section a.headerItemSingle {
 	text-decoration: none;
 	background: rgba(0, 0, 0, 0.9);
 	color: rgba(255, 255, 255, 0.6);
@@ -174,7 +183,7 @@ code {
 	font-weight: 500;
 }
 
-.sideBody section .headerItem:hover, .sideBody section .headerItem:focus {
+.sideBody section a.headerItemSingle:hover, .sideBody section a.headerItemSingle:focus {
 	color: rgba(255, 255, 255, 1);
 }
 
