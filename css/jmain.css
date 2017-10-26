@@ -289,7 +289,7 @@ div.scrollDiv {
   transition: background-color  0.5s ease;
 }
 
-a.badNotify {
+a.alertNotify {
   color: #fc6a20;
 }
 /*---------------------------------------------Account Notification Design END*/
@@ -310,12 +310,6 @@ a.badNotify {
   flex: 4;
 }
 
-.purchaseHistoryStatusItem {
-  flex: 1;
-  border-left-style: solid;
-  border-width: thin;
-}
-
 .purchaseHistoryDate {
   margin: 0em 1.5em;
   margin-left: 0em;
@@ -326,10 +320,20 @@ a.badNotify {
 }
 
 .purchaseHistoryStatus {
-  text-align: center;
-  margin-top: 0em;
-  margin-left: 1.5em;
+  margin: 0em 1.5em;
+  margin-left: 0em;
+}
+
+.purchaseHistoryArriving {
   color: #486da8;
+}
+
+.purchaseHistoryArrivedOrCancelled {
+  color: #fc6a20;
+}
+
+.purchaseHistoryArrivalMarginTop {
+  margin-top: 2em;
 }
 
 
