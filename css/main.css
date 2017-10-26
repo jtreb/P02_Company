@@ -194,6 +194,14 @@ code {
 .bullettedList li{
 	list-style: disc;
 }
+
+.sideBody section footer {
+	background: #020309;
+}
+
+.sideBody section footer h3 {
+	color: #FFF;
+}
 /*style guide styling end here */
 
 
