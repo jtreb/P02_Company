@@ -145,7 +145,10 @@ header a, footer a{
   Header styling end here ////////////////
 */
 
-/*style guide styling*/
+/*
+	style guide styling  /////////////////////////////
+*/
+/*style guide: content body styling*/
 .sideBody section {
 	padding: 0 7em;
 }
@@ -154,6 +157,7 @@ header a, footer a{
 	color: #99CCCC;
 }
 
+/*style guide: sample code styling*/
 code {
 	display: block;
 	line-height: 2em;
@@ -165,6 +169,7 @@ code {
   border-left-width: thick;
 }
 
+/*style guide: extra header styling*/
 .sideBody section header {
 	position: inherit;
 	padding: 0;
@@ -187,14 +192,17 @@ code {
 	color: rgba(255, 255, 255, 1);
 }
 
+/*style guide: extra form input styling*/
 .sideBody section input {
 	width: auto;
 }
 
+/*style guide: extra list styling*/
 .bullettedList li{
 	list-style: disc;
 }
 
+/*style guide: extra footer styling*/
 .sideBody section footer {
 	background: #020309;
 }
@@ -202,7 +210,10 @@ code {
 .sideBody section footer h3 {
 	color: #FFF;
 }
-/*style guide styling end here */
+
+/*
+	style guide styling end here /////////////////////////////
+*/
 
 
 
