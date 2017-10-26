@@ -516,11 +516,11 @@ div.twoGridColumnItem.subjectSide {
 }
 
 /*default link style*/
-.generalLink {
+.inTextLink {
   color: #84D8FF;
 }
 
-.generalLink:active, .generalLink:hover {
+.inTextLink:active, .inTextLink:hover {
   color: #EA9B2C;
 }
 
