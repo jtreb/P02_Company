@@ -15,6 +15,20 @@
   }
 }
 
+/*1232 pixel*/
+@media (max-width: 77em) {
+  /*footer*/
+  .containerWrapper {
+    display: block;
+  }
+
+  .footerContainer .brandLogo {
+    margin: 0;
+  }
+  /*footer end here*/
+}
+
+
 /*768 pixel*/
 @media (max-width: 48em) {
   .sideBody {
