@@ -36,9 +36,9 @@
 
         <!-- Account menus -->
         <div class="navBar floatRight">
-          <a href="accountCart.html" class="headerItem currentPage">Cart</a>
+          <a href="accountCart.html" class="headerItem">Cart</a>
           <span class="lineDivid headerItem"></span>
-          <a href="accountProfile.html" class="headerItem">Account</a>
+          <a href="accountProfile.html" class="headerItem currentPage">Account</a>
         </div>
         <!-- Account menus end here -->
       </nav>
@@ -76,7 +76,7 @@
             <hr class="solidLineDivideAccount">
 
             <div class="accountSideMenu">
-              <a href="accountCart.html" class="accountSideMenuLinks linkHighlight">Cart</a>
+              <a href="accountCart.html" class="accountSideMenuLinks">Cart</a>
             </div>
 
             <div class="accountSideMenu">
@@ -84,7 +84,7 @@
             </div>
 
             <div class="accountSideMenu">
-              <a href="accountRedeemCode.html" class="accountSideMenuLinks">Redeem Code</a>
+              <a href="accountRedeemCode.html" class="accountSideMenuLinks linkHighlight">Redeem Code</a>
             </div>
 
             <hr class="solidLineDivideAccount">
@@ -100,62 +100,16 @@
 
             <!-- top right content -->
             <div class="accountRightSideItemTopContainer">
-              <h2 class="accountMenuTitles leftAlignTextOnly ">Purchasing</h2>
-              <a href="accountCartStepThree.html" class="accountPosButtonItem">Finish</a>
-              <a href="accountCart.html" class="accountNegButtonItem">Back</a>
+              <h2 class="accountMenuTitles leftAlignTextOnly">Redeem Code</h2>
+              <a href="accountRedeemCode.html" class="accountPosButtonItem">Try Again</a>
+              <a href="home.html" class="accountNegButtonItem">Back to Home</a>
             </div>
 
             <!-- bottom right content -->
-            <div class="accountRightSideItemBottomContainer">
-              <form class="formContainer centerColumnFormForAccount" method="purchasingForms">
-
-                <!-- Name for Credit Card -->
-                <div class="formItemContainer">
-                  <label for="creditFullName" class="profileTitles">First and Last Name:</label>
-                </div>
-                <div class="formItemContainer">
-                  <input type="text" class="formItemItems" id="creditFirstName" placeholder="JANE">
-                  <input type="text" class="formItemItems" id="creditLastName" placeholder="DOE">
-                </div>
-
-                <!-- Card Number Forms -->
-                <div class="formItemContainer">
-                  <label for="creditNumber" class="profileTitles">Card Number:</label>
-                </div>
-                <div class="formItemContainer">
-                  <input type="text" class="formItemItems" id="creditNumber1" placeholder="XXXX">
-                  <input type="text" class="formItemItems" id="creditNumber2" placeholder="XXXX">
-                  <input type="text" class="formItemItems" id="creditNumber3" placeholder="XXXX">
-                  <input type="text" class="formItemItems" id="creditNumber4" placeholder="XXXX">
-                </div>
-
-                <!-- CVV Forms -->
-                <div class="formItemContainer">
-                  <label for="creditCVV" class="profileTitles">CVV:</label>
-                </div>
-                <div class="formItemContainer">
-                  <input type="text" class="formItemItems" id="creditCVV1" placeholder="XXXX">
-                  <input type="text" class="formItemItems" id="creditCVV2" placeholder="XXXX">
-                </div>
-
-                <!-- Expiry Date Forms -->
-                <div class="formItemContainer">
-                  <label for="creditExpire" class="profileTitles">Expiry Date:</label>
-                </div>
-                <div class="formItemContainer">
-                  <input type="text" class="formItemItems" id="creditExpireMonth" placeholder="MONTH [XX]">
-                  <input type="text" class="formItemItems" id="creditExpireYear" placeholder="YEAR [XX]">
-                </div>
-
-                <!-- Zip Code Forms -->
-                <div class="formItemContainer">
-                  <label for="creditZip" class="profileTitles">Zip Code:</label>
-                </div>
-                <div class="formItemContainer">
-                  <input type="text" class="formItemItems" id="creditZip" placeholder="XXX XXX">
-                </div>
-
-              </form>
+            <div class="accountRightSideItemBottomContainerPurchase3">
+              <p class="purchaseMessage">Hey! Are you sure you typed the code correctly?</p>
+              <p class="purchaseMessage">We checked on our side and that code is either typed in wrong, unverified or it does not exist.</p>
+              <p class="purchaseMessage">Please try again or ask the source of that code!</p>
             </div>
           </div>
           <!-- account right side content END-->

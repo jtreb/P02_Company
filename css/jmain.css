@@ -30,11 +30,6 @@ a.newPostButton {
   padding: 1.5em;
   background-color: white;
   margin: 1em 0;
-  transition: background-color  0.5s ease;
-}
-
-.forumPostBoxes:hover {
-  background-color: #ffd9bf;
 }
 
 a.forumPostTitle {
@@ -79,7 +74,7 @@ a.accountSideMenuLinks {
 }
 
 a.accountSideMenuLinks:hover {
-  color: #61C9f9;
+  color: #EA9B2C;
 }
 
 a.linkHighlight {
@@ -152,11 +147,10 @@ a.linkHighlight {
   padding: 0.7em 1em;
 }
 
-div.scrollCart {
+div.scrollDiv {
   margin: auto;
   max-width: 100%;
-  max-height: 40vh;
-  background: #99CCCC;
+  max-height: 65vh;
   overflow: scroll;
   overflow-x: hidden;
 }
@@ -271,11 +265,76 @@ div.scrollCart {
 /*---------------------------------------------Account Forum Posts Design*/
 .accForumPostsCentered {
   margin: 0 10%;
+  width: 100%;
 }
 
 .accForumPostsOutlined {
   border-style: solid;
   border-width: thin;
 }
-
 /*---------------------------------------------Account Forum Posts Design END*/
+
+/*---------------------------------------------Account Notification Design*/
+.flexflowRow {
+  flex-flow: row;
+}
+
+.notifyItemColumns {
+  flex: 1;
+  margin: 0em 2em;
+}
+
+.notifyLeftRightMargins {
+  margin: 1em 1em;
+  transition: background-color  0.5s ease;
+}
+
+a.alertNotify {
+  color: #fc6a20;
+}
+/*---------------------------------------------Account Notification Design END*/
+
+/*---------------------------------------------Account Purchase History Design*/
+.purchaseHistoryContainer {
+  display: flex;
+  width: 100%;
+}
+
+.purchaseHistoryDateItem {
+  flex: 1;
+  border-right-style: solid;
+  border-width: thin;
+}
+
+.purchaseHistoryProductsItem {
+  flex: 4;
+}
+
+.purchaseHistoryDate {
+  margin: 0em 1.5em;
+  margin-left: 0em;
+}
+
+.purchaseHistoryProducts {
+  margin: 0em 1.5em;
+}
+
+.purchaseHistoryStatus {
+  margin: 0em 1.5em;
+  margin-left: 0em;
+}
+
+.purchaseHistoryArriving {
+  color: #486da8;
+}
+
+.purchaseHistoryArrivedOrCancelled {
+  color: #fc6a20;
+}
+
+.purchaseHistoryArrivalMarginTop {
+  margin-top: 2em;
+}
+
+
+/*---------------------------------------------Account Purchase History Design END*/
