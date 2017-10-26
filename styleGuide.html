@@ -94,12 +94,15 @@
           <h3>In-Text Link</h3>
 
           <h4>CSS Selector:</h4>
-          <p><p>
+          <p>.inTextLink<p>
 
           <h4>Sample Code:</h4>
-          <code></code>
+          <code>
+            &lt;a href="#" class="in_text"&gt;in-text Link&lt;/a&gt;
+          </code>
 
           <h4>Rendered Element:</h4>
+          <p>Example of <a href="#" class="inTextLink">in-text Link</a>.</p>
         </div>
         <!-- In-Text Link end here-->
 
@@ -110,12 +113,16 @@
           <h3>Navigation Button</h3>
 
           <h4>CSS Selector:</h4>
-          <p><p>
+          <p>.headerItem<p>
 
           <h4>Sample Code:</h4>
-          <code></code>
+          <code>
+            &lt;a href="#" class="headerItem"&gt;Navigation Button&lt;/a&gt;
+          </code>
 
           <h4>Rendered Element:</h4>
+          <a href="#" class="headerItem">Navigation Button</a>
+
         </div>
         <!-- Navigation Button end here -->
 
@@ -126,12 +133,21 @@
           <h3>Submit and Reset Button</h3>
 
           <h4>CSS Selector:</h4>
-          <p><p>
+          <p>.button
+            <span class="lineDivid"></span>
+            .buttonFill
+            <span class="lineDivid"></span>
+            .buttonUnfill<p>
 
           <h4>Sample Code:</h4>
-          <code></code>
+          <code>
+            &lt;button type="submit" name="submit" class="button buttonFill"&gt;Submit&lt;/button&gt; <br>
+            &lt;button type="reset" name="reset" class="button buttonUnfill"&gt;Reset&lt;/button&gt;
+          </code>
 
           <h4>Rendered Element:</h4>
+          <button type="submit" name="submit" class="button buttonFill">Submit</button>
+          <button type="reset" name="reset" class="button buttonUnfill">Reset</button>
         </div>
         <!-- Submit and Reset Button end here -->
 
@@ -142,12 +158,39 @@
           <h3>Text Input Field and Label</h3>
 
           <h4>CSS Selector:</h4>
-          <p><p>
+          <p>.formItem
+            <span class="lineDivid"></span>
+            input[id]
+            <span class="lineDivid"></span>
+            input[type=text]<p>
 
           <h4>Sample Code:</h4>
-          <code></code>
+          <code>
+            &lt;form method="login" class="formContainer"&gt; <br>
+              &nbsp; &nbsp; &lt;div class="formItem"&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;label for="formUsername"&gt;Username:&lt;/label&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="text" id="formUsername" placeholder="Username"&gt; <br>
+              &nbsp; &nbsp; &lt;/div&gt; <br>
+            <br>
+              &nbsp; &nbsp; &lt;div class="formItem"&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;label for="formPassword"&gt;Password:&lt;/label&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="password" id="formPassword" placeholder="Password"&gt; <br>
+              &nbsp; &nbsp; &lt;/div&gt; <br>
+            &lt;/form&gt;
+          </code>
 
           <h4>Rendered Element:</h4>
+          <form method="contactBrand" class="formContainer">
+            <div class="formItem">
+              <label for="formUsername">Username:</label>
+              <input type="text" id="formUsername" placeholder="Username">
+            </div>
+
+            <div class="formItem">
+              <label for="formPassword">Password:</label>
+              <input type="text" id="formPassword" placeholder="Password">
+            </div>
+          </form>
         </div>
         <!-- Submit and Reset Button end here -->
       </section>
