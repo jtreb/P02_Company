@@ -49,7 +49,7 @@
 }
 
 /*1 flex*/
-.headerContainer, .containerWrapper, .twoGridColumnItem  {
+.headerContainer, .containerWrapper, .twoGridColumnItem, .colItem  {
   flex: 1;
   -ms-flex: 1;
   -moz-flex: 1;
@@ -57,7 +57,7 @@
 }
 
 /* 1 1 flex auto*/
-.containerColumn, .threeColumnGridContainer, .colItem {
+.containerColumn, .threeColumnGridContainer {
   flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   -moz-flex: 1 1 auto;
