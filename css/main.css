@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-	color: #99CCCC;
+	color: #A1C2DB;
 	font-size: 2em;
 }
 
@@ -48,7 +48,7 @@ p {
 
 .buttonUnfill {
 	background-color: #FFF;
-	color: #99CCCC;
+	color: #A1C2DB;
 }
 
 figure {
@@ -154,7 +154,7 @@ header a, footer a{
 }
 
 .sideBody h3 {
-	color: #99CCCC;
+	color: #A1C2DB;
 }
 
 /*style guide: sample code styling*/
@@ -163,9 +163,9 @@ code {
 	line-height: 2em;
 	padding: 1.25em;
   margin-bottom: 1em;
-	background-color: #F8FFF8;
+	background-color: #FDFEFF;
   color: #666;
-  border: 0.1em solid #99CCCC;
+  border: 0.1em solid #A1C2DB;
   border-left-width: thick;
 }
 
@@ -217,17 +217,82 @@ code {
 }
 
 .colItem {
-  background-color: #C0DFD9;
+  background-color: #C1DAE5;
   padding: 1em;
 }
 
 p.colItemName {
   margin: 0;
   padding: 2em;
-  background-color: #99CCCC;
+  background-color: #A1C2DB;
+	color: #FFF;
   text-align: center;
 }
 /*end of style guide: grid structure styling*/
+
+/*style guide: color swatches styling*/
+.colorSwatchBox {
+	margin: -1em -1em 2em;
+}
+
+.colorSwatchItem {
+  background-color: inherit;
+}
+
+p.cw1{
+	background-color: #F7941D;
+}
+
+p.cw2{
+  background-color: #0A4378;
+}
+
+p.cw3{
+  background-color: #A1C2DB;
+}
+
+p.cw4{
+  background-color: #333;
+}
+
+p.cw5{
+  background-color: #666;
+}
+
+p.cw6{
+  background-color: #999;
+}
+
+p.cw7{
+  background-color: #DDD;
+}
+
+p.cw8{
+  background-color: #FFF;
+	border: 1px solid #DDD;
+	color: #333;
+}
+
+p.cw9{
+  background-color: #84D8FF;
+}
+
+p.cw10{
+  background-color: #C1DAE5;
+}
+
+p.cw11{
+  background-color: #020309;
+}
+
+.cw12BG {
+	background-color: #020309;
+}
+
+p.cw12{
+  background: linear-gradient(to top left, rgba(67, 83, 255, 0) 55%, rgba(67, 83, 255, 0.25));
+}
+/*end of color swatches styling*/
 
 /*
 	style guide styling end here /////////////////////////////
@@ -300,7 +365,7 @@ footer {
 }
 
 .darkThemeContent {
-	background: #323B40;
+	background: #333;
 	color: #ADC3CF;
 }
 
@@ -311,12 +376,12 @@ footer {
 
 .lineDivid {
   margin: 20px 10px;
-  border-left: 1px solid #666;
+  border-left: 1px solid #DDD;
   padding: 0;
 }
 
 .lightLine {
-  border-left: 1px solid #CCC;
+  border-left: 1px solid #DDD;
 }
 
 .darkLine {
@@ -395,7 +460,7 @@ footer {
 }
 
 .centerColumnForm {
-	box-shadow: inset 0 2px 0 0 #99CCCC;
+	box-shadow: inset 0 2px 0 0 #A1C2DB;
 	margin: 0 35%;
 	padding-top: 2em;
 }
@@ -411,7 +476,7 @@ input[id], textarea {
 	width: 100%;
 	padding: 1em 3em 1em 1.5em;
 	margin: 0.5em 0em;
-	border: 1px solid #ccc;
+	border: 1px solid #DDD;
 	border-radius: 4px;
 }
 
@@ -510,7 +575,7 @@ h4.subjectTitle {
 
 p.subjectInfo {
 	margin: 0;
-	color: #AAA;
+	color: #999;
 	line-height: 1.7em;
 	font-size: 0.95em;
 }
@@ -521,7 +586,7 @@ p.subSubjectInfo {
 }
 
 p.productList {
-	color: #222;
+	color: #333;
 }
 
 p.productList strong {
