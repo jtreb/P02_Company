@@ -12,17 +12,18 @@
 
   <body>
     <!-- Navigation Bar for the entire P02 -->
-    <div id="sideNavToggle" class="hidden floatRight" aria-hidden="true" aria-controls="sideNavItems">
-      <img src="./img/CompanyLogoTransparent.png" alt="" class="floatLeft">
-      <button class="floatRight">MENU</button>
-    </div>
+    <nav>
+      <div id="sideNavToggle" class="hidden floatRight" aria-hidden="true" aria-controls="sideNavItems">
+        <img src="./img/CompanyLogoTransparent.png" alt="" class="floatLeft">
+        <button class="floatRight">MENU</button>
+      </div>
 
-    <nav id="sideNavItems" class="sideMenu floatLeft">
-      <img src="./img/CompanyLogoWhite.png" alt="">
-
-      <a href="styleGuide.html">Style Guide</a>
-      <a href="citations.html">Citations</a>
-      <a href="websitePages/home.html">Website Pages</a>
+      <div id="sideNavItems" class="sideMenu floatLeft">
+        <img src="./img/CompanyLogoWhite.png" alt="">
+        <a href="styleGuide.html">Style Guide</a>
+        <a href="citations.html">Citations</a>
+        <a href="websitePages/home.html">Website Pages</a>
+      </div>
     </nav>
 
     <section class="sideBody floatRight">
@@ -36,28 +37,53 @@
         <div>
           <h3>General Coding</h3>
           <p>The naming convention must follows: single words must initially be lower case. If there is preceding word, each preceding word must be grammatically capitalized. This applies to all naming conventions such as: ID/class, file/folder names, and variables (exception for "P02_Company" folder name)</p>
-          <code></code>
+          <code>
+            &lt;div id="#single"&gt;&lt;/div&gt; <br>
+            &lt;div class="precedingWordCapitalized"&gt;&lt;/div&gt;
+          </code>
         </div>
         <!-- General Coding end here -->
+
+        <hr class="dotLineDivid">
 
         <!-- General Formatting -->
         <div>
           <h3>General Formatting</h3>
           <p>Every block, section, div, all list types, and every preceding child element must be indented and in a new line.</p>
-          <code></code>
+          <code>
+            &lt;section&gt; <br>
+            &nbsp; &nbsp; &lt;div&gt; <br>
+            &nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;New line for every block, section, div, and list, but exception for paragraph&lt;/p&gt;<br>
+            &nbsp; &nbsp; &lt;/div&gt; <br>
+            &lt;/section&gt;
+          </code>
         </div>
         <!-- General Formatting end here -->
+
+        <hr class="dotLineDivid">
 
         <!-- Commenting -->
         <div>
           <h3>Commenting</h3>
           <p>Comments must describe the purpose of a chunk/block of code. Each comment must indicate where the block of code begins and ends. Only comment when necessary, otherwise it is distracting.</p>
-          <code></code>
+          <code>
+            &lt;!-- Short comment for a section --&gt; <br>
+            &nbsp; &nbsp; &lt;...&gt;<br>
+            &lt;!-- Short comment for a section end here --&gt;
+          </code>
+          <code>
+            &lt;!-- <br>
+            &nbsp; &nbsp; This is an example to demonstrate the purpose of this comment for a chunk/block of code. <br>
+            &nbsp; &nbsp; This is an example to demonstrate the purpose of this comment for a chunk/block of code. <br>
+            --&gt;
+          </code>
         </div>
         <!-- Commenting end here -->
 
       </section>
       <!-- Code syntax section for general name formatting end here -->
+
+      <hr class="solidLineDivid">
 
       <!-- Interactive Elements -->
       <section>
@@ -68,58 +94,109 @@
           <h3>In-Text Link</h3>
 
           <h4>CSS Selector:</h4>
-          <p><p>
+          <p>.inTextLink<p>
 
           <h4>Sample Code:</h4>
-          <code></code>
+          <code>
+            &lt;a href="#" class="in_text"&gt;in-text Link&lt;/a&gt;
+          </code>
 
           <h4>Rendered Element:</h4>
+          <p>Example of <a href="#" class="inTextLink">in-text Link</a>.</p>
         </div>
         <!-- In-Text Link end here-->
+
+        <hr class="dotLineDivid">
 
         <!-- Navigation Button -->
         <div>
           <h3>Navigation Button</h3>
 
           <h4>CSS Selector:</h4>
-          <p><p>
+          <p>.headerItem<p>
 
           <h4>Sample Code:</h4>
-          <code></code>
+          <code>
+            &lt;a href="#" class="headerItem"&gt;Navigation Button&lt;/a&gt;
+          </code>
 
           <h4>Rendered Element:</h4>
+          <a href="#" class="headerItem">Navigation Button</a>
+
         </div>
         <!-- Navigation Button end here -->
+
+        <hr class="dotLineDivid">
 
         <!-- Submit and Reset Button -->
         <div>
           <h3>Submit and Reset Button</h3>
 
           <h4>CSS Selector:</h4>
-          <p><p>
+          <p>.button
+            <span class="lineDivid"></span>
+            .buttonFill
+            <span class="lineDivid"></span>
+            .buttonUnfill<p>
 
           <h4>Sample Code:</h4>
-          <code></code>
+          <code>
+            &lt;button type="submit" name="submit" class="button buttonFill"&gt;Submit&lt;/button&gt; <br>
+            &lt;button type="reset" name="reset" class="button buttonUnfill"&gt;Reset&lt;/button&gt;
+          </code>
 
           <h4>Rendered Element:</h4>
+          <button type="submit" name="submit" class="button buttonFill">Submit</button>
+          <button type="reset" name="reset" class="button buttonUnfill">Reset</button>
         </div>
         <!-- Submit and Reset Button end here -->
+
+        <hr class="dotLineDivid">
 
         <!-- Submit and Reset Button -->
         <div>
           <h3>Text Input Field and Label</h3>
 
           <h4>CSS Selector:</h4>
-          <p><p>
+          <p>.formItem
+            <span class="lineDivid"></span>
+            input[id]
+            <span class="lineDivid"></span>
+            input[type=text]<p>
 
           <h4>Sample Code:</h4>
-          <code></code>
+          <code>
+            &lt;form method="login" class="formContainer"&gt; <br>
+              &nbsp; &nbsp; &lt;div class="formItem"&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;label for="formUsername"&gt;Username:&lt;/label&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="text" id="formUsername" placeholder="Username"&gt; <br>
+              &nbsp; &nbsp; &lt;/div&gt; <br>
+            <br>
+              &nbsp; &nbsp; &lt;div class="formItem"&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;label for="formPassword"&gt;Password:&lt;/label&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="password" id="formPassword" placeholder="Password"&gt; <br>
+              &nbsp; &nbsp; &lt;/div&gt; <br>
+            &lt;/form&gt;
+          </code>
 
           <h4>Rendered Element:</h4>
+          <form method="contactBrand" class="formContainer">
+            <div class="formItem">
+              <label for="formUsername">Username:</label>
+              <input type="text" id="formUsername" placeholder="Username">
+            </div>
+
+            <div class="formItem">
+              <label for="formPassword">Password:</label>
+              <input type="text" id="formPassword" placeholder="Password">
+            </div>
+          </form>
         </div>
         <!-- Submit and Reset Button end here -->
       </section>
       <!-- Interactive Elements end here -->
+
+      <hr class="solidLineDivid">
 
       <!-- Text Styling -->
       <section>
@@ -139,6 +216,8 @@
         </div>
         <!-- Headings end here -->
 
+        <hr class="dotLineDivid">
+
         <!-- Paragraph -->
         <div>
           <h3>Paragraph</h3>
@@ -153,6 +232,8 @@
         </div>
         <!-- Paragraph end here -->
 
+        <hr class="dotLineDivid">
+
         <!-- Bulleted List -->
         <div>
           <h3>Bulleted List</h3>
@@ -166,6 +247,8 @@
           <h4>Rendered Element:</h4>
         </div>
         <!-- Bulleted List end here -->
+
+        <hr class="dotLineDivid">
 
         <!-- Numbered List -->
         <div>
@@ -182,6 +265,8 @@
         <!-- Numbered end here -->
       </section>
       <!-- Text Styling end here -->
+
+      <hr class="solidLineDivid">
 
       <!-- Combined Elements and Templates -->
       <section>
@@ -201,6 +286,8 @@
         </div>
         <!-- Main Navigation Header end here -->
 
+        <hr class="dotLineDivid">
+
         <!-- Main Navigation Footer -->
         <div>
           <h3>Main Navigation Footer</h3>
@@ -214,6 +301,8 @@
           <h4>Rendered Element:</h4>
         </div>
         <!-- Main Navigation end here -->
+
+        <hr class="dotLineDivid">
 
         <!-- Product Listing -->
         <div>
@@ -229,6 +318,8 @@
         </div>
         <!-- Product Listing end here -->
 
+        <hr class="dotLineDivid">
+
         <!-- Grid Structure -->
         <div>
           <h3>Grid Structure</h3>
@@ -242,6 +333,8 @@
           <h4>Rendered Element:</h4>
         </div>
         <!-- Grid Structure end here -->
+
+        <hr class="dotLineDivid">
 
         <!-- Colour Scheme -->
         <div>

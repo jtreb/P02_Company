@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #666;
   background: #020309;
   padding: 0;
@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-	font-size: 2.5em;
+	font-size: 2.3em;
 	margin: 0.5em 0;
 }
 
@@ -28,7 +28,7 @@ h3 {
 
 p {
 	line-height: 2em;
-	font-size: 1.05em;
+	font-size: 1em;
 	font-weight: lighter;
 }
 
@@ -117,12 +117,12 @@ header a, footer a{
 .sideBody {
 	background: white;
 	max-width: 85%;
-	margin-left: 15%;
+	margin-left: 17%;
 }
 
 .sideMenu {
 	background: white;
-	max-width: 15%;
+	max-width: 17%;
 	height: 100vh;
 	position: fixed;
 	left: 0;
@@ -144,6 +144,45 @@ header a, footer a{
 /*
   Header styling end here ////////////////
 */
+
+/*style guide styling*/
+.sideBody section {
+	padding: 0 7em;
+}
+
+.sideBody h3 {
+	color: #99CCCC;
+}
+
+code {
+	display: block;
+	line-height: 2em;
+	padding: 1.25em;
+  margin-bottom: 1em;
+	background-color: #F8FFF8;
+  color: #666;
+  border: 0.1em solid #99CCCC;
+  border-left-width: thick;
+}
+
+.sideBody section .headerItem {
+	text-decoration: none;
+	background: rgba(0, 0, 0, 0.9);
+	color: rgba(255, 255, 255, 0.6);
+	margin: auto 0;
+	padding: 10px 2em;
+	font-weight: 500;
+}
+
+.sideBody section .headerItem:hover, .sideBody section .headerItem:focus {
+	color: rgba(255, 255, 255, 1);
+}
+
+.sideBody section input {
+	width: auto;
+}
+/*style guide styling end here */
+
 
 
 /*
@@ -320,7 +359,7 @@ footer {
 input[id], textarea {
   display: block;
 	width: 100%;
-	padding: 12px 20px;
+	padding: 1em 3em 1em 1.5em;
 	margin: 0.5em 0em;
 	border: 1px solid #ccc;
 	border-radius: 4px;
@@ -447,7 +486,7 @@ p.productList strong {
 
 .solidLineDivid {
 	margin: 3em 0;
-	border-top: 1px solid #333;
+	border-top: 1px solid #999;
 }
 
 .dotLineDivid {
@@ -497,11 +536,11 @@ div.twoGridColumnItem.subjectSide {
 }
 
 /*default link style*/
-.generalLink {
+.inTextLink {
   color: #84D8FF;
 }
 
-.generalLink:active, .generalLink:hover {
+.inTextLink:active, .inTextLink:hover {
   color: #EA9B2C;
 }
 
