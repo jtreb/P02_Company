@@ -154,7 +154,16 @@ header a, footer a{
 	color: #99CCCC;
 }
 
-
+code {
+	display: block;
+	line-height: 2em;
+	padding: 1.25em;
+  margin-bottom: 1em;
+	background-color: #F8FFF8;
+  color: #666;
+  border: 0.1em solid #99CCCC;
+  border-left-width: thick;
+}
 
 /*
   Footer styling ////////////////////////
