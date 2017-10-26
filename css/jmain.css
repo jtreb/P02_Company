@@ -152,11 +152,10 @@ a.linkHighlight {
   padding: 0.7em 1em;
 }
 
-div.scrollCart {
+div.scrollDiv {
   margin: auto;
   max-width: 100%;
-  max-height: 40vh;
-  background: #99CCCC;
+  max-height: 65vh;
   overflow: scroll;
   overflow-x: hidden;
 }
@@ -279,3 +278,25 @@ div.scrollCart {
 }
 
 /*---------------------------------------------Account Forum Posts Design END*/
+
+/*---------------------------------------------Account Notification Design*/
+.flexflowRow {
+  flex-flow: row;
+}
+
+.notifyItemColumns {
+  flex: 1;
+  margin: 0em 2em;
+}
+
+.notifyLeftRightMargins {
+  margin: 1em 1em;
+  transition: background-color  0.5s ease;
+}
+
+a.badNotify {
+  color: #fc6a20;
+}
+
+
+/*---------------------------------------------Account Notification Design END*/
