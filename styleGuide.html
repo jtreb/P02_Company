@@ -489,12 +489,61 @@
           <h3>Product Listing</h3>
 
           <h4>CSS Selector:</h4>
-          <p></p>
+          <p>.threeColumnGridContainer
+            <span class="lineDivid"></span>
+            .threeGridColumnItem
+            <span class="lineDivid"></span>
+            .columnGridImg
+            <span class="lineDivid"></span>
+            .productList
+            <span class="lineDivid"></span>
+            .captionInsideTop
+            <span class="lineDivid"></span>
+            .captionPositionRight</p>
 
           <h4>Sample Code:</h4>
-          <code></code>
+          <code>
+            &lt;div class="threeColumnGridContainer"&gt; <br>
+              &nbsp; &nbsp; &lt;div class="threeGridColumnItem"&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;figure class="captionInsideTop captionPositionRight"&gt; <br>
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;figcaption>product offers and deals&lt;/figcaption&gt; <br>
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;img class="columnGridImg" src="img/image location" alt="image description"&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;/figure&gt; <br>
+                <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;h4 class="subjectTitle productList"&gt;Product Name&lt;/h4&gt; <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="subjectInfo productList"&gt; &lt;strong&gt; &#36;old product price&lt;/strong&gt; &amp;nbsp; &#36;new product price&lt;/p&gt; <br>
+            &lt;/div>
+          </code>
 
           <h4>Rendered Element:</h4>
+          <div class="threeColumnGridContainer">
+            <!-- 1 -->
+            <div class="threeGridColumnItem">
+              <figure>
+                <img class="columnGridImg" src="./img/iceCreamOctopusPlush.jpg" alt="">
+              </figure>
+              <h4 class="subjectTitle productList">Ice cream Octopus</h4>
+              <p class="subjectInfo productList">&#36;25.00</p>
+            </div>
+            <!-- 2 -->
+            <div class="threeGridColumnItem">
+              <figure class="captionInsideTop">
+                <figcaption>LIMITED</figcaption>
+                <img class="columnGridImg" src="./img/redRealisticSquidPlush.jpg" alt="">
+              </figure>
+              <h4 class="subjectTitle productList">Giant Squid</h4>
+              <p class="subjectInfo productList">&#36;35.00</p>
+            </div>
+            <!-- 3 -->
+            <div class="threeGridColumnItem">
+              <figure class="captionInsideTop captionPositionRight">
+                <figcaption>40% OFF</figcaption>
+                <img class="columnGridImg" src="./img/threeTopHatOctopusPlush.jpg" alt="">
+              </figure>
+              <h4 class="subjectTitle productList">Top Hat Mustache Octopus Bundle</h4>
+              <p class="subjectInfo productList"><strong>&#36;50.00</strong> &nbsp; &#36;30.00</p>
+            </div>
+          </div>
         </div>
         <!-- Product Listing end here -->
 
