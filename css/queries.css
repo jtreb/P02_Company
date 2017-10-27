@@ -151,6 +151,18 @@
   /*ipad size style guide media query end here*/
 }
 
+/*770 pixel*/
+.accountSideMenu {
+    font-size: 1.2em;
+    text-decoration: none;
+    padding-top: 3em;
+    margin-bottom: 3em;
+}
+
+/*770 pixel end here*/
+
+
+
 /*768 pixel - ipad size*/
 @media (max-width: 48em) {
   /*header hamburgerMenu*/

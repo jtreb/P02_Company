@@ -850,6 +850,10 @@ a.linkHighlight {
   margin: 0em 2em;
 }
 
+.accountRightSideItemBottomContainer.flexflowRow {
+	display: block;
+}
+
 .centerColumnFormForAccount {
   margin: 0 25%;
 }
@@ -917,6 +921,14 @@ a.linkHighlight {
 
 .marginLeftAndRight {
 	margin: 0em 2em;
+}
+
+.threeColumnGridContainer h4.subjectTitle, .threeColumnGridContainer p.subjectInfo {
+	padding: 0em 1em;
+}
+
+.threeGridColumnItem {
+	padding-bottom: 1em;
 }
 
 /*---------------------------------------------Account Right Side Cart cart and all Account Design END*/
