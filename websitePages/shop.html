@@ -16,31 +16,29 @@
   <body>
     <!-- Header -->
     <header class="darkHeaderTheme">
-      <nav class="headerContainer">
+      <nav id="topHeader" class="headerContainer">
+      <!-- <nav class="topnav" id="myTopnav"> -->
         <!-- Brand logo image -->
-        <div class="brandLogo headerItem floatLeft">
-          <a href="">R T C</a>
-          <!-- ^^ replace above with img -->
-          <!-- <img src="img/" alt="a light version of brand logo"> -->
-        </div>
+        <a href="home.html"><img src="../img/CompanyLogoTransparent.png" alt="" class="brandLogo"></a>
 
         <!-- Site navigation tabs -->
-        <div class="navBar floatLeft">
-          <a href="home.html" class="headerItem">Home</a>
-          <a href="shop.html" class="headerItem currentPage">Shop</a>
-          <a href="news.html" class="headerItem">News</a>
-          <a href="forums.html" class="headerItem">Forums</a>
-          <a href="about.html" class="headerItem">About</a>
-        </div>
+        <a href="home.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="news.html">News</a>
+        <a href="forums.html">Forums</a>
+        <a href="about.html" class="currentPage">About</a>
         <!-- Site navigation tabs end here -->
 
         <!-- Account menus -->
-        <div class="navBar floatRight">
-          <a href="accountCart.html" class="headerItem">Cart</a>
-          <span class="headerItem lineDivid lightLine"></span>
-          <a href="accountProfile.html" class="headerItem">Account</a>
-        </div>
+        <a href="accountProfile.html" class="account">Account</a>
+        <a class="account hide">|</a>
+        <!-- <span class="headerItem lineDivid lightLine"></span> -->
+        <a href="accountCart.html" class="account">Cart</a>
         <!-- Account menus end here -->
+
+        <!-- Hamburger menu -->
+        <a href="javascript:void(0);" id="hamburgerMenu" aria-hidden="true" aria-controls="responsive">Menu &#9776;</a>
+        <!-- Hamburger menu end here-->
       </nav>
     </header>
     <!-- Header end here -->
@@ -307,6 +305,8 @@
     <!-- linking scrollColor jQuery to file -->
     <script type="text/javascript" src="../js/main.js"></script>
 
+    <script src="../js/hamburger.js"></script>
+    
   </body>
 
 
