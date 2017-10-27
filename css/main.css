@@ -618,11 +618,13 @@ p.subjectInfo {
 	color: #999;
 	line-height: 1.7em;
 	font-size: 0.95em;
+	text-align: left;
 }
 
 p.subSubjectInfo {
 	font-size: 0.8em;
 	color: #BBB;
+	text-align: left;
 }
 
 p.productList {
