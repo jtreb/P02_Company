@@ -67,17 +67,17 @@
             <hr class="solidLineDivid shortLineTwentyPercent">
           </div>
 
-          <form class="formContainer" method="search">
+          <form class="formContainer" method="search" id="searchInput">
             <div class="formItem centerAlign">
-              <input type="search" placeholder="Search...">
-              <button type="search" class="button buttonFill">Search</button>
+              <input type="search" placeholder="Try: octopus | squid | nautilus | cuttlefish | all">
+              <button type="search" id="searchButton" class="button buttonFill" >Search</button>
             </div>
           </form>
 
           <div class="productListings">
             <div class="threeColumnGridContainer">
               <!-- 1 -->
-              <div class="threeGridColumnItem">
+              <div class="threeGridColumnItem filterProduct octopus">
                 <a href="productDetailOne.html">
                   <figure class="captionInsideTop">
                     <figcaption>LIMITED</figcaption>
@@ -88,7 +88,7 @@
                 </a>
               </div>
               <!-- 2 -->
-              <div class="threeGridColumnItem">
+              <div class="threeGridColumnItem filterProduct squid">
                 <a href="productDetailTwo.html">
                   <figure class="captionInsideTop">
                     <figcaption>LIMITED</figcaption>
@@ -99,7 +99,7 @@
                 </a>
               </div>
               <!-- 3 -->
-              <div class="threeGridColumnItem">
+              <div class="threeGridColumnItem filterProduct octopus">
                 <a href="productDetailOne.html">
                   <figure class="captionInsideTop">
                     <figcaption>LIMITED</figcaption>
@@ -110,7 +110,7 @@
                 </a>
               </div>
               <!-- 4 -->
-              <div class="threeGridColumnItem">
+              <div class="threeGridColumnItem filterProduct octopus">
                 <a href="productDetailOne.html">
                   <figure>
                     <img class="columnGridImg" src="../img/brownFuzzyOctopusPlush.jpg" alt="A light brown soft-looking octopus with long and thin tentacles">
@@ -120,7 +120,7 @@
                 </a>
               </div>
               <!-- 5 -->
-              <div class="threeGridColumnItem">
+              <div class="threeGridColumnItem filterProduct cuttlefish">
                 <a href="productDetailOne.html">
                   <figure>
                     <img class="columnGridImg" src="../img/yellowKnittedCuttlefishPlush.jpg" alt="A yellow knitted cuttlefish plush">
@@ -130,7 +130,7 @@
                 </a>
               </div>
               <!-- 6 -->
-              <div class="threeGridColumnItem">
+              <div class="threeGridColumnItem filterProduct squid">
                 <a href="productDetailOne.html">
                   <figure>
                     <img class="columnGridImg" src="../img/pinkVampireSquidPlush.jpg" alt="A mainly pink Vampire Squid plush">
@@ -140,7 +140,7 @@
                 </a>
               </div>
               <!-- 7 -->
-              <div class="threeGridColumnItem">
+              <div class="threeGridColumnItem filterProduct octopus">
                 <a href="productDetailOne.html">
                   <figure>
                     <img class="columnGridImg" src="../img/tallBlueOctopusPlush.jpg" alt="A tall dark purple octopus plush with four blue spots on its head">
@@ -150,7 +150,7 @@
                 </a>
               </div>
               <!-- 8 -->
-              <div class="threeGridColumnItem">
+              <div class="threeGridColumnItem filterProduct octopus">
                 <a href="productDetailTwo.html">
                   <figure>
                     <img class="columnGridImg" src="../img/blueRibbonedOctopusPlush.jpg" alt="A light blue octopus plush with a really light blue ribbon on its head">
@@ -160,7 +160,7 @@
                 </a>
               </div>
               <!-- 9 -->
-              <div class="threeGridColumnItem">
+              <div class="threeGridColumnItem filterProduct octopus">
                 <a href="productDetailTwo.html">
                   <figure>
                     <img class="columnGridImg" src="../img/grumpyRedOctopusPlush.jpg" alt="A red octopus plush with a large head and a grumpy expression">
@@ -170,7 +170,7 @@
                 </a>
               </div>
               <!-- 10 -->
-              <div class="threeGridColumnItem">
+              <div class="threeGridColumnItem filterProduct octopus">
                 <a href="productDetailTwo.html">
                   <figure>
                     <img class="columnGridImg" src="../img/iceCreamOctopusPlush.jpg" alt="A large blue octopus plush doing a cute expression with an ice cream cone on the side of its head, with a smaller version of it on top of its head beside the ice cream cone">
@@ -180,7 +180,7 @@
                 </a>
               </div>
               <!-- 11 -->
-              <div class="threeGridColumnItem">
+              <div class="threeGridColumnItem filterProduct nautilus">
                 <a href="productDetailTwo.html">
                   <figure>
                     <img class="columnGridImg" src="../img/fuzzyNautilusPlush.jpg" alt="A yellow nautilus plush with a striped shell interchanging between brown and light brown">
@@ -190,7 +190,7 @@
                 </a>
               </div>
               <!-- 12 -->
-              <div class="threeGridColumnItem">
+              <div class="threeGridColumnItem filterProduct octopus">
                 <a href="productDetailTwo.html">
                   <figure class="captionInsideTop">
                     <figcaption>SALE</figcaption>
@@ -201,7 +201,7 @@
                 </a>
               </div>
               <!-- 13 -->
-              <div class="threeGridColumnItem">
+              <div class="threeGridColumnItem filterProduct octopus">
                 <a href="productDetailTwo.html">
                   <figure class="captionInsideTop">
                     <figcaption>SALE</figcaption>
@@ -212,7 +212,7 @@
                 </a>
               </div>
               <!-- 14 -->
-              <div class="threeGridColumnItem">
+              <div class="threeGridColumnItem filterProduct octopus">
                 <a href="productDetailTwo.html">
                   <figure>
                     <img class="columnGridImg" src="../img/gridMultipleChibiOctopusPlush.jpg" alt="Multiple octopus plushes each wearing various costumes, all of which the plushes are placed a grid layout">
@@ -222,7 +222,7 @@
                 </a>
               </div>
               <!-- 15 -->
-              <div class="threeGridColumnItem">
+              <div class="threeGridColumnItem filterProduct octopus">
                 <a href="productDetailTwo.html">
                   <figure class="captionInsideTop captionPositionRight">
                     <figcaption>40% OFF</figcaption>
@@ -233,7 +233,7 @@
                 </a>
               </div>
               <!-- 16 -->
-              <div class="threeGridColumnItem">
+              <div class="threeGridColumnItem filterProduct octopus">
                 <a href="productDetailOne.html">
                   <figure class="captionInsideTop captionPositionRight">
                     <figcaption>40% OFF</figcaption>
@@ -244,7 +244,7 @@
                 </a>
               </div>
               <!-- 17 -->
-              <div class="threeGridColumnItem">
+              <div class="threeGridColumnItem filterProduct octopus">
                 <a href="productDetailOne.html">
                   <figure class="captionInsideTop captionPositionRight">
                     <figcaption>40% OFF</figcaption>
@@ -255,7 +255,7 @@
                 </a>
               </div>
               <!-- 18 -->
-              <div class="threeGridColumnItem">
+              <div class="threeGridColumnItem filterProduct squid">
                 <a href="productDetailOne.html">
                   <figure class="captionInsideTop captionPositionRight">
                     <figcaption>40% OFF</figcaption>

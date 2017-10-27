@@ -1027,3 +1027,15 @@ a.alertNotify, .purchaseHistoryArrivedOrCancelled {
 }
 
 /*---------------------------------------------Account Purchase History Design END*/
+
+
+
+/*filtering products*/
+.filterProduct {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+/*filtering products end here */
