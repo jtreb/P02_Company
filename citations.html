@@ -22,14 +22,25 @@
       <div id="sideNavItems" class="sideMenu floatLeft">
         <img src="./img/CompanyLogoWhite.png" alt="">
         <a href="styleGuide.html">Style Guide</a>
-        <a href="citations.html">Citations</a>
+          <!-- sub-menu of style guide -->
+            <a href="styleGuide.html#codeSyntax" class="subMenu">Code Syntax</a>
+            <a href="styleGuide.html#interactiveElements" class="subMenu">Interactive Elements</a>
+            <a href="styleGuide.html#textStyling" class="subMenu">Text Styling</a>
+            <a href="#combinedElements" class="subMenu">Combined Elements</a>
+          <!-- sub-menu of style guide end here -->
+        <a href="citations.html" class="currentPage">Citations</a>
+          <!-- sub-menu of citations -->
+            <a href="citations.html#codeCite" class="subMenu">Code</a>
+            <a href="citations.html#imgCite" class="subMenu">Images</a>
+            <a href="citations.html#otherCite" class="subMenu">Others</a>
+          <!-- sub-menu of citations end here -->
         <a href="websitePages/home.html">Website Pages</a>
       </div>
     </nav>
 
     <section class="sideBody floatRight">
       <!-- HTML, CSS, JS, and JQuery -->
-      <section>
+      <section id="codeCite">
         <h1>P02: Citations</h1>
 
         <h2>HTML, CSS, JS, and JQuery</h2>
@@ -166,7 +177,7 @@
       <hr class="solidLineDivid">
 
       <!-- Image citations -->
-      <section>
+      <section id="imgCite">
         <h2>Images</h2>
 
         <ul>
@@ -345,9 +356,9 @@
       <!-- Image citations end here -->
 
       <hr class="solidLineDivid">
-      
+
       <!-- Other citations: Content, Design Inspirations, References from how real websites work-->
-      <section>
+      <section id="otherCite">
         <h2>Other (Content, Design Inspirations, References from how real websites work)</h2>
 
         <ul>
