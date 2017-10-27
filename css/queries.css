@@ -140,6 +140,14 @@
     max-width: 42%;
   }
 
+  .oneColumnContent {
+    margin: 0;
+  }
+
+  .centerColumnForm {
+    margin: 0;
+  }
+
   /*ipad size style guide media query end here*/
 }
 
@@ -181,9 +189,24 @@
     float: none;
     display: flex;
   }
-/*
-  #mainNavItems {
-    display: none;
-  }*/
-  /*header end here*/
+
+  /*carousel*/
+  .fullImageContainer {
+    width: auto;
+    height: 30vh;
+  }
+
+  /*body content*/
+  .centerContent {
+    padding: 1em 0;
+    margin: 0 2%;
+  }
+
+  .threeGridColumnItem {
+    max-width: 100%;
+  }
+
+  .lightButtonOnImg {
+    padding: 0.5em 1em;
+  }
 }
