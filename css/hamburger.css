@@ -2,14 +2,15 @@
 	display: inline-block;
   text-decoration: none;
   width: 100%;
-	padding: 1.5em 1em;
+  padding: 1.5em 1em;
+  margin-bottom: -0.05em;
   background: #DDD;
   color: #666;
   border-style: solid;
   border-width: thin 0;
-  border-color: #DDD;
+  border-color: #CCC;
   transition: background-color 0.5s;
-	visibility: visible;
+  visibility: visible;
 }
 
 #sideNavToggle img {

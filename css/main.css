@@ -185,7 +185,7 @@ code {
 /*style guide: extra header styling*/
 .sideBody section header {
 	position: inherit;
-	padding: 0;
+	background: rgba(0, 0, 0, 0.9);
 }
 
 .sideBody section .headerContainer {
