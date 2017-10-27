@@ -35,7 +35,6 @@ p {
 .button {
 	border: 1px solid #A1C2DB;
   padding: 1em 3em;
-  border-radius: 0.5em;
 	text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -46,9 +45,20 @@ p {
 	color: #FFF;
 }
 
+.buttonFill:hover, .buttonFill:focus {
+	background-color: #0A4378;
+	transition: background-color 0.5s ease;
+}
+
 .buttonUnfill {
 	background-color: #FFF;
 	color: #A1C2DB;
+}
+
+.buttonUnfill:hover, .buttonUnfill:focus {
+	background-color: #F7941D;
+	color: #FFF;
+	transition: background-color 0.5s ease;
 }
 
 figure {
@@ -494,7 +504,6 @@ footer a{
 	margin: 1em 15%;
 }
 
-
 /*form styling*/
 .formContainer {
 }
@@ -517,11 +526,9 @@ input[id], textarea {
 	padding: 1em 3em 1em 1.5em;
 	margin: 0.5em 0em;
 	border: 1px solid #DDD;
-	border-radius: 4px;
 }
 
 input[type=search] {
-	border-radius: 0.5em;
 	/*margin-right: 1.5em;*/
 	padding: 1em 3em 1em 1.5em;
 	border: 1px solid #DDD;
@@ -544,6 +551,7 @@ input[type=search] {
 
 .carouselButton:hover, .carouselButton:focus {
 	opacity: 1;
+	color: #84D8FF;
 	outline: none;
 }
 
@@ -577,6 +585,11 @@ h3.leftAlignText {
 	left: 50%;
 	transform: translate(-50%, -99%);
 	padding: 1.25em 4em;
+}
+
+.lightButtonOnImg:hover, .lightButtonOnImg:focus {
+	color: #FFF;
+	transition: color 0.5s ease;
 }
 
  /*
@@ -656,6 +669,12 @@ p.productList strong {
 	margin-bottom: 2.5em;
 }
 
+p.rating {
+	color: #F7941D;
+	padding-top: 0.5em;
+	padding-right: 0.5em;
+}
+
 .solidLineDivid {
 	margin: 3em 0;
 	border-top: 1px solid #999;
@@ -665,6 +684,16 @@ p.productList strong {
 	margin: 3em 0;
 	border-top: 1px dotted #DDD;
 	letter-spacing: 5px;
+}
+
+.subjectSide hr.dotLineDivid {
+	margin: 0.75em 0;
+}
+
+a.button.buttonFill.fullLength {
+	width: 100%;
+	margin: 1em 0;
+	padding: 0.75em;
 }
 
 .shortLineTwentyPercent {
