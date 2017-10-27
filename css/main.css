@@ -60,6 +60,10 @@ figure {
 	color: #333;
 }
 
+ul {
+	padding: 0;
+}
+
 ul li {
 	list-style: none;
 	line-height: 2em;
@@ -141,6 +145,20 @@ header .headerContainer a {
 	left: 0;
 	border-right: 1px solid #DDD;
 }
+
+.sideBody ul li {
+	padding-bottom: 1.5em;
+	line-height: normal;
+}
+
+.sideBody ul li a {
+  color: #5375ad;
+}
+
+.sideBody ul li a:active, .sideBody ul li a:hover {
+  color: #EA9B2C;
+}
+
 
 .floatRight {
   float: right;
