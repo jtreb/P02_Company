@@ -71,11 +71,10 @@ function autoShowImage() {
 
 filterSelection('all');
 
-var inputSearch = document.getElementById("searchInput");
-
 if (document.getElementById("searchButton")) {
   document.getElementById("searchButton").addEventListener("click",
   function () {
+    var inputSearch = document.getElementById("searchInput");
     var inputResult = "";
     var i;
     for (i = 0; i < inputSearch.length ;i++) {
