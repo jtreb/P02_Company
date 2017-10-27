@@ -5,47 +5,22 @@ var windowWidth = window.innerWidth;
 
 
 //website pages main navigation bar
-var mainNavToggle = document.querySelector("#mainNavToggle");
-var mainNavItems = document.querySelector("#mainNavItems");
-var mainNavFirstItem = document.querySelector("#mainNavItems a");
-
-if (mainNavToggle != null){
-  if (windowWidth < 593) {
-    console.log("Window width is less than 593px, collapsing main navigation menu");
-
-    mainNavToggle.classList.remove("hidden");
-    mainNavItems.classList.add("hidden");
-
-    mainNavToggle.setAttribute("aria-hidden", "false");
-    mainNavItems.setAttribute("aria-hidden", "true");
-    mainNavItems.setAttribute("aria-labelledby", "mainNavToggle");
-  }
-
-  //object.addEventListener(type, argument);
-  //argument in this case expects a function to run.
-  mainNavToggle.addEventListener("click",
-    function () {
-      console.log("#mainNavToggle has been clicked.");
-
-      if (mainNavItems.classList.contains("hidden")) {
-        console.log("#mainNavItems hidden; showing now");
-
-        mainNavItems.classList.remove("hidden");
-        mainNavItems.setAttribute("aria-hidden", "false");
-        mainNavToggle.setAttribute("aria-expanded", "true");
-
-        mainNavFirstItem.focus();
-      } else {
-        console.log("#mainNavItems hidden; hidden now");
-
-        mainNavItems.classList.add("hidden");
-        mainNavItems.setAttribute("aria-hidden", "true");
-        mainNavToggle.setAttribute("aria-expanded", "false");
-      }
-    }
-  );
+if (document.getElementById("hamburgerMenu")) {
+  document.getElementById("hamburgerMenu").addEventListener("click", function() {
+    toggleHamburgerMenu();
+  });
 }
 
+function toggleHamburgerMenu() {
+  console.log("hi");
+
+  var x = document.getElementById("topHeader");
+  if (x.className === "headerContainer") {
+      x.className += " responsive";
+  } else {
+      x.className = "headerContainer";
+  }
+}
 
 
 
