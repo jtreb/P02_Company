@@ -13,6 +13,18 @@
   visibility: visible;
 }
 
+#sideNavItems a.subMenu {
+	padding: 0.5em;
+	padding-left: 15%;
+	background: #EFEFEF;
+	font-size: 0.8em;
+}
+
+#sideNavItems a.currentPage {
+	background: #A1C2DB;
+	color: #FFF;
+}
+
 #sideNavToggle img {
 	height: 100%;
 	width: auto;
@@ -39,7 +51,7 @@
 
 
 #sideNavToggle:hover, #sideNavToggle:focus {
-  color: #99CCCC;
+  color: #A1C2DB;
 	transition: color 0.5s ease;
 }
 

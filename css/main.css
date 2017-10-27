@@ -164,12 +164,12 @@ header .headerContainer a {
 
 .sideBody ul li a {
   color: #5375ad;
+	word-wrap: break-word;
 }
 
 .sideBody ul li a:active, .sideBody ul li a:hover {
   color: #EA9B2C;
 }
-
 
 .floatRight {
   float: right;
