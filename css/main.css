@@ -72,6 +72,7 @@ figure {
 
 ul {
 	padding: 0;
+	margin: 0;
 }
 
 ul li {
@@ -239,9 +240,14 @@ code {
 }
 
 /*style guide: extra list styling*/
+ul.bullettedList, .bullettedList li, ol.numberedList, .numberedList li {
+	padding-left: 1em;
+}
+
 .bullettedList li{
 	list-style: disc;
 }
+
 
 /*style guide: extra footer styling*/
 .sideBody section footer {
