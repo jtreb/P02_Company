@@ -9,11 +9,11 @@ $(document).ready(function() {
 $(document).ready(function() {
   $(window).scroll(function() {
     if ($ (this).scrollTop() > 0) {
-      $('.darkHeaderTheme').css('background-color','rgba(0,0,0,0.9)');
-      $('.lightHeaderTheme').css('background-color','rgba(255,255,255,0.9)');
+      $('.darkHeaderTheme').css('background-color','rgba(0,0,0,0.95)');
+      $('.lightHeaderTheme').css('background-color','rgba(255,255,255,0.95)');
     } else {
-      $('.darkHeaderTheme').css('background-color','rgba(0,0,0,0)');
-      $('.lightHeaderTheme').css('background-color','rgba(255,255,255,0)');
+      $('.darkHeaderTheme').css('background-color','rgba(0,0,0,0.5)');
+      $('.lightHeaderTheme').css('background-color','rgba(255,255,255,0.5)');
     }
   })
 })
@@ -68,7 +68,7 @@ function autoShowImage() {
 }
 
 
-
+// product selection filter
 filterSelection('all');
 
 if (document.getElementById("searchButton")) {
