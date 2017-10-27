@@ -10,8 +10,8 @@ var mainNavItems = document.querySelector("#mainNavItems");
 var mainNavFirstItem = document.querySelector("#mainNavItems a");
 
 if (mainNavToggle != null){
-  if (windowWidth < 849) {
-    console.log("Window width is less than 849px, collapsing main navigation menu");
+  if (windowWidth < 593) {
+    console.log("Window width is less than 593px, collapsing main navigation menu");
 
     mainNavToggle.classList.remove("hidden");
     mainNavItems.classList.add("hidden");

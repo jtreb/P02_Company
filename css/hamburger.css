@@ -42,10 +42,6 @@
 	transition: color 0.5s ease;
 }
 
-#mainNavToggle {
-	transform: translate(0, -200%);
-}
-
 #mainNavToggle.hidden, #mainNavItems.hidden, #sideNavToggle.hidden, #sideNavItems.hidden {
 	visibility: hidden;
 	display: none;

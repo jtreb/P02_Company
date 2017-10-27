@@ -91,11 +91,22 @@
   /*ipad size style guide media query end here*/
 }
 
-/*592 pixel*/
-@media (max-width: 37em) {
+/*608 pixel*/
+@media (max-width: 38em) {
   /*header*/
-  #mainNavToggle {
-    transform: translate(0, -200%);
+  .navBar span {
+    visibility: hidden;
+    display: none;
   }
+
+  #mainNavToggle {
+    visibility: visible;
+    float: none;
+    display: flex;
+  }
+/*
+  #mainNavItems {
+    display: none;
+  }*/
   /*header end here*/
 }
