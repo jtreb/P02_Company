@@ -124,18 +124,21 @@ header .headerContainer a {
 .brandLogo {
   align-items: center;
 	text-align: center;
-  background: #999;
   padding: 20px;
   height: 55px;
   margin: 7px 10px 0 0;
 }
 
-#topHeader img.brandLogo {
+#topHeader img.brandLogo, footer img {
 	width:auto;
 	height: 50px;
 	padding: 0;
 	margin: -12px 0 0;
 	background: none;
+}
+
+footer .brandLogo a{
+	opacity: 1;
 }
 
 .navBar {
