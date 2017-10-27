@@ -3,7 +3,7 @@
   text-decoration: none;
   width: 100%;
 	padding: 1.5em 1em;
-  background: #E3E5E7;
+  background: #DDD;
   color: #666;
   border-style: solid;
   border-width: thin 0;
@@ -24,7 +24,7 @@
 }
 
 #sideNavItems a:hover, #sideNavItems a:focus {
-  color: #99CCCC;
+  color: #A1C2DB;
   transition: color 0.5s ease;
 }
 
@@ -36,17 +36,22 @@
 	padding: 1em;
 }
 
+
 #sideNavToggle:hover, #sideNavToggle:focus {
   color: #99CCCC;
 	transition: color 0.5s ease;
 }
 
-#sideNavToggle.hidden, #sideNavItems.hidden {
+#mainNavToggle {
+	transform: translate(0, -200%);
+}
+
+#mainNavToggle.hidden, #mainNavItems.hidden, #sideNavToggle.hidden, #sideNavItems.hidden {
 	visibility: hidden;
 	display: none;
 }
 
-#sideNavToggle button {
+#mainNavToggle button	,#sideNavToggle button {
 	border: none;
 	color: #666;
   height: 100%;

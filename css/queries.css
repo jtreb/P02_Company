@@ -1,19 +1,6 @@
 /*
 	media queries /////////////////////////////////
 */
-/*856 pixel*/
-@media (max-width: 53.5em) {
-  .headerContainer {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-  }
-
-  .headerItem {
-    flex: 1;
-    margin: 2em;
-  }
-}
 
 /*1232 pixel*/
 @media (max-width: 77em) {
@@ -26,6 +13,79 @@
     margin: 0;
   }
   /*footer end here*/
+}
+
+/*1184 pixel*/
+@media (max-width: 74em) {
+  /*style guide header*/
+  .sideBody section header {
+    height: 130px;
+  }
+
+  .sideBody section .headerContainer {
+    display: block;
+  }
+
+  .sideBody section .headerContainer div.brandLogo {
+    width: 100%;
+    margin: 1em 0 0;
+  }
+
+  .sideBody section .headerItem {
+    margin: 0.5em;
+  }
+}
+
+/*848 pixel*/
+@media (min-width: 53em) {
+  #mainNavToggle {
+    display: none;
+    transform: translate(0, -200%);
+  }
+
+  #mainNavItems {
+    /*visibility: visible;*/
+  }
+}
+
+
+/*848 pixel*/
+@media (max-width: 53em) {
+  /*header*/
+  header {
+    height: 130px;
+    padding: 0;
+  }
+
+  .navBar {
+    margin:0;
+    float: none;
+    background: black;
+    opacity: 1;
+  }
+
+  .headerItem {
+    margin: -0.05em;
+    display: block;
+    padding-left: 10%;
+  }
+
+  .headerContainer {
+    display: block;
+  }
+
+  .headerContainer div.brandLogo {
+    width: 100%;
+    margin: 1em 0 0;
+  }
+
+  #mainNavItems {
+    padding-top: 70px;
+    background: black;
+    width: 100vw;
+    height: 100%;
+  }
+  /*header end here*/
 }
 
 
@@ -54,4 +114,10 @@
   }
 
   /*ipad size style guide media query end here*/
+}
+
+/*592 pixel*/
+@media (max-width: 37em) {
+  /*header*/
+  /*header end here*/
 }
