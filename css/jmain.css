@@ -1,11 +1,5 @@
 /*---------------------------------------------Forum Posts Section*/
-.forumFormContainer {
-  display: flex;
-}
 
-.forumFormItem {
-  flex: 1;
-}
 
 .forumFormButton {
   border: 1px solid #99CCCC;
@@ -56,7 +50,6 @@ p.forumPostDetail {
 
 /*---------------------------------------------Account Left Side cart and all Account Design*/
 .accountLeftSide {
-  flex: 1;
   background-color: #ffffff;
 }
 
@@ -90,7 +83,6 @@ a.linkHighlight {
 
 /*---------------------------------------------Account Right Side Design*/
 .accountRightSide {
-  flex: 5;
   /*background-color: #ffffff;*/
   border-top: solid;
   border-right: solid;
@@ -99,20 +91,7 @@ a.linkHighlight {
   border-top-right-radius: 3em;
 }
 
-.accountRightSideContainer {
-  display: flex;
-  flex-direction: column;
-}
-
-.accountRightSideItemTopContainer {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-}
-
 .accountRightSideItemBottomContainerPurchase3 {
-  flex-direction: column;
-  flex: 4;
   margin: 0em 2em;
 }
 
@@ -131,10 +110,6 @@ a.linkHighlight {
 	color: #FFF;
 }
 
-.accountRightSideItemBottomContainer {
-  display: flex;
-}
-
 .accountRightBottomItemPositive {
   margin-right: 1em;
 }
@@ -142,8 +117,6 @@ a.linkHighlight {
 }
 
 .accountMenuTitles {
-  flex: 3;
-  justify-content: flex-start;
   padding: 0.7em 1em;
 }
 
@@ -161,8 +134,6 @@ div.scrollDiv {
 
 .accountPosButtonItem, .accountSecondPosButtonItem, .accountNegButtonItem {
   margin: 2.5em 2em;
-  flex: 1;
-  justify-content: flex-end;
   border: 1px solid #A1C2DB;
   padding: 1em 0.5em;
 	text-align: center;
@@ -189,7 +160,6 @@ div.scrollDiv {
 }
 
 .formItemContainer {
-  display: flex;
   margin-top: 1em;
 	width: 100%;
 
@@ -199,7 +169,6 @@ div.scrollDiv {
 
 .formItemsItems {
   margin: 0em 2em;
-  flex: 1 1 auto;
 }
 
 .purchaseMessage {
@@ -209,19 +178,11 @@ div.scrollDiv {
 /*---------------------------------------------Account Right Side Cart cart and all Account Design END*/
 
 /*---------------------------------------------Account Profile Design*/
-.accProfileBottomRightContainer {
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-}
-
 .accProfileBottomRightItemLeft {
   margin-top: 1.3em;
-  flex: 1;
 }
 
 .accProfileBottomRightItemRight {
-  flex: 2;
   margin-right: 3em;
 }
 
@@ -261,12 +222,7 @@ div.scrollDiv {
 /*---------------------------------------------Account Forum Posts Design END*/
 
 /*---------------------------------------------Account Notification Design*/
-.flexflowRow {
-  flex-flow: row;
-}
-
 .notifyItemColumns {
-  flex: 1;
   margin: 0em 2em;
 }
 
@@ -282,18 +238,12 @@ a.alertNotify {
 
 /*---------------------------------------------Account Purchase History Design*/
 .purchaseHistoryContainer {
-  display: flex;
   width: 100%;
 }
 
 .purchaseHistoryDateItem {
-  flex: 1;
   border-right-style: solid;
   border-width: thin;
-}
-
-.purchaseHistoryProductsItem {
-  flex: 4;
 }
 
 .purchaseHistoryDate {

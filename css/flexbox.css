@@ -2,7 +2,7 @@
 /*
   Display flex cross-platform
 */
-.containerWrapper, .containerColumn, .formContainer, .threeColumnGridContainer, .twoColumnGridContainer, .colGrid, .footerNav {
+.containerWrapper, .containerColumn, .formContainer, .threeColumnGridContainer, .twoColumnGridContainer, .colGrid, .footerNav, .forumFormContainer, .accountRightSideContainer, .accountRightSideItemTopContainer, .accountRightSideItemBottomContainer, .formItemContainer, .accProfileBottomRightContainer, .purchaseHistoryContainer {
   display: flex;
   display: -ms-flex;
   display: -moz-flex;
@@ -18,26 +18,42 @@
 }
 
 /*justify-content at flex-start*/
-.containerWrapper, .footerNav {
+.containerWrapper, .footerNav, .accountRightSideItemTopContainer, .accountMenuTitles {
   justify-content: flex-start;
   justify-content: -ms-flex-start;
   justify-content: -moz-flex-start;
-  justify-content: -webkit-flex-start;
+  -webkit-justify-content: flex-start;
 }
 
 /*justify-content at space-around content*/
 .threeColumnGridContainer {
   justify-content: space-around;
   justify-content: -ms-space-around;
-  justify-content: -moz-space-around;
+  -webkit-justify-content: -moz-space-around;
+}
+
+/*justify-content at flex-end*/
+.accountPosButtonItem, .accountSecondPosButtonItem, .accountNegButtonItem {
+  justify-content: flex-end;
+  justify-content: -ms-flex-end;
+  justify-content: -moz-flex-end;
+  -webkit-justify-content: flex-end;
 }
 
 /*flex direction flow column*/
-.containerColumn {
+.containerColumn, .accountRightSideContainer, .accountRightSideItemBottomContainerPurchase3 {
   flex-direction: column;
   -ms-flex-direction: column;
   -moz-flex-direction: column;
   -webkit-flex-direction: column;
+}
+
+/*flex direction flow row*/
+.accountRightSideItemTopContainer, .accProfileBottomRightContainer, .flexflowRow {
+  flex-direction: row;
+  -ms-flex-direction: row;
+  -moz-flex-direction: row;
+  -webkit-flex-direction: row;
 }
 
 /*0 flex auto*/
@@ -49,7 +65,7 @@
 }
 
 /*1 flex*/
-.headerContainer, .containerWrapper, .twoGridColumnItem, .colItem, .footerNav  {
+.headerContainer, .containerWrapper, .twoGridColumnItem, .colItem, .footerNav, .forumFormItem, .accountLeftSide, .accountPosButtonItem, .accountSecondPosButtonItem, .accountNegButtonItem, .accProfileBottomRightContainer, .accProfileBottomRightItemLeft, .notifyItemColumns {
   flex: 1;
   -ms-flex: 1;
   -moz-flex: 1;
@@ -57,11 +73,43 @@
 }
 
 /* 1 1 flex auto*/
-.containerColumn, .threeColumnGridContainer {
+.containerColumn, .threeColumnGridContainer, .formItemsItems {
   flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   -moz-flex: 1 1 auto;
   -webkit-flex: 1 1 auto;
+}
+
+/*2 flex grow*/
+.accProfileBottomRightItemRight  {
+  flex: 2;
+  -ms-flex: 2;
+  -moz-flex: 2;
+  -webkit-flex: 2;
+}
+
+/*3 flex grow*/
+.accountMenuTitles  {
+  flex: 3;
+  -ms-flex: 3;
+  -moz-flex: 3;
+  -webkit-flex: 3;
+}
+
+/*4 flex grow*/
+.accountRightSideItemBottomContainerPurchase3  {
+  flex: 4;
+  -ms-flex: 4;
+  -moz-flex: 4;
+  -webkit-flex: 4;
+}
+
+/*5 flex grow*/
+.accountRightSide {
+  flex: 5;
+  -ms-flex: 5;
+  -moz-flex: 5;
+  -webkit-flex: 5;
 }
 
 /*align-self at flex-start*/
