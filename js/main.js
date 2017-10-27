@@ -73,7 +73,10 @@ filterSelection('all');
 
 if (document.getElementById("searchButton")) {
   document.getElementById("searchButton").addEventListener("click",
-  function () {
+  function (clickEvent) {
+
+    //this is to prevent the clickEvent to actually refresh
+    clickEvent.preventDefault();
     var inputSearch = document.getElementById("searchInput");
     var inputResult = "";
     var i;
