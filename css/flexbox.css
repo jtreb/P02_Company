@@ -65,7 +65,7 @@
 }
 
 /*1 flex*/
-.headerContainer, .containerWrapper, .twoGridColumnItem, .colItem, .footerNav, .forumFormItem, .accountLeftSide, .accountPosButtonItem, .accountSecondPosButtonItem, .accountNegButtonItem, .accProfileBottomRightContainer, .accProfileBottomRightItemLeft, .notifyItemColumns {
+.headerContainer, .containerWrapper, .twoGridColumnItem, .colItem, .footerNav, .forumFormItem, .accountLeftSide, .accountPosButtonItem, .accountSecondPosButtonItem, .accountNegButtonItem, .accProfileBottomRightContainer, .accProfileBottomRightItemLeft, .notifyItemColumns, .purchaseHistoryDateItem {
   flex: 1;
   -ms-flex: 1;
   -moz-flex: 1;
@@ -97,7 +97,7 @@
 }
 
 /*4 flex grow*/
-.accountRightSideItemBottomContainerPurchase3  {
+.accountRightSideItemBottomContainerPurchase3, .purchaseHistoryProductsItem  {
   flex: 4;
   -ms-flex: 4;
   -moz-flex: 4;
