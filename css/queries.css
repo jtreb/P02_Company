@@ -117,6 +117,29 @@
     display: none;
   }
 
+  /*carousel*/
+  .fullImageContainer {
+    width: auto;
+    height: 45vh;
+  }
+
+  /*body content*/
+  .centerContent {
+    padding: 2em 0;
+  }
+
+  .twoColumnGridContainer {
+    display: block;
+  }
+
+  div.twoGridColumnItem.subjectSide {
+    margin: 0;
+  }
+
+  .threeGridColumnItem {
+    max-width: 42%;
+  }
+
   /*ipad size style guide media query end here*/
 }
 
