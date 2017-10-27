@@ -73,20 +73,23 @@ filterSelection('all');
 
 var inputSearch = document.getElementById("searchInput");
 
-document.getElementById("searchButton").addEventListener("click",
-function () {
-  var inputResult = "";
-  var i;
-  for (i = 0; i < inputSearch.length ;i++) {
-      inputResult += inputSearch.elements[i].value;
-  }
-  inputResult = inputResult.toLowerCase();
-  console.log(inputResult);
+if (document.getElementById("searchButton")) {
+  document.getElementById("searchButton").addEventListener("click",
+  function () {
+    var inputResult = "";
+    var i;
+    for (i = 0; i < inputSearch.length ;i++) {
+        inputResult += inputSearch.elements[i].value;
+    }
+    inputResult = inputResult.toLowerCase();
+    console.log(inputResult);
 
-  filterSelection(inputResult);
-});
+    filterSelection(inputResult);
+  });
+}
 
 filterSelection('all')
+
 function filterSelection(c) {
   var x, i;
   x = document.getElementsByClassName("filterProduct");
