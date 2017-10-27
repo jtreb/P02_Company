@@ -859,14 +859,6 @@ a.linkHighlight {
   padding: 0.7em 1em;
 }
 
-div.scrollDiv {
-  margin: auto;
-  max-width: 100%;
-  max-height: 65vh;
-  overflow: scroll;
-  overflow-x: hidden;
-}
-
 .threeColumnGridForAccount {
   margin-top: 1.3em;
 }
@@ -885,8 +877,6 @@ div.scrollDiv {
   padding: 1em 3em;
   display: inline-block;
 }
-
-
 
 .accountSecondPosButtonItem {
   margin-left: 0em;
@@ -921,6 +911,11 @@ div.scrollDiv {
   font-size: 1.4em;
   text-align: left;
 }
+
+.marginLeftAndRight {
+	margin: 0em 2em;
+}
+
 /*---------------------------------------------Account Right Side Cart cart and all Account Design END*/
 
 
@@ -989,6 +984,14 @@ div.scrollDiv {
 
 a.alertNotify, .purchaseHistoryArrivedOrCancelled {
   color: #F7941D;
+}
+
+div.scrollDiv {
+  margin: auto;
+  max-width: 100%;
+  max-height: 65vh;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 /*---------------------------------------------Account Notification Design END*/
 
