@@ -819,7 +819,7 @@ a.accountSideMenuLinks {
 }
 
 a.accountSideMenuLinks:hover {
-  color: ##F7941D;
+  color: #F7941D;
 }
 
 a.linkHighlight {
@@ -936,7 +936,7 @@ a.linkHighlight {
 }
 
 .profileTitles {
-  color: ##A1C2DB;
+  color: #A1C2DB;
   margin-bottom: 0em;
 }
 
@@ -950,7 +950,7 @@ a.linkHighlight {
 .profileBioContent {
   color: #FFF;
   margin-top: 0.5em;
-  font-size: 1;
+  font-size: 1em;
 }
 /*---------------------------------------------Account Profile Design END*/
 
