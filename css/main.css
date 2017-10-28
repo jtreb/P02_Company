@@ -930,6 +930,14 @@ a.linkHighlight {
 	padding-bottom: 1em;
 }
 
+h4.subjectTitle.productList {
+	padding: 0em 1em;
+}
+
+p.subjectInfo.productList {
+	padding: 0em 1.3em;
+}
+
 /*---------------------------------------------Account Right Side Cart cart and all Account Design END*/
 
 
