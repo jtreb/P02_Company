@@ -152,11 +152,21 @@
 }
 
 /*770 pixel*/
-.accountSideMenu {
-    font-size: 1.2em;
-    text-decoration: none;
-    padding-top: 3em;
-    margin-bottom: 3em;
+@media (max-width: 49em ) {
+  .accountSideMenu {
+      font-size: 1.2em;
+      text-decoration: none;
+      padding: 1em 0em;
+      margin: 0em;
+  }
+
+  hr.solidLineDivideAccount {
+    margin: 0em 4em;
+  }
+
+  .accProfileBottomRightItemRight {
+    margin-right: 1em;
+  }
 }
 
 /*770 pixel end here*/
