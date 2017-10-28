@@ -530,12 +530,13 @@ footer a{
 	width: 100%;
 }
 
-input[id], textarea {
+input[id], textarea, select, option {
   display: block;
 	width: 100%;
 	padding: 1em 3em 1em 1.5em;
 	margin: 0.5em 0em;
 	border: 1px solid #DDD;
+	color: #333;
 }
 
 input[type=search] {
@@ -800,6 +801,7 @@ p.forumPostDetail {
   line-height: 1.7em;
   font-size: 0.95em;
 }
+
 /*---------------------------------------------Forum Posts Section End*/
 
 
