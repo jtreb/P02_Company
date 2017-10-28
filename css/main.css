@@ -817,13 +817,13 @@ p.forumPostDetail {
   margin-bottom: 3em;
 }
 
-a.accountSideMenuLinks {
+a.accountSideMenuLinks, li .generalLink {
   color: #333;
   text-decoration: none;
   transition: color  0.2s ease;
 }
 
-a.accountSideMenuLinks:hover {
+a.accountSideMenuLinks:hover, li .generalLink:hover {
   color: #F7941D;
 }
 
@@ -1058,6 +1058,11 @@ div.scrollDiv {
 
 .purchaseHistoryArrivalMarginTop {
   margin-top: 2em;
+}
+
+li .generalLink {
+	display: block;
+	margin: 0em 1em;
 }
 
 /*---------------------------------------------Account Purchase History Design END*/
