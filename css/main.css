@@ -922,8 +922,12 @@ a.linkHighlight {
 	margin: 0em 2em;
 }
 
-.threeColumnGridContainer h4.subjectTitle, .threeColumnGridContainer p.subjectInfo {
+.threeColumnGridContainer h4.subjectTitle {
 	padding: 0em 1em;
+}
+
+.threeColumnGridContainer p.subjectInfo {
+	padding: 0em 1.3em;
 }
 
 .threeGridColumnItem {
