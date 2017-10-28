@@ -546,7 +546,6 @@ input[type=search] {
 	width: 50%;
 }
 
-
 /*carousel styling*/
 .carouselButton {
 	position: absolute;
@@ -936,6 +935,15 @@ h4.subjectTitle.productList {
 
 p.subjectInfo.productList {
 	padding: 0em 1.3em;
+}
+
+.threeColumnGridContainer.marginLeftAndRight div.threeGridColumnItem {
+	padding: 0em;
+}
+
+div[class="threeGridColumnItem"] div[class="formItem"] label {
+	display: block;
+	padding: 1em;
 }
 
 /*---------------------------------------------Account Right Side Cart cart and all Account Design END*/
