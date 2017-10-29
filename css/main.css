@@ -462,6 +462,10 @@ footer a{
 	text-align: right;
 }
 
+.homeContentContainer div.centerContent.centerAlign {
+	padding-top: 0em;
+}
+
 .contentContainer {
 	background: #000e2d;
 	background: linear-gradient(to bottom, #000e2d 70%, #000614);
@@ -482,7 +486,7 @@ footer a{
 }
 
 .carouselSize {
-	height: 50vh;
+	height: 60vh;
 	margin-bottom: 3em;
 }
 
