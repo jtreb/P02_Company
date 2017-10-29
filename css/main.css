@@ -731,11 +731,20 @@ p.productList strong {
   transform: translate(-50%, -50%);
 }
 
+.ratingContainer {
+	width: 100%;
+	text-align: left;
+	padding-left: 1.5em;
+}
 
 p.star {
 	color: #F7941D;
-	padding-top: 0.5em;
+	padding-top: 0;
 	padding-right: 0.5em;
+}
+
+p.star:hover, p.star:focus {
+	opacity: 0.7;
 }
 
 .solidLineDivid {
