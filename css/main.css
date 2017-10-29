@@ -419,7 +419,8 @@ footer a{
 }
 
 .lightThemeContent {
-	background: #FFF;
+	/*background: #FFF;*/
+	background: #DEDEDE;
 }
 
 .darkThemeContent {
@@ -463,9 +464,14 @@ footer a{
 
 .contentContainer {
   background: linear-gradient(to top left, rgba(67, 83, 255, 0) 55%, rgba(67, 83, 255, 0.25));
-	background: linear-gradient(#C1DAE5, #0C0C0C);
-	background: #0C0C0C;
+	background: linear-gradient(#C1DAE5, #2D3037);
+	background: #2D3037;
 	padding-top: 70px;
+}
+
+.contentBody {
+	position: relative;
+	top: -10vh;
 }
 
 .fullImageContainer {
@@ -696,6 +702,19 @@ p.productList strong {
   width: 100%;
   height: 0;
   transition: 0.5s ease;
+}
+
+.overlayImageContainer {
+	position: relative;
+}
+
+.overlayImage {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	background: linear-gradient(to top, #2D3037, rgba(67, 83, 255, 0.5));
+	transition: 0.5s ease;
 }
 
 .overlayCOntainer:hover .itemOverlay {
