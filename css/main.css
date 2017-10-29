@@ -481,6 +481,10 @@ footer a{
 	position: relative;
 }
 
+.carouselSize {
+	height: 50vh;
+}
+
 .fullLengthImage {
 	width: 100%;
 	height: 100%;
