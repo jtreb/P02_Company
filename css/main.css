@@ -463,21 +463,21 @@ footer a{
 }
 
 .contentContainer {
-  background: linear-gradient(to top left, rgba(67, 83, 255, 0) 55%, rgba(67, 83, 255, 0.25));
-	background: linear-gradient(#C1DAE5, #2D3037);
 	background: #2D3037;
+	background: linear-gradient(to top, rgba(45, 48, 55, 0.5);, rgba(67, 83, 255, 0.2));
+	/*background: linear-gradient(to bottom, rgba(67, 83, 255, 0) 55%, rgba(67, 83, 255, 0.25));*/
 	padding-top: 70px;
 }
 
 .contentBody {
 	position: relative;
-	top: -10vh;
+	top: -50vh;
 }
 
 .fullImageContainer {
 	display: block;
   max-width: 100vw;
-  height: 50vh;
+  height: 100vh;
 	position: relative;
 }
 
@@ -497,7 +497,7 @@ footer a{
 
 .centerOnImg {
 	position: absolute;
-	top: 50%;
+	top: 25%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	max-width: 100%;
