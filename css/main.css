@@ -6,7 +6,7 @@
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #666;
-  background: #020309;
+  background: #030511;
   padding: 0;
   margin: 0;
 }
@@ -355,6 +355,7 @@ p.cw12{
 */
 footer {
   padding: 0 2em;
+	background: #020309;
 }
 
 footer a{
