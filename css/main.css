@@ -1091,6 +1091,20 @@ div.scrollDiv {
   border-width: thin;
 }
 
+.purchaseHistoryProductsItem {
+	position: relative;
+}
+
+.purchaseHistoryProductsItem ul {
+	padding-bottom: 4em;
+}
+
+.purchaseHistoryProductsItem a.button.buttonFill {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
 .purchaseHistoryDate {
   margin: 0em 1.5em;
   margin-left: 0em;
