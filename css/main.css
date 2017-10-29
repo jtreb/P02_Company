@@ -419,8 +419,7 @@ footer a{
 }
 
 .lightThemeContent {
-	/*background: #FFF;*/
-	background: #DEDEDE;
+	background: #FFF;
 }
 
 .darkThemeContent {
@@ -467,27 +466,19 @@ footer a{
 }
 
 .contentContainer {
-	background: #000e2d;
-	background: linear-gradient(to bottom, #000e2d 70%, #000614);
-	/*background: linear-gradient(to bottom, rgba(45, 48, 55, 1), rgba(67, 83, 255, 0.2));*/
+	background: linear-gradient(to top left, rgba(67, 83, 255, 0) 55%, rgba(67, 83, 255, 0.25));
 	padding-top: 70px;
-}
-
-.contentBody {
-	position: relative;
-	top: -50vh;
 }
 
 .fullImageContainer {
 	display: block;
   max-width: 100vw;
-  height: 100vh;
+  height: 50vh;
 	position: relative;
 }
 
 .carouselSize {
 	height: 60vh;
-	margin-bottom: 3em;
 }
 
 .fullLengthImage {
@@ -506,7 +497,7 @@ footer a{
 
 .centerOnImg {
 	position: absolute;
-	top: 25%;
+	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	max-width: 100%;
@@ -518,8 +509,8 @@ footer a{
 
 /*center contents styling*/
 .centerContent {
-	margin: 0 15%;
-  padding: 7em 2em;
+	margin: 0 10%;
+  padding: 3em 0;
 }
 
 .fullLengthText {
