@@ -463,6 +463,8 @@ footer a{
 
 .contentContainer {
   background: linear-gradient(to top left, rgba(67, 83, 255, 0) 55%, rgba(67, 83, 255, 0.25));
+	background: linear-gradient(#C1DAE5, #0C0C0C);
+	background: #0C0C0C;
 	padding-top: 70px;
 }
 
@@ -501,8 +503,8 @@ footer a{
 
 /*center contents styling*/
 .centerContent {
-	margin: 0 10%;
-	padding: 7em 0;
+	margin: 0 15%;
+  padding: 7em 2em;
 }
 
 .fullLengthText {
