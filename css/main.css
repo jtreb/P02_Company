@@ -688,7 +688,7 @@ p.productList strong {
 	margin-bottom: 2.5em;
 }
 
-.overlayCOntainer {
+.overlayContainer {
 	position: relative;
 }
 
@@ -718,7 +718,7 @@ p.productList strong {
 	transition: 0.5s ease;
 }
 
-.overlayCOntainer:hover .itemOverlay {
+.overlayContainer:hover .itemOverlay {
   height: 20%;
 }
 
