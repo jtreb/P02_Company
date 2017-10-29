@@ -680,6 +680,36 @@ p.productList strong {
 	margin-bottom: 2.5em;
 }
 
+.overlayCOntainer {
+	position: relative;
+}
+
+.itemOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #A1C2DB;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+}
+
+.overlayCOntainer:hover .itemOverlay {
+  height: 20%;
+}
+
+.overlayItemShow {
+  white-space: nowrap;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
 p.star {
 	color: #F7941D;
 	padding-top: 0.5em;
