@@ -1,8 +1,8 @@
-/*
-	media queries /////////////////////////////////
-*/
+/* Media Queries /*
 
-/*1232 pixel*/
+/*
+------------------------------------------------- screen size at 1232pixel (77em) & above
+*/
 @media (max-width: 77em) {
   /*footer*/
   .containerWrapper {
@@ -14,11 +14,18 @@
   }
   /*footer end here*/
 }
+/*
+------------------------------------------------------------ 1232pixel (77em) & above END
+*/
 
-/*1184 pixel*/
+
+
+
+/*
+------------------------------------------------- screen size at 1184pixel (74em) & above
+*/
 @media (max-width: 74em) {
   /*style guide header*/
-
   .sideBody section .headerContainer {
     display: block;
   }
@@ -48,14 +55,17 @@
   .sideBody section .headerContainer .account.hide {
     display: none;
   }
-
-  /*.headerContainer a.account {
-    display: none;
-  }*/
 }
+/*
+------------------------------------------------------------ 1184pixel (74em) & above END
+*/
 
 
-/*880 pixel*/
+
+
+/*
+-------------------------------------------------- screen size at 880pixel (55em) & above
+*/
 @media (max-width: 55em) {
   /*header*/
   .navBar {
@@ -76,9 +86,17 @@
   }
   /*header end here*/
 }
+/*
+------------------------------------------------------------- 880pixel (55em) & above END
+*/
 
 
-/*768 pixel - ipad size*/
+
+
+/*
+-------------------------------------------------- screen size at 768pixel (48em) & above
+ipad size
+*/
 @media (max-width: 48em) {
   /*header*/
   .headerContainer a:not(:first-child) {
@@ -148,11 +166,7 @@
     margin: 0;
   }
 
-  /*ipad size style guide media query end here*/
-}
-
-/*770 pixel*/
-@media (max-width: 49em ) {
+  /* account */
   .accountSideMenu {
       font-size: 1.2em;
       text-decoration: none;
@@ -168,12 +182,17 @@
     margin-right: 1em;
   }
 }
+/*
+------------------------------------------------------------- 768pixel (48em) & above END
+ipad size style guide media query end here
+*/
 
-/*770 pixel end here*/
 
 
-
-/*768 pixel - ipad size*/
+/*
+-------------------------------------------------- screen size at 768pixel (48em) & above
+ipad size for hamburgerMenu only
+*/
 @media (max-width: 48em) {
   /*header hamburgerMenu*/
   header {
@@ -197,8 +216,16 @@
     display: none;
   }
 }
+/*
+------------------------------------------------------------- 768pixel (48em) & above END
+ipad size for hamburgerMenu only
+*/
 
-/*608 pixel*/
+
+
+/*
+-------------------------------------------------- screen size at 608pixel (38em) & above
+*/
 @media (max-width: 38em) {
   /*header*/
   .navBar span {
@@ -235,3 +262,6 @@
     padding: 0.5em 1em;
   }
 }
+/*
+------------------------------------------------------------- 608pixel (38em) & above END
+*/
