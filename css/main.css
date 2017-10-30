@@ -782,7 +782,7 @@ p.productList strong {
 }
 
 .overlayContainer:hover .itemOverlay {
-  height: 20%;
+  height: 15%;
 }
 
 .overlayItemShow {
@@ -792,6 +792,12 @@ p.productList strong {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+	width: 100%;
+}
+
+.overlayItemShow a.button.buttonFill {
+	width: 50%;
+  padding: 1em 0;
 }
 /*item overlay END */
 
