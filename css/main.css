@@ -570,9 +570,6 @@ footer .brandLogo a{
 
 
 /*form styling*/
-.formContainer {
-}
-
 .centerColumnForm {
 	box-shadow: inset 0 2px 0 0 #A1C2DB;
 	margin: 0 35%;
@@ -600,17 +597,6 @@ input[type=search] {
 	border: 1px solid #DDD;
 	width: 50%;
 }
-
-/*filtering products*/
-.filterProduct {
-  display: none;
-}
-
-.show {
-  display: block;
-}
-/*filtering products END */
-
 /*form styling END */
 
 
@@ -1250,4 +1236,21 @@ li .generalLink {
 }
 /*
 ----------------------------------------------------- Account Purchase History Design END
+*/
+
+
+
+
+/*
+------------------------------------------------------------------ Product list filtering
+*/
+.filterProduct {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+/*
+-------------------------------------------------------------- Product list filtering END
 */
