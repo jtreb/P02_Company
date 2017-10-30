@@ -3,6 +3,9 @@
 	box-sizing: border-box;
 }
 
+/*
+------------------------------------------------------------------------- General styling
+*/
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #666;
@@ -32,6 +35,8 @@ p {
 	font-weight: lighter;
 }
 
+
+/*button styling*/
 .button {
 	border: 1px solid #A1C2DB;
   padding: 1em 3em;
@@ -61,6 +66,14 @@ p {
 	transition: background-color 0.5s ease;
 }
 
+a.button.buttonFill.fullLength {
+	width: 100%;
+	margin: 1em 0;
+	padding: 0.75em;
+}
+/*button styling END */
+
+
 figure {
 	margin: 0;
 }
@@ -79,10 +92,18 @@ ul li {
 	list-style: none;
 	line-height: 2em;
 }
+/*
+--------------------------------------------------------------------- General styling END
+*/
+
+
+
 
 /*
-  Header styling ////////////////////////
+-------------------------------------------------------------------------- Header styling
+main header navigation & side sub navigation
 */
+/*main header navigation*/
 header {
   position: fixed;
   width: 100%;
@@ -137,10 +158,6 @@ header .headerContainer a {
 	background: none;
 }
 
-footer .brandLogo a{
-	opacity: 1;
-}
-
 .navBar {
   margin-top: 25px;
 }
@@ -187,11 +204,16 @@ footer .brandLogo a{
   box-shadow: inset 0 -1px 0 0 #DDD;
 }
 /*
-  Header styling end here ////////////////
+---------------------------------------------------------------------- Header styling END
+main header navigation & side sub navigation
 */
 
+
+
+
+
 /*
-	style guide styling  /////////////////////////////
+--------------------------------------------------------------------- Style guide styling
 */
 /*style guide: content body styling*/
 .sideBody section {
@@ -201,6 +223,7 @@ footer .brandLogo a{
 .sideBody h3 {
 	color: #A1C2DB;
 }
+
 
 /*style guide: sample code styling*/
 code {
@@ -213,6 +236,7 @@ code {
   border: 0.1em solid #A1C2DB;
   border-left-width: thick;
 }
+
 
 /*style guide: extra header styling*/
 .sideBody section header {
@@ -236,11 +260,14 @@ code {
 .sideBody section a.headerItemSingle:hover, .sideBody section a.headerItemSingle:focus {
 	color: rgba(255, 255, 255, 1);
 }
+/*style guide: extra header stylingEND */
+
 
 /*style guide: extra form input styling*/
 .sideBody section input {
 	width: auto;
 }
+
 
 /*style guide: extra list styling*/
 ul.bullettedList, .bullettedList li, ol.numberedList, .numberedList li {
@@ -250,6 +277,7 @@ ul.bullettedList, .bullettedList li, ol.numberedList, .numberedList li {
 .bullettedList li{
 	list-style: disc;
 }
+/*style guide: extra list styling END */
 
 
 /*style guide: extra footer styling*/
@@ -260,6 +288,8 @@ ul.bullettedList, .bullettedList li, ol.numberedList, .numberedList li {
 .sideBody section footer h3 {
 	color: #FFF;
 }
+/*style guide: extra footer styling END */
+
 
 /*style guide: grid structure styling*/
 .colGrid {
@@ -279,6 +309,7 @@ p.colItemName {
   text-align: center;
 }
 /*end of style guide: grid structure styling*/
+
 
 /*style guide: color swatches styling*/
 .colorSwatchBox {
@@ -345,13 +376,15 @@ p.cw12{
 /*end of color swatches styling*/
 
 /*
-	style guide styling end here /////////////////////////////
+----------------------------------------------------------------- Style guide styling END
 */
 
 
 
+
+
 /*
-  Footer styling ////////////////////////
+-------------------------------------------------------------------------- Footer styling
 */
 footer {
   padding: 0 2em;
@@ -363,6 +396,10 @@ footer a{
   font-weight: 500;
   color: #FFF;
   opacity: 0.6;
+}
+
+footer .brandLogo a{
+	opacity: 1;
 }
 
 .footerContainer{
@@ -396,13 +433,16 @@ footer a{
   margin-top: 30px;
 }
 /*
-  Footer styling end here ////////////////
+---------------------------------------------------------------------- Footer styling END
 */
 
 
 
 
-/*theme styling*/
+
+/*
+-------------------------------------------------------------------------- Theme styling
+*/
 .lightHeaderTheme {
   background: rgba(255, 255, 255, 0);
 }
@@ -446,9 +486,15 @@ footer a{
 .darkLine {
   border-left: 1px solid #999;
 }
+/*
+----------------------------------------------------------------------- Theme styling END
+*/
+
+
+
 
 /*
-  Content styling ////////////////////////
+------------------------------------------------------------------------- Content styling
 */
 .centerAlign {
 	text-align: center;
@@ -508,7 +554,6 @@ footer a{
 	text-align: center;
 }
 
-/*center contents styling*/
 .centerContent {
 	margin: 0 10%;
   padding: 3em 0;
@@ -522,6 +567,7 @@ footer a{
 .oneColumnContent {
 	margin: 1em 15%;
 }
+
 
 /*form styling*/
 .formContainer {
@@ -555,7 +601,20 @@ input[type=search] {
 	width: 50%;
 }
 
-/*carousel styling*/
+/*filtering products*/
+.filterProduct {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+/*filtering products END */
+
+/*form styling END */
+
+
+/*carousel & page image styling*/
 .carouselButton {
 	position: absolute;
 	top: 50%;
@@ -577,6 +636,7 @@ input[type=search] {
 .buttonLeft {
 	left: 1em;
 }
+
 .buttonRight {
 	right: 1em;
 }
@@ -587,11 +647,6 @@ input[type=search] {
 
 .displayHide {
 	display: none;
-}
-
-h3.leftAlignText {
-	font-size: 1.25em;
-	margin-bottom: 2em;
 }
 
 .lightButtonOnImg {
@@ -617,7 +672,10 @@ h3.leftAlignText {
 .threeColumnGridContainer {
 	margin-top: 2em;
 }
+/*carousel & page image styling END*/
 
+
+/*3 column styling*/
 .threeGridColumnItem {
 	display: inline-block;
 	max-width: 30%;
@@ -649,6 +707,14 @@ img.columnGridImg {
 
 img.columnGridImg:hover, img.columnGridImg:focus {
   opacity: 0.5;
+}
+/*3 column styling END*/
+
+
+/*text styling*/
+h3.leftAlignText {
+	font-size: 1.25em;
+	margin-bottom: 2em;
 }
 
 h3.subjectTitle {
@@ -688,7 +754,10 @@ p.productList strong {
 .productListings {
 	margin-bottom: 2.5em;
 }
+/*text styling END*/
 
+
+/*item overlay*/
 .overlayContainer {
 	position: relative;
 }
@@ -731,7 +800,10 @@ p.productList strong {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+/*item overlay END */
 
+
+/*rating styling*/
 .ratingContainer {
 	width: 100%;
 	text-align: left;
@@ -747,7 +819,10 @@ p.star {
 p.star:hover, p.star:focus {
 	opacity: 0.7;
 }
+/*rating styling END */
 
+
+/*divid line styling*/
 .solidLineDivid {
 	margin: 3em 0;
 	border-top: 1px solid #999;
@@ -762,12 +837,8 @@ p.star:hover, p.star:focus {
 .subjectSide hr.dotLineDivid {
 	margin: 0.75em 0;
 }
+/*divid line styling END */
 
-a.button.buttonFill.fullLength {
-	width: 100%;
-	margin: 1em 0;
-	padding: 0.75em;
-}
 
 .shortLineTwentyPercent {
 	margin-top: 0;
@@ -780,6 +851,8 @@ a.button.buttonFill.fullLength {
 	margin-top: 2em;
 }
 
+
+/*2 column styling*/
 .twoGridColumnItem {
 	/*This used to be 50%*/
 	max-width: 100%;
@@ -790,6 +863,7 @@ div.twoGridColumnItem.subjectSide {
 	margin: 0 2em;
 	align-self: center;
 }
+/*2 column styling*/
 
 
 /*product list styling*/
@@ -809,6 +883,7 @@ div.twoGridColumnItem.subjectSide {
 	right: 0;
 }
 
+
 /*default link style*/
 .inTextLink {
   color: #5375ad;
@@ -817,14 +892,16 @@ div.twoGridColumnItem.subjectSide {
 .inTextLink:active, .inTextLink:hover {
   color: #EA9B2C;
 }
-
 /*
-  Content styling end here ////////////////
+--------------------------------------------------------------------- Content styling END
 */
 
 
 
-/*---------------------------------------------Forum Posts Section*/
+
+/*
+--------------------------------------------------------------------- Forum Posts Section
+*/
 a.newPostButton, .forumFormButton {
   display: inline-block;
   padding: 0.75em 3em;
@@ -862,12 +939,16 @@ p.forumPostDetail {
   line-height: 1.7em;
   font-size: 0.95em;
 }
+/*
+----------------------------------------------------------------- Forum Posts Section End
+*/
 
-/*---------------------------------------------Forum Posts Section End*/
 
 
 
-/*---------------------------------------------Account Left Side cart and all Account Design*/
+/*
+------------------------------------------- Account Left Side cart and all Account Design
+*/
 .accountLeftSide {
   background-color: #FFF;
 }
@@ -897,11 +978,16 @@ a.linkHighlight {
   margin: 1em 2em;
 	border-top: 1px solid #333;
 }
+/*
+------------------------------------------------------------ Account Left Side Design End
+*/
 
-/*---------------------------------------------Account Left Side Design End*/
 
 
-/*---------------------------------------------Account Right Side Design*/
+
+/*
+--------------------------------------------------------------- Account Right Side Design
+*/
 .accountRightSide {
   background-color: #333;
 }
@@ -1007,12 +1093,16 @@ div[class="threeGridColumnItem"] div[class="formItem"] label {
 	padding: 1em;
 }
 
-/*---------------------------------------------Account Right Side Cart cart and all Account Design END*/
+/*
+--------------------------------- Account Right Side Cart cart and all Account Design END
+*/
 
 
 
 
-/*---------------------------------------------Account Profile Design*/
+/*
+----------------------------------------------------------------- Account Profile Design
+*/
 .accProfileBottomRightItemLeft {
   margin-top: 1.3em;
 }
@@ -1043,13 +1133,17 @@ div[class="threeGridColumnItem"] div[class="formItem"] label {
   margin-top: 0.5em;
   font-size: 1em;
 }
-/*---------------------------------------------Account Profile Design END*/
+/*
+-------------------------------------------------------------- Account Profile Design END
+*/
 
 
 
 
 
-/*---------------------------------------------Account Forum Posts Design*/
+/*
+-------------------------------------------------------------- Account Forum Posts Design
+*/
 .accForumPostsCentered {
   margin: 0 10%;
   width: 100%;
@@ -1059,11 +1153,16 @@ div[class="threeGridColumnItem"] div[class="formItem"] label {
   border-style: solid;
   border-width: thin;
 }
-/*---------------------------------------------Account Forum Posts Design END*/
+/*
+---------------------------------------------------------- Account Forum Posts Design END
+*/
 
 
 
-/*---------------------------------------------Account Notification Design*/
+
+/*
+------------------------------------------------------------- Account Notification Design
+*/
 .notifyItemColumns {
   margin: 0em 2em;
 }
@@ -1084,13 +1183,16 @@ div.scrollDiv {
   overflow: scroll;
   overflow-x: hidden;
 }
-/*---------------------------------------------Account Notification Design END*/
+/*
+--------------------------------------------------------- Account Notification Design END
+*/
 
 
 
 
-
-/*---------------------------------------------Account Purchase History Design*/
+/*
+--------------------------------------------------------- Account Purchase History Design
+*/
 .purchaseHistoryContainer {
   width: 100%;
 }
@@ -1139,17 +1241,6 @@ li .generalLink {
 	display: block;
 	margin: 0em 1em;
 }
-
-/*---------------------------------------------Account Purchase History Design END*/
-
-
-
-/*filtering products*/
-.filterProduct {
-  display: none;
-}
-
-.show {
-  display: block;
-}
-/*filtering products end here */
+/*
+----------------------------------------------------- Account Purchase History Design END
+*/
