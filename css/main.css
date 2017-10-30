@@ -697,7 +697,10 @@ input[type=search] {
 .threeGridColumnItem:hover, .threeGridColumnItem:focus {
 	color: #F7941D;
 }
+/*3 column styling END*/
 
+
+/*column image hover*/
 img.columnGridImg {
 	display: block;
 	max-width: 100%;
@@ -705,10 +708,14 @@ img.columnGridImg {
 	border: 1px solid #DDD;
 }
 
-img.columnGridImg:hover, img.columnGridImg:focus {
-  opacity: 0.5;
+.threeGridColumnItem img.columnGridImg:hover, .threeGridColumnItem img.columnGridImg:focus {
+	opacity: 0.5;
 }
-/*3 column styling END*/
+
+.newsHover:hover {
+  opacity: 0.8;
+}
+/*column image hover end here */
 
 
 /*text styling*/
