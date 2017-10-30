@@ -33,6 +33,7 @@ p {
 	line-height: 2em;
 	font-size: 1em;
 	font-weight: lighter;
+	word-break: break-all;
 }
 
 
@@ -701,6 +702,10 @@ img.columnGridImg {
 .newsHover:hover {
   opacity: 0.8;
 }
+
+.productDescription .oneColumnContent {
+	margin: 0;
+}
 /*column image hover end here */
 
 
@@ -1000,15 +1005,15 @@ a.linkHighlight {
 }
 
 .centerColumnFormForAccount {
-  margin: 0 25%;
+  margin: 0 20%;
 }
 
 .accountRightBottomItemPositive {
   margin-right: 1em;
 }
 
-.accountMenuTitles {
-  padding: 0.7em 1em;
+.accountRightSideItemTopContainer {
+	margin: 0 2em;
 }
 
 .threeColumnGridForAccount {
@@ -1107,12 +1112,11 @@ div[class="threeGridColumnItem"] div[class="formItem"] label {
 }
 
 .accProfileBottomRightItemRight {
-  margin-right: 3em;
+  margin-right: 2em;
 }
 
 .profileImg {
   width: 60%;
-  border-radius: 3em;
 }
 
 .profileTitles {
@@ -1144,7 +1148,7 @@ div[class="threeGridColumnItem"] div[class="formItem"] label {
 -------------------------------------------------------------- Account Forum Posts Design
 */
 .accForumPostsCentered {
-  margin: 0 10%;
+  margin: 0 2em 3em;
   width: 100%;
 }
 
@@ -1163,11 +1167,11 @@ div[class="threeGridColumnItem"] div[class="formItem"] label {
 ------------------------------------------------------------- Account Notification Design
 */
 .notifyItemColumns {
-  margin: 0em 2em;
+  margin: 0em 2em 3em;
 }
 
 .notifyLeftRightMargins {
-  margin: 1em 1em;
+  margin: 0 1em 1em 0;
   transition: background-color  0.5s ease;
 }
 
@@ -1177,6 +1181,7 @@ a.alertNotify, .purchaseHistoryArrivedOrCancelled {
 
 div.scrollDiv {
   margin: auto;
+	margin-top: 1em;
   max-width: 100%;
   max-height: 65vh;
   overflow: scroll;

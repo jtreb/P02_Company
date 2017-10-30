@@ -85,6 +85,31 @@
     margin: 1em 0 0;
   }
   /*header end here*/
+
+  /*account*/
+  .accProfileBottomRightContainer {
+    display: block;
+  }
+
+  .accProfileBottomRightItemLeft {
+    display: block;
+    text-align: left;
+    padding-left: 2em;
+  }
+
+  .profileImg {
+    width: 50%;
+    height: auto;
+  }
+
+  .accProfileBottomRightItemRight, .accForumPostsCentered, .accountRightSideItemBottomContainerPurchase3  {
+    margin-left: 2em;
+    margin-bottom: 3em;
+  }
+
+  .centerColumnFormForAccount {
+    margin: 0;
+  }
 }
 /*
 ------------------------------------------------------------- 880pixel (55em) & above END
@@ -150,14 +175,6 @@ ipad size
     display: block;
   }
 
-  div.twoGridColumnItem.subjectSide {
-    margin: 0;
-  }
-
-  .threeGridColumnItem {
-    max-width: 42%;
-  }
-
   .oneColumnContent {
     margin: 0;
   }
@@ -176,10 +193,6 @@ ipad size
 
   hr.solidLineDivideAccount {
     margin: 0em 4em;
-  }
-
-  .accProfileBottomRightItemRight {
-    margin-right: 1em;
   }
 }
 /*
@@ -260,6 +273,19 @@ ipad size for hamburgerMenu only
 
   .lightButtonOnImg {
     padding: 0.5em 1em;
+  }
+
+  /*account*/
+  .accountMenuTitles {
+    text-align: center;
+  }
+  
+  .accountRightSideItemTopContainer, .accountPosButtonItem, .accountNegButtonItem {
+    display: block;
+  }
+
+  .accountPosButtonItem, .accountNegButtonItem {
+    margin: 0 0 1em;
   }
 }
 /*
