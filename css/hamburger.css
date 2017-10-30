@@ -1,3 +1,6 @@
+/* Hamburger Menu for side menu navigation used in style guide & citations */
+
+/* Menu links styling */
 #sideNavItems a, #sideNavItems a:visited, #sideNavToggle {
 	display: inline-block;
   text-decoration: none;
@@ -13,6 +16,7 @@
   visibility: visible;
 }
 
+/* sub-menu links in menu */
 #sideNavItems a.subMenu {
 	padding: 0.5em;
 	padding-left: 15%;
@@ -20,11 +24,13 @@
 	font-size: 0.8em;
 }
 
+/* highlighting current page link */
 #sideNavItems a.currentPage {
 	background: #A1C2DB;
 	color: #FFF;
 }
 
+/* menu toggle styling */
 #sideNavToggle img {
 	height: 100%;
 	width: auto;
@@ -49,19 +55,7 @@
 	padding: 1em;
 }
 
-
 #sideNavToggle:hover, #sideNavToggle:focus {
   color: #A1C2DB;
 	transition: color 0.5s ease;
-}
-
-#mainNavToggle.hidden, #mainNavItems.hidden, #sideNavToggle.hidden, #sideNavItems.hidden {
-	visibility: hidden;
-	display: none;
-}
-
-#mainNavToggle button	,#sideNavToggle button {
-	border: none;
-	color: #666;
-  height: 100%;
 }
