@@ -3,27 +3,6 @@
 //object.property;
 var windowWidth = window.innerWidth;
 
-
-//website pages main navigation bar
-if (document.getElementById("hamburgerMenu")) {
-  document.getElementById("hamburgerMenu").addEventListener("click", function() {
-    toggleHamburgerMenu();
-  });
-}
-
-function toggleHamburgerMenu() {
-  console.log("hi");
-
-  var x = document.getElementById("topHeader");
-  if (x.className === "headerContainer") {
-      x.className += " responsive";
-  } else {
-      x.className = "headerContainer";
-  }
-}
-
-
-
 //style guide side navigation bar
 console.log("Window width = " + windowWidth + "px");
 
@@ -32,6 +11,7 @@ var sideNavItems = document.querySelector("#sideNavItems");
 var sideNavFirstItem = document.querySelector("#sideNavItems a");
 
 
+// if side navigation toggle is present in page
 if (sideNavToggle != null){
   if (windowWidth < 769) {
     console.log("Window width is less than 768px, collapsing side navigation menu");
