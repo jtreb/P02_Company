@@ -279,13 +279,56 @@ ipad size for hamburgerMenu only
   .accountMenuTitles {
     text-align: center;
   }
-  
+
   .accountRightSideItemTopContainer, .accountPosButtonItem, .accountNegButtonItem {
     display: block;
+    margin: 0 1em;
+  }
+
+  .accProfileBottomRightItemLeft, .accProfileBottomRightItemRight, .accForumPostsCentered, .notifyItemColumns, .accountRightSideItemBottomContainerPurchase3 {
+    margin: 0 1em 3em;
+    padding: 0;
   }
 
   .accountPosButtonItem, .accountNegButtonItem {
     margin: 0 0 1em;
+  }
+
+  .purchaseHistoryContainer, .purchaseHistoryProductsItem a.button.buttonFill {
+    display: block;
+  }
+
+  .purchaseHistoryDateItem {
+    max-width: 100%;
+    border: none;
+    padding-bottom: 1em;
+    border-bottom: thin solid;
+    margin-bottom: 1em;
+  }
+
+  .purchaseHistoryProducts, .purchaseHistoryProductsItem ul li .generalLink {
+    margin: 0;
+  }
+
+  .purchaseHistoryProductsItem a.button.buttonFill {
+    position: relative;
+    max-width: 100%;
+  }
+
+  .threeColumnGridContainer.marginLeftAndRight div.threeGridColumnItem {
+    margin: 1em 0 0;
+  }
+
+  .marginLeftAndRight {
+    margin: 0;
+  }
+
+  .productListings {
+    margin-bottom: 0;
+  }
+
+  .accountRightSideItemBottomContainer {
+    margin: 0 1em 3em;
   }
 }
 /*

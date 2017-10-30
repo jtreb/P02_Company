@@ -3,6 +3,26 @@
 //object.property;
 var windowWidth = window.innerWidth;
 
+
+//website pages main navigation bar
+if (document.getElementById("hamburgerMenu")) {
+  document.getElementById("hamburgerMenu").addEventListener("click", function() {
+    toggleHamburgerMenu();
+  });
+}
+
+function toggleHamburgerMenu() {
+  console.log("hi");
+
+  var x = document.getElementById("topHeader");
+  if (x.className === "headerContainer") {
+      x.className += " responsive";
+  } else {
+      x.className = "headerContainer";
+  }
+}
+
+ 
 //style guide side navigation bar
 console.log("Window width = " + windowWidth + "px");
 

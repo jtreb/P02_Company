@@ -928,6 +928,7 @@ a.forumPostTitle {
   color: #0A4378;
   text-decoration: none;
   font-size: 1.3em;
+	word-break: break-all;
 }
 
 p.forumPostAuthorAndDate {
@@ -1124,7 +1125,6 @@ div[class="threeGridColumnItem"] div[class="formItem"] label {
   margin-bottom: 0em;
 }
 
-
 .profileContent {
   color: #FFF;
   margin-top: 0em;
@@ -1204,6 +1204,8 @@ div.scrollDiv {
 .purchaseHistoryDateItem {
   border-right-style: solid;
   border-width: thin;
+	max-width: 25%;
+	padding-right: 2em;
 }
 
 .purchaseHistoryProductsItem {
