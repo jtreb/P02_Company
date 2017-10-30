@@ -59,3 +59,14 @@
   color: #A1C2DB;
 	transition: color 0.5s ease;
 }
+
+#sideNavToggle.hidden, #sideNavItems.hidden {
+	visibility: hidden;
+	display: none;
+}
+
+#sideNavToggle button {
+	border: none;
+	color: #666;
+  height: 100%;
+}
