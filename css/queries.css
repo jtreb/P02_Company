@@ -194,6 +194,10 @@ ipad size
   hr.solidLineDivideAccount {
     margin: 0em 4em;
   }
+
+  .twoGridColumnItem {
+    padding: 0;
+  }
 }
 /*
 ------------------------------------------------------------- 768pixel (48em) & above END
@@ -259,9 +263,10 @@ ipad size for hamburgerMenu only
   }
 
   /*body content*/
-  h1 {
-    font-size: 1em;
+  .fullImageContainer h1 {
+    font-size: 2em;
   }
+
   .centerContent {
     padding: 1em 0;
     margin: 0 2%;
@@ -273,6 +278,15 @@ ipad size for hamburgerMenu only
 
   .lightButtonOnImg {
     padding: 0.5em 1em;
+  }
+
+  .fullLengthText {
+    margin: 0;
+  }
+
+  /*footer*/
+  footer {
+    padding: 1em;
   }
 
   /*account*/
@@ -333,4 +347,25 @@ ipad size for hamburgerMenu only
 }
 /*
 ------------------------------------------------------------- 608pixel (38em) & above END
+*/
+
+/*
+-------------------------------------------------- screen size at 320pixel (20em) & above
+*/
+@media (max-width: 20em) {
+  input[type=search] {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  #searchButton {
+    width: 100%;
+  }
+
+  .centerContent a.button.buttonFill {
+    width: 100%;
+  }
+}
+/*
+------------------------------------------------------------- 320pixel (20em) & above END
 */

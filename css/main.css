@@ -853,6 +853,7 @@ p.star:hover, p.star:focus {
  /*2 column grid styling*/
 .twoColumnGridContainer {
 	margin-top: 2em;
+	margin-bottom: 3em;
 }
 
 
@@ -860,11 +861,12 @@ p.star:hover, p.star:focus {
 .twoGridColumnItem {
 	/*This used to be 50%*/
 	max-width: 100%;
+	padding-right: 2em;
 }
 
 div.twoGridColumnItem.subjectSide {
 	max-width: 100%;
-	margin: 0 2em;
+	/*margin: 0 2em;*/
 	align-self: center;
 }
 /*2 column styling*/
@@ -1081,12 +1083,12 @@ a.linkHighlight {
 	padding-bottom: 1em;
 }
 
-h4.subjectTitle.productList {
-	padding: 0em 1em;
+.threeGridColumnItem.filterProduct {
+	padding: 0.25em;
 }
 
 p.subjectInfo.productList {
-	padding: 0em 1.3em;
+	/*padding: 0em 1.3em;*/
 }
 
 .threeColumnGridContainer.marginLeftAndRight div.threeGridColumnItem {
