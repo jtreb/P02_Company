@@ -1,6 +1,7 @@
+/* Display Flexbox cross-platform */
 
 /*
-  Display flex cross-platform
+---------------------------------------------------------------------------- Display Flex
 */
 .containerWrapper, .containerColumn, .formContainer, .threeColumnGridContainer, .twoColumnGridContainer, .colGrid, .footerNav, .forumFormContainer, .accountRightSideContainer, .accountRightSideItemTopContainer, .accountRightSideItemBottomContainer, .formItemContainer, .accProfileBottomRightContainer, .purchaseHistoryContainer {
   display: flex;
@@ -8,15 +9,32 @@
   display: -moz-flex;
   display: -webkit-flex;
 }
+/*
+------------------------------------------------------------------------ Display Flex END
+*/
 
-/*flex-wrap with wrap*/
+
+
+
+/*
+--------------------------------------------------------------------- Flex-wrap with wrap
+*/
 .formContainer, .threeColumnGridContainer, .colGrid, .footerNav{
   flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
 }
+/*
+----------------------------------------------------------------- Flex-wrap with wrap END
+*/
 
+
+
+
+/*
+------------------------------------------------------------------------- justify-content
+*/
 /*justify-content at flex-start*/
 .containerWrapper, .threeColumnGridContainer, .threeGridColumnItem, .footerNav, .accountRightSideItemTopContainer, .accountMenuTitles {
   justify-content: flex-start;
@@ -40,7 +58,16 @@
   justify-content: -moz-flex-end;
   -webkit-justify-content: flex-end;
 }
+/*
+--------------------------------------------------------------------- justify-content END
+*/
 
+
+
+
+/*
+-------------------------------------------------------------------------- flex direction
+*/
 /*flex direction flow column*/
 .containerColumn, .accountRightSideContainer, .accountRightSideItemBottomContainerPurchase3 {
   flex-direction: column;
@@ -56,7 +83,16 @@
   -moz-flex-direction: row;
   -webkit-flex-direction: row;
 }
+/*
+-------------------------------------------------------------------------- flex direction
+*/
 
+
+
+
+/*
+------------------------------------------------------------------------------- flex grow
+*/
 /*0 flex auto*/
 .footerItem, .footerContainer .brandLogo {
   flex: 0 0 auto;
@@ -112,7 +148,16 @@
   -moz-flex: 5;
   -webkit-flex: 5;
 }
+/*
+--------------------------------------------------------------------------- flex grow END
+*/
 
+
+
+
+/*
+----------------------------------------------------------------------------- flex align
+*/
 /*align-self at flex-start*/
 .footerItem {
   align-self: flex-start;
@@ -121,7 +166,11 @@
   align-self: -webkit-flex-start;
 }
 
+/*align-items at flex-end*/
 .formContainer {
   align-items: flex-end;
   flex-direction: column;
 }
+/*
+-------------------------------------------------------------------------- flex align END
+*/
