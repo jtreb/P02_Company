@@ -102,13 +102,11 @@ if (document.getElementById("searchButton")) {
         inputResult += inputSearch.elements[i].value;
     }
     inputResult = inputResult.toLowerCase();
-    console.log(inputResult);
+    console.log("inpt entered: " + inputResult);
 
     filterSelection(inputResult);
   });
 }
-
-filterSelection('all')
 
 function filterSelection(c) {
   var x, i;
@@ -118,7 +116,7 @@ function filterSelection(c) {
     removeClassFromElement(x[i], "show");
     if (x[i].className.indexOf(c) > -1) addClassToElement(x[i], "show");
   }
-  console.log("input: " + c);
+  console.log("input passed on: " + c);
 }
 
 function addClassToElement(element, name) {
