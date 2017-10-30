@@ -685,16 +685,16 @@ input[type=search] {
 	background-color: #ffffff;
 }
 
-.threeGridColumnItem a {
+.threeGridColumnItem a, .twoGridColumnItem a {
 	text-decoration: none;
 }
 
-.threeGridColumnItem a .subjectTitle:hover, .threeGridColumnItem a .subjectTitle:focus {
+.threeGridColumnItem a .subjectTitle:hover, .threeGridColumnItem a .subjectTitle:focus, .twoGridColumnItem a .subjectTitle:hover, .twoGridColumnItem a .subjectTitle:hover{
 	color: #A1C2DB;
 	transition: color 0.5s ease;
 }
 
-.threeGridColumnItem:hover, .threeGridColumnItem:focus {
+.threeGridColumnItem:hover, .threeGridColumnItem:focus, .twoGridColumnItem:hover, .twoGridColumnItem:focus {
 	color: #F7941D;
 }
 /*3 column styling END*/
